@@ -1,0 +1,2832 @@
+[
+  {
+    "body": [],
+    "research": {
+      "slug": "outdoor-augmented-reality",
+      "areas": ["mobile", "game-xr"],
+      "draft": false,
+      "title": "Outdoor Location-Based Augmented Reality",
+      "status": "active",
+      "context": "The lab's outdoor AR work moves from early bus stop guides to precision anchoring with visual SLAM and Google Street View.",
+      "methods": ["Field evaluation", "Performance benchmarking", "Prototyping"],
+      "outputs": [
+        {
+          "id": "005694a3-15e8-4b3d-9205-ddc3e5ec6cb5",
+          "href": "/publications/location-based-augmented-reality-information-for-bus-route-planning-system",
+          "type": "publication",
+          "label": "Location-Based Augmented Reality Information for Bus Route Planning System",
+          "recordSlug": "location-based-augmented-reality-information-for-bus-route-planning-system"
+        },
+        {
+          "id": "70971f01-dd05-4fb1-a748-545d211156cf",
+          "href": "/articles/busar-ar-guide-to-the-nearest-bus-stop",
+          "type": "article",
+          "label": "Building an AR Guide That Survives a Real Street",
+          "recordSlug": "busar-ar-guide-to-the-nearest-bus-stop"
+        },
+        {
+          "id": "4643ea7a-e2ab-40cf-bf3b-542c12b7b152",
+          "href": "/articles/user-journey-maps-improve-ar-navigation",
+          "type": "article",
+          "label": "User Journey Maps Show Why AR Navigation Fails Pedestrians",
+          "recordSlug": "user-journey-maps-improve-ar-navigation"
+        },
+        {
+          "id": "c0f0d721-9cb3-4d1e-b85c-164512d60e63",
+          "href": "/articles/show-one-marker-not-twenty-ar-navigation",
+          "type": "article",
+          "label": "Show One Marker, Not Twenty",
+          "recordSlug": "show-one-marker-not-twenty-ar-navigation"
+        },
+        {
+          "id": "6a76c2ef-0cdf-4754-b4f5-c843c01fd057",
+          "href": "/publications/an-effective-approach-to-develop-location-based-augmented-reality-information-su",
+          "type": "publication",
+          "label": "An effective approach to develop location-based augmented reality information support",
+          "recordSlug": "an-effective-approach-to-develop-location-based-augmented-reality-information-su"
+        },
+        {
+          "id": "fa749f40-81b4-4f28-97e3-a9204bb368ef",
+          "href": "/articles/pelajaran-membangun-tur-virtual-kampus",
+          "type": "article",
+          "label": "Pelajaran dari Membangun Tur Virtual Kampus",
+          "recordSlug": "pelajaran-membangun-tur-virtual-kampus"
+        },
+        {
+          "id": "69138342-5134-4655-b38e-e77e06859092",
+          "href": "/publications/an-investigation-of-running-load-comparisons-of-arcore-on-native-android-and-uni",
+          "type": "publication",
+          "label": "An Investigation of Running Load Comparisons of ARCore on Native Android and Unity for Outdoor Navigation System Using Smartphone",
+          "recordSlug": "an-investigation-of-running-load-comparisons-of-arcore-on-native-android-and-uni"
+        },
+        {
+          "id": "745b256d-bbbc-4164-bb5f-3325c3a5a7d8",
+          "href": "/articles/choosing-a-platform-for-outdoor-ar-navigation",
+          "type": "article",
+          "label": "Choosing a Platform for an Outdoor AR Navigation App",
+          "recordSlug": "choosing-a-platform-for-outdoor-ar-navigation"
+        },
+        {
+          "id": "f299ba53-dc6f-408d-b176-eb3debed66be",
+          "href": "/articles/arcore-native-android-vs-unity-running-load",
+          "type": "article",
+          "label": "ARCore on Native Android and Unity: Which Runs Lighter Outdoors",
+          "recordSlug": "arcore-native-android-vs-unity-running-load"
+        },
+        {
+          "id": "045e228b-c2ca-43ca-85a5-42d468f4be47",
+          "href": "/publications/improving-information-delivery-effectiveness-and-efficiency-using-webvr-technolo",
+          "type": "publication",
+          "label": "Improving Information Delivery Effectiveness and Efficiency Using WebVR Technology",
+          "recordSlug": "improving-information-delivery-effectiveness-and-efficiency-using-webvr-technolo"
+        },
+        {
+          "id": "4d51ce11-6146-4304-a492-dcd53b52f412",
+          "href": "/publications/performance-analysis-of-3d-rendering-method-on-web-based-augmented-reality-appli",
+          "type": "publication",
+          "label": "Performance Analysis of 3D Rendering Method on Web-Based Augmented Reality Application Using WebGL and OpenGL Shading Language",
+          "recordSlug": "performance-analysis-of-3d-rendering-method-on-web-based-augmented-reality-appli"
+        },
+        {
+          "id": "e438341c-78d6-4b5b-ae17-df85a2e45540",
+          "href": "/articles/choosing-a-renderer-for-web-augmented-reality",
+          "type": "article",
+          "label": "Choosing a Renderer for Web Augmented Reality",
+          "recordSlug": "choosing-a-renderer-for-web-augmented-reality"
+        },
+        {
+          "id": "44f029d4-11aa-401b-b785-688f82f2597d",
+          "href": "/articles/webgl-fine-until-the-model-gets-big",
+          "type": "article",
+          "label": "WebGL Is Fine Until the Model Gets Big",
+          "recordSlug": "webgl-fine-until-the-model-gets-big"
+        },
+        {
+          "id": "e4a87daf-d73e-4c11-be12-d685b6e9e920",
+          "href": "/articles/video-or-360-tour-outreach-lessons",
+          "type": "article",
+          "label": "Picking Between Video and a 360 Tour for Campus Outreach",
+          "recordSlug": "video-or-360-tour-outreach-lessons"
+        },
+        {
+          "id": "13986c66-922b-4988-a661-e42427b884a7",
+          "href": "/articles/webvr-360-tour-information-detail",
+          "type": "article",
+          "label": "When a 360 Degree Tour Beats a Campus Video",
+          "recordSlug": "webvr-360-tour-information-detail"
+        },
+        {
+          "id": "73150a42-3d13-46d1-be3a-e7814540841c",
+          "href": "/articles/guided-campus-virtual-tour-design-lessons",
+          "type": "article",
+          "label": "Small Interface Choices Decide Who Finishes a Campus Tour",
+          "recordSlug": "guided-campus-virtual-tour-design-lessons"
+        },
+        {
+          "id": "6e3fe618-4265-465c-88e9-cda53ddea4f9",
+          "href": "/articles/virtual-tour-linear-navigation-faster-room-finding",
+          "type": "article",
+          "label": "A Guided Virtual Tour Helps Newcomers Find Every Room",
+          "recordSlug": "virtual-tour-linear-navigation-faster-room-finding"
+        },
+        {
+          "id": "0c2e90cc-d5d4-454d-98fd-fed11d4851dc",
+          "href": "/publications/an-enhancement-of-outdoor-location-based-augmented-reality-anchor-precision-thro",
+          "type": "publication",
+          "label": "An Enhancement of Outdoor Location-Based Augmented Reality Anchor Precision through VSLAM and Google Street View",
+          "recordSlug": "an-enhancement-of-outdoor-location-based-augmented-reality-anchor-precision-thro"
+        },
+        {
+          "id": "b0dedcd2-98a1-4834-9d36-bfdef1cedf6b",
+          "href": "/articles/vslam-street-view-ar-anchors",
+          "type": "article",
+          "label": "How Visual SLAM and Street View Pull Outdoor AR Anchors Into Place",
+          "recordSlug": "vslam-street-view-ar-anchors"
+        },
+        {
+          "id": "bd1aa798-10c0-4f28-9f3a-f7badab923f8",
+          "href": "/articles/outdoor-ar-accuracy-tradeoffs",
+          "type": "article",
+          "label": "The Real Cost of Putting AR Labels in the Right Place",
+          "recordSlug": "outdoor-ar-accuracy-tradeoffs"
+        },
+        {
+          "id": "5b8c9f00-0fb5-42d2-b597-aed2157792ab",
+          "href": "/publications/performance-analysis-of-virtual-tour-navigation-guides-for-landmark-recognition",
+          "type": "publication",
+          "label": "Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition",
+          "recordSlug": "performance-analysis-of-virtual-tour-navigation-guides-for-landmark-recognition"
+        },
+        {
+          "id": "10a12849-f1c5-46ff-aeb5-3be6d1f0c33c",
+          "href": "/publications/performance-investigations-of-vslam-and-google-street-view-integration-in-outdoo",
+          "type": "publication",
+          "label": "Performance Investigations of VSLAM and Google Street View Integration in Outdoor Location-Based Augmented Reality under Various Lighting Conditions",
+          "recordSlug": "performance-investigations-of-vslam-and-google-street-view-integration-in-outdoo"
+        },
+        {
+          "id": "0b9f4358-53b6-47df-94a3-1eef7a5a3861",
+          "href": "/articles/vslam-streetview-outdoor-ar-lighting",
+          "type": "article",
+          "label": "How Light Changes Augmented Reality on Outdoor Streets",
+          "recordSlug": "vslam-streetview-outdoor-ar-lighting"
+        },
+        {
+          "id": "81c0b4d6-6cba-47b1-a4e3-e5183f658f28",
+          "href": "/articles/vslam-streetview-ar-field-lessons",
+          "type": "article",
+          "label": "Why Outdoor AR Fails at Dusk and What to Do About It",
+          "recordSlug": "vslam-streetview-ar-field-lessons"
+        },
+        {
+          "id": "114ab91d-4821-4eb7-9f89-d71452fca677",
+          "href": "/publications/analisis-kinerja-augmented-reality-hypertext-markup-language-arhtml-melalui-pema",
+          "type": "publication",
+          "label": "Analisis Kinerja Augmented Reality HyperText Markup Language (ARHTML) Melalui Pemanfaatan Web Graphics Library dan OpenGl Shading Language untuk Pengembangan 3D",
+          "recordSlug": "analisis-kinerja-augmented-reality-hypertext-markup-language-arhtml-melalui-pema"
+        },
+        {
+          "id": "9b4960c6-30d4-409e-a42e-9e2be6e79f2f",
+          "href": "/articles/kinerja-glsl-webgl-augmented-reality-web",
+          "type": "article",
+          "label": "GLSL Unggul atas WebGL pada Augmented Reality Berbasis Web",
+          "recordSlug": "kinerja-glsl-webgl-augmented-reality-web"
+        },
+        {
+          "id": "c15111ed-fb50-45c5-8cdb-aa6576d5566d",
+          "href": "/articles/peran-shader-augmented-reality-peramban",
+          "type": "article",
+          "label": "Membaca Peran Shader dalam Augmented Reality di Peramban",
+          "recordSlug": "peran-shader-augmented-reality-peramban"
+        },
+        {
+          "id": "d60a9e4f-81d1-4b57-be7b-b32c6bef6579",
+          "href": "/publications/a-proposal-of-in-situ-authoring-tool-with-visual-inertial-sensor-fusion-for-outd",
+          "type": "publication",
+          "label": "A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality",
+          "recordSlug": "a-proposal-of-in-situ-authoring-tool-with-visual-inertial-sensor-fusion-for-outd"
+        },
+        {
+          "id": "558c9fad-fb0d-46b3-bf01-611b9c844ba8",
+          "href": "/articles/why-outdoor-ar-authoring-breaks-on-desktop",
+          "type": "article",
+          "label": "Why outdoor AR authoring keeps breaking on the desktop",
+          "recordSlug": "why-outdoor-ar-authoring-breaks-on-desktop"
+        },
+        {
+          "id": "173af9cc-30cf-48fc-a43b-a44fed8115d3",
+          "href": "/articles/placing-ar-objects-on-site-from-a-phone",
+          "type": "article",
+          "label": "Placing AR objects on site with nothing but a phone",
+          "recordSlug": "placing-ar-objects-on-site-from-a-phone"
+        }
+      ],
+      "summary": "A line of studies on outdoor location-based augmented reality, from bus stop guides to visual SLAM anchored labels and in situ authoring, published from 2015 to 2025.",
+      "featured": true,
+      "question": "How can outdoor augmented reality anchors and rendering stay precise and usable across devices and lighting conditions?",
+      "seoTitle": "Outdoor Location-Based Augmented Reality",
+      "startDate": "2015-01-01",
+      "milestones": [
+        {
+          "id": "63a85596-41a7-474f-ae8a-5275068ea995",
+          "date": "2015-02-01",
+          "title": "Location-Based Augmented Reality Information for Bus Route Planning System",
+          "summary": "International Journal of Electrical and Computer Engineering (IJECE)",
+          "relatedUrl": "/publications/location-based-augmented-reality-information-for-bus-route-planning-system",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "60b66605-d6ea-4d78-85b0-be3d34db005e",
+          "date": "2019-08-01",
+          "title": "An effective approach to develop location-based augmented reality information support",
+          "summary": "International Journal of Electrical and Computer Engineering (IJECE)",
+          "relatedUrl": "/publications/an-effective-approach-to-develop-location-based-augmented-reality-information-su",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "2b371965-26b0-4faf-8eff-5c819da6c7bd",
+          "date": "2023-10-14",
+          "title": "An Investigation of Running Load Comparisons of ARCore on Native Android and Unity for Outdoor Navigation System Using Smartphone",
+          "summary": "2023 Sixth International Conference on Vocational Education and Electrical Engineering (ICVEE)",
+          "relatedUrl": "/publications/an-investigation-of-running-load-comparisons-of-arcore-on-native-android-and-uni",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "5ff2c44a-34e5-454a-88e8-4927ede20b9b",
+          "date": "2023-10-24",
+          "title": "Improving Information Delivery Effectiveness and Efficiency Using WebVR Technology",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/improving-information-delivery-effectiveness-and-efficiency-using-webvr-technolo",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "1aa51141-b79a-4207-9ce6-b74239c2736d",
+          "date": "2023-10-24",
+          "title": "Performance Analysis of 3D Rendering Method on Web-Based Augmented Reality Application Using WebGL and OpenGL Shading Language",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/performance-analysis-of-3d-rendering-method-on-web-based-augmented-reality-appli",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "da4f42a3-1820-43a7-9cee-841248a77c90",
+          "date": "2024-02-09",
+          "title": "An Enhancement of Outdoor Location-Based Augmented Reality Anchor Precision through VSLAM and Google Street View",
+          "summary": "Sensors",
+          "relatedUrl": "/publications/an-enhancement-of-outdoor-location-based-augmented-reality-anchor-precision-thro",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "0bcce3b9-df11-49ab-ba3c-e9b683c17a7c",
+          "date": "2024-04-30",
+          "title": "Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition",
+          "summary": "JOINCS (Journal of Informatics, Network, and Computer Science)",
+          "relatedUrl": "/publications/performance-analysis-of-virtual-tour-navigation-guides-for-landmark-recognition",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e76e8dd3-e222-4ca4-b4f4-26442f3dd476",
+          "date": "2024-07-24",
+          "title": "Performance Investigations of VSLAM and Google Street View Integration in Outdoor Location-Based Augmented Reality under Various Lighting Conditions",
+          "summary": "Electronics",
+          "relatedUrl": "/publications/performance-investigations-of-vslam-and-google-street-view-integration-in-outdoo",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "6f326575-ffa8-44b8-868a-ae8cc5f4215e",
+          "date": "2024-10-31",
+          "title": "Analisis Kinerja Augmented Reality HyperText Markup Language (ARHTML) Melalui Pemanfaatan Web Graphics Library dan OpenGl Shading Language untuk Pengembangan 3D",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/analisis-kinerja-augmented-reality-hypertext-markup-language-arhtml-melalui-pema",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "ac6c6b93-42ec-4f32-b328-7937332f44ab",
+          "date": "2025-01-17",
+          "title": "A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality",
+          "summary": "Electronics",
+          "relatedUrl": "/publications/a-proposal-of-in-situ-authoring-tool-with-visual-inertial-sensor-fusion-for-outd",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "A line of studies on outdoor location-based augmented reality, from bus stop guides to visual SLAM anchored labels and in situ authoring, published from 2015 to 2025."
+    },
+    "slug": "outdoor-augmented-reality",
+    "updatedAt": "2026-09-14T08:31:50.217Z"
+  },
+  {
+    "body": [],
+    "research": {
+      "slug": "work-from-anywhere-productivity",
+      "areas": ["hci-ux"],
+      "draft": false,
+      "title": "Work From Anywhere Productivity",
+      "status": "active",
+      "context": "The lab has studied remote work through both a literature review and a direct investigation of productivity factors.",
+      "methods": ["Systematic literature review", "Factor analysis"],
+      "outputs": [
+        {
+          "id": "4d3fcf97-6ad6-4e1f-9c3b-9c804dcf4a27",
+          "href": "/publications/optimizing-work-from-anywhere-employee-productivity-a-comprehensive-investigatio",
+          "type": "publication",
+          "label": "Optimizing Work-From-Anywhere Employee Productivity: A Comprehensive Investigation of the Most Influential Factors Using Factor Analysis and Analytical Hierarchy Process Method",
+          "recordSlug": "optimizing-work-from-anywhere-employee-productivity-a-comprehensive-investigatio"
+        },
+        {
+          "id": "52df8d5c-ec85-4310-980c-99d725b5b8c9",
+          "href": "/articles/work-from-anywhere-productivity-factors",
+          "type": "article",
+          "label": "Which Factors Actually Drive Work From Anywhere Productivity",
+          "recordSlug": "work-from-anywhere-productivity-factors"
+        },
+        {
+          "id": "76e7615f-d6cf-4a49-afec-fd7b700acb55",
+          "href": "/articles/work-from-anywhere-communication-platform",
+          "type": "article",
+          "label": "The Tool You Talk Through Matters More Than You Think",
+          "recordSlug": "work-from-anywhere-communication-platform"
+        },
+        {
+          "id": "a5b98a1d-5664-4b59-9441-7294111e27f1",
+          "href": "/articles/what-a-systematic-review-says-about-remote-work",
+          "type": "article",
+          "label": "What a Systematic Review Says About Running Remote Work",
+          "recordSlug": "what-a-systematic-review-says-about-remote-work"
+        },
+        {
+          "id": "b8237dda-6870-4bf7-871e-640b77b3da49",
+          "href": "/articles/eleven-factors-that-shape-productivity-in-wfa",
+          "type": "article",
+          "label": "Eleven Factors That Shape Productivity in Work From Anywhere",
+          "recordSlug": "eleven-factors-that-shape-productivity-in-wfa"
+        },
+        {
+          "id": "f6a55c8d-cfa7-44d9-b932-373d59ab3a80",
+          "href": "/publications/factors-influencing-employee-productivity-in-work-from-anywhere-a-systematic-lit",
+          "type": "publication",
+          "label": "Factors Influencing Employee Productivity in Work From Anywhere: A Systematic Literature Review (SLR)",
+          "recordSlug": "factors-influencing-employee-productivity-in-work-from-anywhere-a-systematic-lit"
+        }
+      ],
+      "summary": "Two studies on remote work: a systematic literature review and a multi factor investigation of employee productivity, published in 2023 and 2024.",
+      "featured": false,
+      "question": "Which factors influence employee productivity when working from anywhere?",
+      "seoTitle": "Work From Anywhere Productivity",
+      "startDate": "2023-01-01",
+      "milestones": [
+        {
+          "id": "1f374a52-054d-4fb4-a1a6-2aa021ed07f8",
+          "date": "2023-10-24",
+          "title": "Optimizing Work-From-Anywhere Employee Productivity: A Comprehensive Investigation of the Most Influential Factors Using Factor Analysis and Analytical Hierarchy Process Method",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/optimizing-work-from-anywhere-employee-productivity-a-comprehensive-investigatio",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "889f4bc8-efbb-4e17-b379-688497d760b5",
+          "date": "2024-04-03",
+          "title": "Factors Influencing Employee Productivity in Work From Anywhere: A Systematic Literature Review (SLR)",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/factors-influencing-employee-productivity-in-work-from-anywhere-a-systematic-lit",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "Two studies on remote work: a systematic literature review and a multi factor investigation of employee productivity, published in 2023 and 2024."
+    },
+    "slug": "work-from-anywhere-productivity",
+    "updatedAt": "2026-09-14T08:31:49.697Z"
+  },
+  {
+    "body": [],
+    "research": {
+      "slug": "web-and-software-systems",
+      "areas": ["website", "mobile"],
+      "draft": false,
+      "title": "Web and Software Systems Engineering",
+      "status": "active",
+      "context": "The lab publishes engineering studies on the frameworks and systems behind its applications.",
+      "methods": ["Benchmarking", "Architecture prototyping", "Comparative studies"],
+      "outputs": [
+        {
+          "id": "312170d4-da5f-4c5c-9060-1ced16aa1d96",
+          "href": "/articles/pencarian-citra-mirip-haar-wavelet-k-means",
+          "type": "article",
+          "label": "Mencari Citra Mirip dengan Haar Wavelet dan K-Means",
+          "recordSlug": "pencarian-citra-mirip-haar-wavelet-k-means"
+        },
+        {
+          "id": "cf71aad6-86ab-4b82-8410-507e99035fc1",
+          "href": "/articles/kenapa-pengelompokan-mempercepat-pencarian-citra",
+          "type": "article",
+          "label": "Kenapa Pengelompokan Membuat Pencarian Citra Lebih Cepat",
+          "recordSlug": "kenapa-pengelompokan-mempercepat-pencarian-citra"
+        },
+        {
+          "id": "2f964168-5d6a-4943-b71d-cbef5e56702b",
+          "href": "/publications/sistem-temu-kembali-citra-berbasis-konten-menggunakan-haar-wavelet-transform-dan",
+          "type": "publication",
+          "label": "Sistem Temu Kembali Citra Berbasis Konten Menggunakan Haar Wavelet Transform Dan K-Means Clustering",
+          "recordSlug": "sistem-temu-kembali-citra-berbasis-konten-menggunakan-haar-wavelet-transform-dan"
+        },
+        {
+          "id": "cf928f2e-93cd-4514-99a3-1482db2c8568",
+          "href": "/publications/analysis-of-web-content-delivery-effectiveness-and-efficiency-in-responsive-web",
+          "type": "publication",
+          "label": "Analysis of web content delivery effectiveness and efficiency in responsive web design using material design guidelines and User Centered Design",
+          "recordSlug": "analysis-of-web-content-delivery-effectiveness-and-efficiency-in-responsive-web"
+        },
+        {
+          "id": "1ab8134b-f791-4ca4-952d-4e3cbc31f947",
+          "href": "/publications/spam-detection-framework-for-android-twitter-application-using-na-ve-bayes-and-k",
+          "type": "publication",
+          "label": "Spam detection framework for Android Twitter application using Naïve Bayes and K-Nearest Neighbor classifiers",
+          "recordSlug": "spam-detection-framework-for-android-twitter-application-using-na-ve-bayes-and-k"
+        },
+        {
+          "id": "0ebc1030-4e54-4a4f-b74c-4535fe47d9cc",
+          "href": "/articles/naive-bayes-beats-nearest-neighbor-on-indonesian-tweets",
+          "type": "article",
+          "label": "Naive Bayes Beats Nearest Neighbour on Short Messy Text",
+          "recordSlug": "naive-bayes-beats-nearest-neighbor-on-indonesian-tweets"
+        },
+        {
+          "id": "eccb47f7-a917-4a7b-9f93-6ec52d2f5eb2",
+          "href": "/articles/spam-detection-for-android-twitter",
+          "type": "article",
+          "label": "Filtering Spam Out of a Twitter Timeline on Android",
+          "recordSlug": "spam-detection-for-android-twitter"
+        },
+        {
+          "id": "88b45162-b75e-4370-87c8-3e024ce707c9",
+          "href": "/publications/framework-design-for-modular-web-based-application-using-model-collectionservice",
+          "type": "publication",
+          "label": "Framework Design for Modular Web-based Application Using Model-CollectionService-Controller-Presenter (MCCP) Pattern",
+          "recordSlug": "framework-design-for-modular-web-based-application-using-model-collectionservice"
+        },
+        {
+          "id": "5e8451ce-5ca2-4f50-9650-61a4ffdd9ba1",
+          "href": "/articles/beyond-mvc-mccp-design-lessons",
+          "type": "article",
+          "label": "When the Standard Design Pattern Stops Fitting",
+          "recordSlug": "beyond-mvc-mccp-design-lessons"
+        },
+        {
+          "id": "3e5683e7-5242-4625-b847-4b7ccb2adf5a",
+          "href": "/articles/mccp-pattern-for-modular-web-apps",
+          "type": "article",
+          "label": "MCCP: A Framework for Apps That Have to Talk to Each Other",
+          "recordSlug": "mccp-pattern-for-modular-web-apps"
+        },
+        {
+          "id": "e9bf6c37-b3d0-4afc-bb47-44367da36f58",
+          "href": "/articles/what-happens-to-your-layout-on-a-small-screen",
+          "type": "article",
+          "label": "What Happens to Your Layout on a Small Screen",
+          "recordSlug": "what-happens-to-your-layout-on-a-small-screen"
+        },
+        {
+          "id": "fc3ab92d-25f9-43e6-bac6-5f7bb5eaa4db",
+          "href": "/articles/two-design-approaches-tested-on-real-screens",
+          "type": "article",
+          "label": "Two Design Approaches, Tested on Real Screens",
+          "recordSlug": "two-design-approaches-tested-on-real-screens"
+        },
+        {
+          "id": "d8a5e180-2a10-4fd8-a085-16721579aadc",
+          "href": "/publications/end-to-end-privacy-protection-for-facebook-mobile-chat-based-on-aes-with-multi-l",
+          "type": "publication",
+          "label": "End-to-End Privacy Protection for Facebook Mobile Chat based on AES with Multi-Layered MD5",
+          "recordSlug": "end-to-end-privacy-protection-for-facebook-mobile-chat-based-on-aes-with-multi-l"
+        },
+        {
+          "id": "a1b070fa-7b33-49f8-822f-ed85c85a7dd1",
+          "href": "/articles/the-hard-part-of-chat-privacy-is-the-key",
+          "type": "article",
+          "label": "The Hard Part of Chat Privacy Is the Key",
+          "recordSlug": "the-hard-part-of-chat-privacy-is-the-key"
+        },
+        {
+          "id": "5f0468bc-afae-4d32-aaa6-8d0d84428bd6",
+          "href": "/articles/aes-and-layered-md5-for-mobile-chat-privacy",
+          "type": "article",
+          "label": "Locking a Chat App with AES and Layered Hashing",
+          "recordSlug": "aes-and-layered-md5-for-mobile-chat-privacy"
+        },
+        {
+          "id": "d8727239-7bde-4700-be1a-6d3a5379a503",
+          "href": "/publications/combining-likes-retweet-analysis-and-naive-bayes-classifier-within-twitter-for-s",
+          "type": "publication",
+          "label": "Combining Likes-Retweet Analysis and Naive Bayes Classifier within Twitter for Sentiment Analysis",
+          "recordSlug": "combining-likes-retweet-analysis-and-naive-bayes-classifier-within-twitter-for-s"
+        },
+        {
+          "id": "452ae583-6405-4aea-b7ed-c0eb7f78d340",
+          "href": "/articles/twitter-likes-retweet-sentiment-analysis",
+          "type": "article",
+          "label": "Likes and Retweets as Extra Signal for Sentiment Analysis",
+          "recordSlug": "twitter-likes-retweet-sentiment-analysis"
+        },
+        {
+          "id": "ed6ab428-c4e2-4b1e-a583-b85120150e24",
+          "href": "/articles/twitter-engagement-features-weighting",
+          "type": "article",
+          "label": "Why a Like Carries Less Weight Than a Sentence",
+          "recordSlug": "twitter-engagement-features-weighting"
+        },
+        {
+          "id": "f6c040c3-7607-4366-8198-5378b9ed4a39",
+          "href": "/articles/render-cepat-skybox-webgl-di-peramban",
+          "type": "article",
+          "label": "Membuat Skybox 3D Tampil Cepat di Peramban",
+          "recordSlug": "render-cepat-skybox-webgl-di-peramban"
+        },
+        {
+          "id": "42e13bf8-129e-4dea-ae3f-a1958a558251",
+          "href": "/publications/pengembangan-desain-solusi-dasbor-learning-analytics-sebagai-input-pada-model-pe",
+          "type": "publication",
+          "label": "Pengembangan Desain Solusi Dasbor Learning Analytics sebagai Input pada Model Personalized Learning",
+          "recordSlug": "pengembangan-desain-solusi-dasbor-learning-analytics-sebagai-input-pada-model-pe"
+        },
+        {
+          "id": "0f3f0027-4dd8-418a-ae80-7e7f6e2e5657",
+          "href": "/articles/panduan-tampilan-dasbor-learning-analytics",
+          "type": "article",
+          "label": "Panduan Tampilan Dasbor Learning Analytics",
+          "recordSlug": "panduan-tampilan-dasbor-learning-analytics"
+        },
+        {
+          "id": "d4830a69-af59-4777-8506-74f8196bd63c",
+          "href": "/articles/enam-fungsi-dasar-dasbor-learning-analytics",
+          "type": "article",
+          "label": "Enam Fungsi Dasar Sebuah Dasbor Learning Analytics",
+          "recordSlug": "enam-fungsi-dasar-dasbor-learning-analytics"
+        },
+        {
+          "id": "3aa6ed15-b93f-4c7a-bf75-5f57ae8d1ec8",
+          "href": "/publications/pengembangan-fast-render-objek-grafis-menggunakan-shader-dan-non-shader-berbasis",
+          "type": "publication",
+          "label": "Pengembangan Fast Render Objek Grafis Menggunakan Shader dan Non-Shader Berbasis WebGL dari Primitive Object untuk Membuat Raw Metaverse Material Objek Skybox 3D di Filkom UB",
+          "recordSlug": "pengembangan-fast-render-objek-grafis-menggunakan-shader-dan-non-shader-berbasis"
+        },
+        {
+          "id": "fac5bed4-4ba9-4fea-a398-8ecb1630c3a2",
+          "href": "/articles/getx-vs-riverpod-flutter-performance",
+          "type": "article",
+          "label": "GetX vs Riverpod: Measuring Two Flutter State Managers",
+          "recordSlug": "getx-vs-riverpod-flutter-performance"
+        },
+        {
+          "id": "3feb4fbd-f33e-4edc-837f-d01218cf75f7",
+          "href": "/articles/choosing-state-management-flutter-marketplace",
+          "type": "article",
+          "label": "Choosing a State Manager for a Flutter Marketplace App",
+          "recordSlug": "choosing-state-management-flutter-marketplace"
+        },
+        {
+          "id": "e455d7ea-a8ff-4c9a-b087-8e9d92c9510a",
+          "href": "/publications/implementasi-machine-learning-dalam-deteksi-risiko-tinggi-diabetes-melitus-pada",
+          "type": "publication",
+          "label": "Implementasi Machine Learning dalam Deteksi Risiko Tinggi Diabetes Melitus pada Kehamilan",
+          "recordSlug": "implementasi-machine-learning-dalam-deteksi-risiko-tinggi-diabetes-melitus-pada"
+        },
+        {
+          "id": "23b720c0-a40c-4a39-9688-5338fc32a9bc",
+          "href": "/articles/knn-deteksi-risiko-diabetes-kehamilan",
+          "type": "article",
+          "label": "KNN untuk Deteksi Risiko Diabetes pada Kehamilan",
+          "recordSlug": "knn-deteksi-risiko-diabetes-kehamilan"
+        },
+        {
+          "id": "784e1681-e17c-43dc-9af1-bb290125e40a",
+          "href": "/articles/catatan-puskesmas-skrining-kehamilan",
+          "type": "article",
+          "label": "Catatan Puskesmas dan Masa Depan Skrining Kehamilan",
+          "recordSlug": "catatan-puskesmas-skrining-kehamilan"
+        },
+        {
+          "id": "388c45cc-e1ec-45ce-a02e-3e9002d79daf",
+          "href": "/publications/comparative-analysis-of-the-use-of-state-management-in-e-commerce-marketplace-ap",
+          "type": "publication",
+          "label": "Comparative Analysis of the Use of State Management in E-commerce Marketplace Applications Using the Flutter Framework",
+          "recordSlug": "comparative-analysis-of-the-use-of-state-management-in-e-commerce-marketplace-ap"
+        },
+        {
+          "id": "dca8f429-da7a-466b-a2c7-ab6f053f1c3b",
+          "href": "/publications/the-impact-of-platform-differences-on-system-use-in-accounting-information-syste",
+          "type": "publication",
+          "label": "The Impact of Platform Differences on System Use in Accounting Information System",
+          "recordSlug": "the-impact-of-platform-differences-on-system-use-in-accounting-information-syste"
+        },
+        {
+          "id": "15e34799-5d00-488f-9422-e7b4aa1c8f29",
+          "href": "/publications/the-effect-of-social-media-overload-exhaustion-and-technostress-on-students-lear",
+          "type": "publication",
+          "label": "The Effect of Social Media Overload, Exhaustion, and Technostress on Student’s Learning Productivity Using Stressor-Strain-Outcome Model",
+          "recordSlug": "the-effect-of-social-media-overload-exhaustion-and-technostress-on-students-lear"
+        },
+        {
+          "id": "e65d900f-1e0f-40c2-88dc-c86d4efc2514",
+          "href": "/publications/user-interface-rendering-time-in-android-applications-revealing-the-effects-of-d",
+          "type": "publication",
+          "label": "User Interface Rendering Time in Android Applications: Revealing the Effects of Design Patterns",
+          "recordSlug": "user-interface-rendering-time-in-android-applications-revealing-the-effects-of-d"
+        },
+        {
+          "id": "49e8a100-9931-4197-b998-6c22fc2634b4",
+          "href": "/articles/when-social-media-stops-helping-study",
+          "type": "article",
+          "label": "When Social Media Stops Being a Study Tool",
+          "recordSlug": "when-social-media-stops-helping-study"
+        },
+        {
+          "id": "55f0b30f-c977-40bc-87c4-94dea261a81d",
+          "href": "/articles/android-mvvm-vs-mvc-ui-rendering-time",
+          "type": "article",
+          "label": "MVVM Renders Faster Than MVC in Android Apps",
+          "recordSlug": "android-mvvm-vs-mvc-ui-rendering-time"
+        },
+        {
+          "id": "9f14e050-1331-4ab8-84c9-2e2b1e632b37",
+          "href": "/articles/android-design-pattern-performance-decision",
+          "type": "article",
+          "label": "Design Patterns Are Also a Performance Decision",
+          "recordSlug": "android-design-pattern-performance-decision"
+        },
+        {
+          "id": "43760437-6faf-4495-af47-0dcd8bded885",
+          "href": "/articles/reading-overload-warning-signs-students",
+          "type": "article",
+          "label": "Reading the Warning Signs Before Burnout Hits Study Time",
+          "recordSlug": "reading-overload-warning-signs-students"
+        },
+        {
+          "id": "e212d4fe-ca45-499f-90a9-0ea8d1d9bef7",
+          "href": "/articles/desktop-mobile-web-accounting-system",
+          "type": "article",
+          "label": "Desktop, Mobile or Web: Timing the Same Accounting Task Three Ways",
+          "recordSlug": "desktop-mobile-web-accounting-system"
+        },
+        {
+          "id": "da615c63-28ee-4ab0-85cc-ec0fe93d5494",
+          "href": "/articles/accounting-system-platform-choice-lessons",
+          "type": "article",
+          "label": "What Platform Choice Costs an Accounting Team",
+          "recordSlug": "accounting-system-platform-choice-lessons"
+        },
+        {
+          "id": "9ac87042-a884-4bf4-affe-28b01335de73",
+          "href": "/articles/the-150-byte-rule-for-api-compression",
+          "type": "article",
+          "label": "The 150 byte rule for compressing API responses",
+          "recordSlug": "the-150-byte-rule-for-api-compression"
+        },
+        {
+          "id": "5d57ddd1-82cc-40c4-b8d9-9f5e64dcc92e",
+          "href": "/articles/when-compressing-your-json-api-pays-off",
+          "type": "article",
+          "label": "When compressing your JSON API actually pays off",
+          "recordSlug": "when-compressing-your-json-api-pays-off"
+        },
+        {
+          "id": "35993e31-effc-4f3c-8091-823ba0c4364f",
+          "href": "/publications/architectural-design-of-representational-state-transfer-application-programming",
+          "type": "publication",
+          "label": "Architectural Design of Representational State Transfer Application Programming Interface with Application-Level Base64-Encoding and Zlib Data Compression",
+          "recordSlug": "architectural-design-of-representational-state-transfer-application-programming"
+        },
+        {
+          "id": "4e75fe52-7b8f-4d62-bd64-c169cbca57c7",
+          "href": "/publications/implementation-of-sensor-input-setup-assistance-service-using-generative-ai-for",
+          "type": "publication",
+          "label": "Implementation of Sensor Input Setup Assistance Service Using Generative AI for SEMAR IoT Application Server Platform",
+          "recordSlug": "implementation-of-sensor-input-setup-assistance-service-using-generative-ai-for"
+        },
+        {
+          "id": "9738fd44-237b-4ea8-9178-1533b45cd762",
+          "href": "/articles/iot-setup-assistant-real-world-failures",
+          "type": "article",
+          "label": "When the Setup Assistant Gets It Wrong",
+          "recordSlug": "iot-setup-assistant-real-world-failures"
+        },
+        {
+          "id": "2202d8fc-441e-4ce9-8cd0-3fcb0ae785cb",
+          "href": "/articles/semar-iot-setup-assistant-summary",
+          "type": "article",
+          "label": "A Chat Assistant That Walks Novices Through IoT Setup",
+          "recordSlug": "semar-iot-setup-assistant-summary"
+        }
+      ],
+      "summary": "A line of studies on web and software engineering: application frameworks, rendering, state management, REST compression, and applied systems, published from 2016 to 2025.",
+      "featured": false,
+      "question": "How can web and software architectures be made modular, fast, and measurable?",
+      "seoTitle": "Web and Software Systems Engineering",
+      "startDate": "2016-01-01",
+      "milestones": [
+        {
+          "id": "7518136c-47c3-422d-9852-7ec2d68ac224",
+          "date": "2016-03-17",
+          "title": "Sistem Temu Kembali Citra Berbasis Konten Menggunakan Haar Wavelet Transform Dan K-Means Clustering",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/sistem-temu-kembali-citra-berbasis-konten-menggunakan-haar-wavelet-transform-dan",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "6d468005-7e2f-49dd-9c60-24ea30ffcb8d",
+          "date": "2017-01-01",
+          "title": "Analysis of web content delivery effectiveness and efficiency in responsive web design using material design guidelines and User Centered Design",
+          "summary": "2017 International Conference on Sustainable Information Engineering and Technology (SIET)",
+          "relatedUrl": "/publications/analysis-of-web-content-delivery-effectiveness-and-efficiency-in-responsive-web",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "978367e0-d83c-4952-9638-1b8f26327d1f",
+          "date": "2017-02-26",
+          "title": "Spam detection framework for Android Twitter application using Naïve Bayes and K-Nearest Neighbor classifiers",
+          "summary": "Proceedings of the 6th International Conference on Software and Computer Applications",
+          "relatedUrl": "/publications/spam-detection-framework-for-android-twitter-application-using-na-ve-bayes-and-k",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "ae76c325-dda1-4be3-b382-35b561c12574",
+          "date": "2017-06-22",
+          "title": "Framework Design for Modular Web-based Application Using Model-CollectionService-Controller-Presenter (MCCP) Pattern",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/framework-design-for-modular-web-based-application-using-model-collectionservice",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "60d47779-398f-4e2d-9bf0-6221284d51ab",
+          "date": "2018-01-23",
+          "title": "End-to-End Privacy Protection for Facebook Mobile Chat based on AES with Multi-Layered MD5",
+          "summary": "International Journal of Interactive Mobile Technologies (iJIM)",
+          "relatedUrl": "/publications/end-to-end-privacy-protection-for-facebook-mobile-chat-based-on-aes-with-multi-l",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "f3e7acdd-1603-4844-8648-b35c634f372b",
+          "date": "2018-02-15",
+          "title": "Combining Likes-Retweet Analysis and Naive Bayes Classifier within Twitter for Sentiment Analysis",
+          "summary": "Journal of Telecommunication Electronic and Computer Engineering (JTEC)",
+          "relatedUrl": "/publications/combining-likes-retweet-analysis-and-naive-bayes-classifier-within-twitter-for-s",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "5ad23c8a-0552-46d1-bc4b-dd48224d10e1",
+          "date": "2022-12-10",
+          "title": "Pengembangan Desain Solusi Dasbor Learning Analytics sebagai Input pada Model Personalized Learning",
+          "summary": "Edunity Kajian Ilmu Sosial dan Pendidikan",
+          "relatedUrl": "/publications/pengembangan-desain-solusi-dasbor-learning-analytics-sebagai-input-pada-model-pe",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e62d05c7-eece-4ecb-9401-61ed526256a0",
+          "date": "2022-12-29",
+          "title": "Pengembangan Fast Render Objek Grafis Menggunakan Shader dan Non-Shader Berbasis WebGL dari Primitive Object untuk Membuat Raw Metaverse Material Objek Skybox 3D di Filkom UB",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/pengembangan-fast-render-objek-grafis-menggunakan-shader-dan-non-shader-berbasis",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "194158fa-dddf-4051-b978-ae53dc6e2cdc",
+          "date": "2023-08-30",
+          "title": "Implementasi Machine Learning dalam Deteksi Risiko Tinggi Diabetes Melitus pada Kehamilan",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/implementasi-machine-learning-dalam-deteksi-risiko-tinggi-diabetes-melitus-pada",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "60f0ceed-ee9a-4819-b977-bce3eb2efd2c",
+          "date": "2023-08-31",
+          "title": "Comparative Analysis of the Use of State Management in E-commerce Marketplace Applications Using the Flutter Framework",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/comparative-analysis-of-the-use-of-state-management-in-e-commerce-marketplace-ap",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "afb9a108-20fa-4d32-ac49-75b66fa7b716",
+          "date": "2023-10-24",
+          "title": "The Impact of Platform Differences on System Use in Accounting Information System",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/the-impact-of-platform-differences-on-system-use-in-accounting-information-syste",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "5a4d0ac0-f84f-4367-8a4e-96f5c568a7c7",
+          "date": "2023-10-24",
+          "title": "The Effect of Social Media Overload, Exhaustion, and Technostress on Student’s Learning Productivity Using Stressor-Strain-Outcome Model",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/the-effect-of-social-media-overload-exhaustion-and-technostress-on-students-lear",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "80a01687-1103-41a1-a042-70860c0d09a2",
+          "date": "2023-10-24",
+          "title": "User Interface Rendering Time in Android Applications: Revealing the Effects of Design Patterns",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/user-interface-rendering-time-in-android-applications-revealing-the-effects-of-d",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "0190e698-47fa-4703-8e14-4763cee69ab3",
+          "date": "2023-12-15",
+          "title": "Architectural Design of Representational State Transfer Application Programming Interface with Application-Level Base64-Encoding and Zlib Data Compression",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/architectural-design-of-representational-state-transfer-application-programming",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "8b47b333-329d-4d85-9b9d-043e5d582d42",
+          "date": "2025-02-05",
+          "title": "Implementation of Sensor Input Setup Assistance Service Using Generative AI for SEMAR IoT Application Server Platform",
+          "summary": "Information",
+          "relatedUrl": "/publications/implementation-of-sensor-input-setup-assistance-service-using-generative-ai-for",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "A line of studies on web and software engineering: application frameworks, rendering, state management, REST compression, and applied systems, published from 2016 to 2025."
+    },
+    "slug": "web-and-software-systems",
+    "updatedAt": "2026-09-14T08:31:49.326Z"
+  },
+  {
+    "body": [],
+    "research": {
+      "slug": "mobile-usability-and-decision-support",
+      "areas": ["mobile", "hci-ux"],
+      "draft": false,
+      "title": "Mobile Usability and Decision Support",
+      "status": "active",
+      "context": "The lab has built decision support applications and measured how people accept them in daily use.",
+      "methods": ["Usability evaluation", "Acceptance studies", "Multi criteria analysis"],
+      "outputs": [
+        {
+          "id": "e8d59dbe-3048-4be6-9ed3-1d89f7f190d8",
+          "href": "/publications/usability-evaluation-of-mobile-application-in-culinary-recommendation-system",
+          "type": "publication",
+          "label": "Usability evaluation of mobile application in culinary recommendation system",
+          "recordSlug": "usability-evaluation-of-mobile-application-in-culinary-recommendation-system"
+        },
+        {
+          "id": "d417be6d-717c-48b6-b5ac-1beb7f797ccc",
+          "href": "/publications/culinary-recommendation-systems-using-analytical-hierarchy-process-on-google-and",
+          "type": "publication",
+          "label": "Culinary Recommendation Systems Using Analytical Hierarchy Process on Google Android Platform",
+          "recordSlug": "culinary-recommendation-systems-using-analytical-hierarchy-process-on-google-and"
+        },
+        {
+          "id": "1a574ec2-1b6e-4ee6-a960-679ec41d5fba",
+          "href": "/publications/alternatives-weighting-in-analytic-hierarchy-process-of-mobile-culinary-recommen",
+          "type": "publication",
+          "label": "Alternatives Weighting in Analytic Hierarchy Process of Mobile Culinary Recommendation System Using Fuzzy",
+          "recordSlug": "alternatives-weighting-in-analytic-hierarchy-process-of-mobile-culinary-recommen"
+        },
+        {
+          "id": "63961d95-60be-4d14-8691-2c6dc08580f1",
+          "href": "/articles/widget-choice-usability-culinary-app",
+          "type": "article",
+          "label": "Widget Choice Is a Usability Decision",
+          "recordSlug": "widget-choice-usability-culinary-app"
+        },
+        {
+          "id": "716c243c-4c05-48d7-a8dd-babd0ce90523",
+          "href": "/articles/why-price-and-distance-beat-ratings",
+          "type": "article",
+          "label": "Why Price and Distance Outweigh Star Ratings",
+          "recordSlug": "why-price-and-distance-beat-ratings"
+        },
+        {
+          "id": "13f89fbf-3ee8-4c7b-a87c-08fece447114",
+          "href": "/articles/usability-evaluation-culinary-app-two-designs",
+          "type": "article",
+          "label": "Two Designs, One Culinary App, and the Widgets That Decided It",
+          "recordSlug": "usability-evaluation-culinary-app-two-designs"
+        },
+        {
+          "id": "4026fa1f-1271-4ff8-a976-7717467ac06e",
+          "href": "/articles/why-food-apps-misjudge-your-taste",
+          "type": "article",
+          "label": "The Hard Part of Recommending Food Is Asking Better Questions",
+          "recordSlug": "why-food-apps-misjudge-your-taste"
+        },
+        {
+          "id": "8f5bd59f-86de-4589-9510-f6d4b5891907",
+          "href": "/articles/fuzzy-ahp-culinary-recommendation-weights",
+          "type": "article",
+          "label": "How a Restaurant App Picks What to Recommend",
+          "recordSlug": "fuzzy-ahp-culinary-recommendation-weights"
+        },
+        {
+          "id": "e572f1c1-7025-4c18-837c-d55d26691dad",
+          "href": "/articles/ahp-food-recommendation-on-android",
+          "type": "article",
+          "label": "Weighing Up Where to Eat, One Comparison at a Time",
+          "recordSlug": "ahp-food-recommendation-on-android"
+        },
+        {
+          "id": "4fcef98a-457a-4ed0-b85a-94791a50439c",
+          "href": "/publications/halal-culinary-tracking-application-at-food-souvenirs-center-based-on-analytical",
+          "type": "publication",
+          "label": "Halal Culinary Tracking Application at Food Souvenirs Center Based on Analytical Hierarchy Process (AHP) Method",
+          "recordSlug": "halal-culinary-tracking-application-at-food-souvenirs-center-based-on-analytical"
+        },
+        {
+          "id": "85b4dc5c-0ff7-41c4-b71b-83ed99993bed",
+          "href": "/articles/what-matters-most-in-a-halal-food-tracking-app",
+          "type": "article",
+          "label": "What Matters Most in a Halal Food Tracking App",
+          "recordSlug": "what-matters-most-in-a-halal-food-tracking-app"
+        },
+        {
+          "id": "685f9927-6caf-49b6-b4d8-3bfbd0f8e082",
+          "href": "/articles/ranking-expert-opinion-halal-culinary-app",
+          "type": "article",
+          "label": "Turning Expert Opinion Into a Feature List",
+          "recordSlug": "ranking-expert-opinion-halal-culinary-app"
+        },
+        {
+          "id": "5383342e-8b09-4a5d-aff0-6403264bc0cd",
+          "href": "/publications/a-comparison-between-ahp-and-hybrid-ahp-for-mobile-based-culinary-recommendation",
+          "type": "publication",
+          "label": "A Comparison Between AHP and Hybrid AHP for Mobile Based Culinary Recommendation System",
+          "recordSlug": "a-comparison-between-ahp-and-hybrid-ahp-for-mobile-based-culinary-recommendation"
+        },
+        {
+          "id": "9db07741-edc4-41b4-8b81-ab4e7de98946",
+          "href": "/articles/ranking-pitfalls-when-criteria-change",
+          "type": "article",
+          "label": "Adding One Criterion Can Flip Your Whole Ranking",
+          "recordSlug": "ranking-pitfalls-when-criteria-change"
+        },
+        {
+          "id": "7cc684c0-1cc7-4a06-bde3-3464cf9dbc93",
+          "href": "/articles/ahp-fuzzy-ahp-culinary-recommendation-comparison",
+          "type": "article",
+          "label": "Three Ways to Rank a Restaurant List, Compared",
+          "recordSlug": "ahp-fuzzy-ahp-culinary-recommendation-comparison"
+        },
+        {
+          "id": "98bcec8c-fa30-43bc-9ca4-095648831b72",
+          "href": "/publications/an-idea-of-intuitive-mobile-diopter-calculator-for-myopia-patient",
+          "type": "publication",
+          "label": "An idea of intuitive mobile diopter calculator for myopia patient",
+          "recordSlug": "an-idea-of-intuitive-mobile-diopter-calculator-for-myopia-patient"
+        },
+        {
+          "id": "636e18d3-e71b-4533-93e3-24e23c433189",
+          "href": "/articles/self-measuring-diopters-what-it-changes",
+          "type": "article",
+          "label": "What Changes When Patients Measure Their Own Diopters",
+          "recordSlug": "self-measuring-diopters-what-it-changes"
+        },
+        {
+          "id": "95ebd1fd-ec54-4006-91d7-00591397eb09",
+          "href": "/articles/measuring-diopters-with-a-phone-camera",
+          "type": "article",
+          "label": "Measuring Diopters with a Phone Camera",
+          "recordSlug": "measuring-diopters-with-a-phone-camera"
+        },
+        {
+          "id": "dae0ce17-5cb8-41d3-ae77-d23279ea1ab8",
+          "href": "/articles/penerimaan-aplikasi-kuliner-halal-malang",
+          "type": "article",
+          "label": "Wisatawan Menerima Aplikasi Kuliner Halal di Malang",
+          "recordSlug": "penerimaan-aplikasi-kuliner-halal-malang"
+        },
+        {
+          "id": "5009ca5a-e730-4a98-8f0c-df866b6f568f",
+          "href": "/articles/kemudahan-aplikasi-kuliner-halal-pelajaran",
+          "type": "article",
+          "label": "Kemudahan Pakai Jadi Kunci Aplikasi Kuliner Halal",
+          "recordSlug": "kemudahan-aplikasi-kuliner-halal-pelajaran"
+        },
+        {
+          "id": "8acacc6f-6f42-441b-83b5-50b86cb0ab52",
+          "href": "/articles/smartphone-app-measures-eyeglass-prescription",
+          "type": "article",
+          "label": "Measuring Your Own Eyeglass Prescription With a Phone Camera",
+          "recordSlug": "smartphone-app-measures-eyeglass-prescription"
+        },
+        {
+          "id": "993223de-3bf9-490c-9b54-b733c451fb2d",
+          "href": "/articles/offline-diopter-app-eye-care-access",
+          "type": "article",
+          "label": "An Offline Diopter App for Places Without an Optometrist",
+          "recordSlug": "offline-diopter-app-eye-care-access"
+        },
+        {
+          "id": "6890feb5-c77d-485f-ad1c-47da9b7b997b",
+          "href": "/publications/analisis-penerimaan-aplikasi-tracking-kuliner-halal-oleh-wisatawan-di-kabupaten",
+          "type": "publication",
+          "label": "Analisis Penerimaan Aplikasi Tracking Kuliner Halal  oleh Wisatawan di Kabupaten Malang",
+          "recordSlug": "analisis-penerimaan-aplikasi-tracking-kuliner-halal-oleh-wisatawan-di-kabupaten"
+        },
+        {
+          "id": "6996dec6-9fd8-4999-b6c5-fb957c53141a",
+          "href": "/publications/a-new-perspective-of-refractive-error-calculation-with-mobile-application",
+          "type": "publication",
+          "label": "A new perspective of refractive error calculation with mobile application",
+          "recordSlug": "a-new-perspective-of-refractive-error-calculation-with-mobile-application"
+        },
+        {
+          "id": "5951108d-8993-4c50-98e7-8e4c4073eb28",
+          "href": "/articles/design-thinking-layanan-home-care-rumah-sakit",
+          "type": "article",
+          "label": "Design Thinking untuk Layanan Home Care Rumah Sakit",
+          "recordSlug": "design-thinking-layanan-home-care-rumah-sakit"
+        },
+        {
+          "id": "58e28d5d-9bc6-43b7-8363-e45abba86971",
+          "href": "/articles/desain-ux-aplikasi-homecare-semen-gresik",
+          "type": "article",
+          "label": "Merancang Aplikasi Home Care dari Sisi Pasien",
+          "recordSlug": "desain-ux-aplikasi-homecare-semen-gresik"
+        },
+        {
+          "id": "14d5d295-cd70-4d1a-9a32-effd0486d635",
+          "href": "/publications/topsis-for-mobile-based-group-and-personal-decision-support-system",
+          "type": "publication",
+          "label": "TOPSIS for mobile based group and personal decision support system",
+          "recordSlug": "topsis-for-mobile-based-group-and-personal-decision-support-system"
+        },
+        {
+          "id": "8c64f979-8764-4d4c-be04-632fae3deec3",
+          "href": "/articles/why-group-recommendations-differ-per-person",
+          "type": "article",
+          "label": "Why a Group Recommendation Never Fits Everyone",
+          "recordSlug": "why-group-recommendations-differ-per-person"
+        },
+        {
+          "id": "7da0b120-22ba-4a15-9998-20512c9180ff",
+          "href": "/articles/group-travel-decisions-topsis-borda",
+          "type": "article",
+          "label": "Group Travel Decisions Need a Different Ranking Rule",
+          "recordSlug": "group-travel-decisions-topsis-borda"
+        },
+        {
+          "id": "054bb9e9-b350-4589-81ea-d1894eeb5e4b",
+          "href": "/publications/perancangan-user-experience-pada-aplikasi-mobile-homecare-rumah-sakit-semen-gres",
+          "type": "publication",
+          "label": "Perancangan User Experience Pada Aplikasi Mobile HomeCare Rumah Sakit Semen Gresik Menggunakan Metode Design Thinking",
+          "recordSlug": "perancangan-user-experience-pada-aplikasi-mobile-homecare-rumah-sakit-semen-gres"
+        },
+        {
+          "id": "316aec58-c7d7-44c8-8f8f-076165be48e0",
+          "href": "/articles/kapan-pedagang-sebaiknya-pakai-qris-dinamis",
+          "type": "article",
+          "label": "Kapan pedagang sebaiknya memakai QRIS dinamis",
+          "recordSlug": "kapan-pedagang-sebaiknya-pakai-qris-dinamis"
+        },
+        {
+          "id": "12c6bfed-a9e4-4420-a9ee-0b5de39bb2f7",
+          "href": "/articles/qris-statis-atau-dinamis-mana-lebih-cepat",
+          "type": "article",
+          "label": "QRIS statis atau dinamis, mana yang lebih cepat",
+          "recordSlug": "qris-statis-atau-dinamis-mana-lebih-cepat"
+        },
+        {
+          "id": "014d2f82-e25d-46c6-97da-4407c4691963",
+          "href": "/publications/korelasi-fixation-dan-beban-kognitif-pada-pengguna-lansia-dengan-eye-tracking-pa",
+          "type": "publication",
+          "label": "Korelasi Fixation Dan Beban Kognitif pada Pengguna Lansia Dengan Eye-Tracking Pada Aplikasi Komunikasi dan Media Sosial",
+          "recordSlug": "korelasi-fixation-dan-beban-kognitif-pada-pengguna-lansia-dengan-eye-tracking-pa"
+        },
+        {
+          "id": "76fac42f-9108-41ed-91cd-b0f9f0780875",
+          "href": "/publications/efisiensi-penggunaan-qris-dengan-merchant-presented-mode-dalam-transaksi-pembaya",
+          "type": "publication",
+          "label": "Efisiensi Penggunaan QRIS Dengan Merchant Presented Mode Dalam Transaksi Pembayaran Non-Tunai",
+          "recordSlug": "efisiensi-penggunaan-qris-dengan-merchant-presented-mode-dalam-transaksi-pembaya"
+        },
+        {
+          "id": "5b39c60a-f01e-423a-8e13-ca115c923dd3",
+          "href": "/articles/korelasi-fixation-beban-kognitif-pada-lansia",
+          "type": "article",
+          "label": "Membaca Beban Kognitif Lansia dari Gerakan Mata",
+          "recordSlug": "korelasi-fixation-beban-kognitif-pada-lansia"
+        },
+        {
+          "id": "e95a6d62-5bbb-4f8b-ac03-7a427233f661",
+          "href": "/articles/implikasi-desain-aplikasi-untuk-lansia",
+          "type": "article",
+          "label": "Yang Perlu Dipahami Perancang Aplikasi untuk Lansia",
+          "recordSlug": "implikasi-desain-aplikasi-untuk-lansia"
+        }
+      ],
+      "summary": "A line of studies on mobile applications for everyday decisions: culinary recommendation, halal food tracking, eye care tools, home care, and payments, published from 2015 to 2024.",
+      "featured": false,
+      "question": "How do people accept and use mobile decision support applications in everyday situations?",
+      "seoTitle": "Mobile Usability and Decision Support",
+      "startDate": "2015-01-01",
+      "milestones": [
+        {
+          "id": "ab8ad94c-3492-436d-ad15-2108b6d9ee31",
+          "date": "2015-01-01",
+          "title": "Usability evaluation of mobile application in culinary recommendation system",
+          "summary": "2015 IEEE Asia Pacific Conference on Wireless and Mobile (APWiMob)",
+          "relatedUrl": "/publications/usability-evaluation-of-mobile-application-in-culinary-recommendation-system",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "2285c2eb-4d7d-4f10-a1a6-6b42381e1cc1",
+          "date": "2015-01-01",
+          "title": "Culinary Recommendation Systems Using Analytical Hierarchy Process on Google Android Platform",
+          "summary": "Wearable Android™",
+          "relatedUrl": "/publications/culinary-recommendation-systems-using-analytical-hierarchy-process-on-google-and",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "398d53e4-ab91-41ab-a467-a4f5510caf84",
+          "date": "2015-01-01",
+          "title": "Alternatives Weighting in Analytic Hierarchy Process of Mobile Culinary Recommendation System Using Fuzzy",
+          "summary": "ARPN Journal of Engineering and Applied Sciences",
+          "relatedUrl": "/publications/alternatives-weighting-in-analytic-hierarchy-process-of-mobile-culinary-recommen",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "cf6b18a2-6991-4526-ab83-49661dbe256f",
+          "date": "2018-01-01",
+          "title": "Halal Culinary Tracking Application at Food Souvenirs Center Based on Analytical Hierarchy Process (AHP) Method",
+          "summary": "International Journal of the Analytic Hierarchy Process",
+          "relatedUrl": "/publications/halal-culinary-tracking-application-at-food-souvenirs-center-based-on-analytical",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "97432814-80e8-4976-ba04-e4ce09114039",
+          "date": "2018-01-23",
+          "title": "A Comparison Between AHP and Hybrid AHP for Mobile Based Culinary Recommendation System",
+          "summary": "International Journal of Interactive Mobile Technologies (iJIM)",
+          "relatedUrl": "/publications/a-comparison-between-ahp-and-hybrid-ahp-for-mobile-based-culinary-recommendation",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "bd418c37-c8fb-48ce-ada4-e99f5cda3859",
+          "date": "2019-02-01",
+          "title": "An idea of intuitive mobile diopter calculator for myopia patient",
+          "summary": "TELKOMNIKA (Telecommunication Computing Electronics and Control)",
+          "relatedUrl": "/publications/an-idea-of-intuitive-mobile-diopter-calculator-for-myopia-patient",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "46cbc418-7c4a-4073-b57e-84ca90055a16",
+          "date": "2020-02-11",
+          "title": "Analisis Penerimaan Aplikasi Tracking Kuliner Halal  oleh Wisatawan di Kabupaten Malang",
+          "summary": "Jurnal Sosioteknologi",
+          "relatedUrl": "/publications/analisis-penerimaan-aplikasi-tracking-kuliner-halal-oleh-wisatawan-di-kabupaten",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "cd7cd1b8-d421-4a59-97e2-14963cee40d2",
+          "date": "2020-06-13",
+          "title": "A new perspective of refractive error calculation with mobile application",
+          "summary": "International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering",
+          "relatedUrl": "/publications/a-new-perspective-of-refractive-error-calculation-with-mobile-application",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "b7dca6e6-74fe-404d-86a1-cd640226d48d",
+          "date": "2021-02-15",
+          "title": "TOPSIS for mobile based group and personal decision support system",
+          "summary": "Register Jurnal Ilmiah Teknologi Sistem Informasi",
+          "relatedUrl": "/publications/topsis-for-mobile-based-group-and-personal-decision-support-system",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "8b39c5cf-1b38-4c59-92cb-99ea52d80670",
+          "date": "2021-10-21",
+          "title": "Perancangan User Experience Pada Aplikasi Mobile HomeCare Rumah Sakit Semen Gresik Menggunakan Metode Design Thinking",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/perancangan-user-experience-pada-aplikasi-mobile-homecare-rumah-sakit-semen-gres",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "d5c397e2-98ce-481c-8647-d2bbe4574de1",
+          "date": "2024-08-26",
+          "title": "Korelasi Fixation Dan Beban Kognitif pada Pengguna Lansia Dengan Eye-Tracking Pada Aplikasi Komunikasi dan Media Sosial",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/korelasi-fixation-dan-beban-kognitif-pada-pengguna-lansia-dengan-eye-tracking-pa",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "b0616a41-e7a1-4ed5-a796-5ccdb8cdb8a1",
+          "date": "2024-08-26",
+          "title": "Efisiensi Penggunaan QRIS Dengan Merchant Presented Mode Dalam Transaksi Pembayaran Non-Tunai",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/efisiensi-penggunaan-qris-dengan-merchant-presented-mode-dalam-transaksi-pembaya",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "A line of studies on mobile applications for everyday decisions: culinary recommendation, halal food tracking, eye care tools, home care, and payments, published from 2015 to 2024."
+    },
+    "slug": "mobile-usability-and-decision-support",
+    "updatedAt": "2026-09-14T08:31:48.960Z"
+  },
+  {
+    "body": [],
+    "research": {
+      "slug": "mobile-learning-applications",
+      "areas": ["mobile", "hci-ux"],
+      "draft": false,
+      "title": "Mobile Learning Applications",
+      "status": "active",
+      "context": "The lab has designed, built, and evaluated mobile learning tools for languages, pronunciation, and programming.",
+      "methods": ["A/B testing", "Mental model evaluation", "Prototyping"],
+      "outputs": [
+        {
+          "id": "fc377754-bf7a-43ed-9d19-0a8a80d2820b",
+          "href": "/publications/adaptation-of-composite-e-learning-contents-for-reusable-in-smartphone-based-lea",
+          "type": "publication",
+          "label": "Adaptation of composite E-Learning contents for reusable in smartphone based learning system",
+          "recordSlug": "adaptation-of-composite-e-learning-contents-for-reusable-in-smartphone-based-lea"
+        },
+        {
+          "id": "83bcf6fd-9899-49a9-97a4-93faa2971ae1",
+          "href": "/articles/adapting-old-elearning-content-for-smartphones",
+          "type": "article",
+          "label": "Giving Old Course Material a Second Life on Phones",
+          "recordSlug": "adapting-old-elearning-content-for-smartphones"
+        },
+        {
+          "id": "a0239087-2c14-436d-ab63-1041beb165a6",
+          "href": "/articles/lessons-from-reusing-legacy-elearning-content",
+          "type": "article",
+          "label": "Why Reusing Lecture Recordings Is Harder Than It Looks",
+          "recordSlug": "lessons-from-reusing-legacy-elearning-content"
+        },
+        {
+          "id": "ce45c634-b159-438f-aa1d-3436dc7e7ba5",
+          "href": "/articles/tiga-pendekatan-membangun-aplikasi-mobile",
+          "type": "article",
+          "label": "Tiga Pendekatan Membangun Aplikasi Mobile",
+          "recordSlug": "tiga-pendekatan-membangun-aplikasi-mobile"
+        },
+        {
+          "id": "4113674f-433d-4910-a322-159288d33001",
+          "href": "/articles/mengenal-pengembangan-aplikasi-perangkat-bergerak",
+          "type": "article",
+          "label": "Mengenal Pengembangan Aplikasi Perangkat Bergerak",
+          "recordSlug": "mengenal-pengembangan-aplikasi-perangkat-bergerak"
+        },
+        {
+          "id": "97f6dada-78f8-4e29-8240-69552f4f7397",
+          "href": "/publications/pengembangan-aplikasi-perangkat-bergerak-konsep-dan-implementasi",
+          "type": "publication",
+          "label": "Pengembangan Aplikasi Perangkat Bergerak (Konsep dan Implementasi)",
+          "recordSlug": "pengembangan-aplikasi-perangkat-bergerak-konsep-dan-implementasi"
+        },
+        {
+          "id": "2b18c51e-2f9c-40e1-8025-4c761088961f",
+          "href": "/articles/listening-speaking-practice-on-a-phone",
+          "type": "article",
+          "label": "A Phone That Listens While You Learn to Speak",
+          "recordSlug": "listening-speaking-practice-on-a-phone"
+        },
+        {
+          "id": "fc1aa72b-072c-4e7d-a626-cfc3862bf33c",
+          "href": "/articles/japanese-learning-apps-skip-speaking",
+          "type": "article",
+          "label": "Why Japanese Learning Apps Skip Speaking",
+          "recordSlug": "japanese-learning-apps-skip-speaking"
+        },
+        {
+          "id": "917141a6-c1f0-4f82-8e92-bdee43f4af79",
+          "href": "/publications/an-idea-of-interactive-japanese-language-m-learning-application-to-support-liste",
+          "type": "publication",
+          "label": "An Idea of Interactive Japanese Language M-Learning Application to Support Listening and Speaking Exercise",
+          "recordSlug": "an-idea-of-interactive-japanese-language-m-learning-application-to-support-liste"
+        },
+        {
+          "id": "b5b1b1a7-a3c4-4693-9d5f-6cc6ee740e8a",
+          "href": "/publications/hanasu-interactive-japanese-language-m-learning-application-to-support-listening",
+          "type": "publication",
+          "label": "Hanasu: Interactive Japanese language m-learning application to support listening and speaking exercise",
+          "recordSlug": "hanasu-interactive-japanese-language-m-learning-application-to-support-listening"
+        },
+        {
+          "id": "d1a2ea1f-f402-4e25-9ab6-aad404a25cbd",
+          "href": "/articles/hanasu-japanese-mlearning-app",
+          "type": "article",
+          "label": "Hanasu: Practising Japanese Out Loud on a Phone",
+          "recordSlug": "hanasu-japanese-mlearning-app"
+        },
+        {
+          "id": "0e5fd328-cf87-4c37-b987-a5a250a30ef3",
+          "href": "/articles/language-app-design-speaking-practice",
+          "type": "article",
+          "label": "Why Language Apps Avoid Speaking Practice",
+          "recordSlug": "language-app-design-speaking-practice"
+        },
+        {
+          "id": "f3babef6-46e5-4b8b-bdd4-20fb24679b10",
+          "href": "/articles/japanese-learning-app-mental-model-ab-test",
+          "type": "article",
+          "label": "Teaching Japanese Language Apps to Talk Back",
+          "recordSlug": "japanese-learning-app-mental-model-ab-test"
+        },
+        {
+          "id": "a0103dfe-ea39-47a6-b074-08d7756a2d32",
+          "href": "/articles/pragmatic-hedonic-quality-language-apps",
+          "type": "article",
+          "label": "Two Quality Scores That Rarely Move Together",
+          "recordSlug": "pragmatic-hedonic-quality-language-apps"
+        },
+        {
+          "id": "52b5cd42-8f73-41b0-b570-a55cd948ef32",
+          "href": "/publications/user-experience-improvement-of-japanese-language-mobile-learning-application-thr",
+          "type": "publication",
+          "label": "User experience improvement of japanese language mobile learning application through mental model and A/B testing",
+          "recordSlug": "user-experience-improvement-of-japanese-language-mobile-learning-application-thr"
+        },
+        {
+          "id": "34f38fb0-649a-4604-b4ea-62614dc45b70",
+          "href": "/publications/an-alternative-m-learning-scoring-approach-to-automatically-evaluate-iqros-pronu",
+          "type": "publication",
+          "label": "An alternative m-learning scoring approach to automatically evaluate Iqro's pronunciation based on pitch, volume, and rhythm features",
+          "recordSlug": "an-alternative-m-learning-scoring-approach-to-automatically-evaluate-iqros-pronu"
+        },
+        {
+          "id": "e6c4da90-39c3-4f5e-9858-adf73523767a",
+          "href": "/articles/scoring-hijaiyah-pronunciation-pitch-volume-rhythm",
+          "type": "article",
+          "label": "Scoring Hijaiyah Pronunciation with Pitch, Volume, and Rhythm",
+          "recordSlug": "scoring-hijaiyah-pronunciation-pitch-volume-rhythm"
+        },
+        {
+          "id": "f4633f5c-0aee-4d50-9988-4fbd55c1a586",
+          "href": "/articles/hijaiyah-practice-feedback-without-mentor",
+          "type": "article",
+          "label": "Practice Feedback That Works Without a Mentor",
+          "recordSlug": "hijaiyah-practice-feedback-without-mentor"
+        },
+        {
+          "id": "53d56377-e14f-47b2-885b-e7f76f92f5f3",
+          "href": "/publications/designing-an-intuitive-android-based-m-learning-to-support-students-in-learning",
+          "type": "publication",
+          "label": "Designing an Intuitive Android Based m-Learning to Support Students in Learning Fundamental Java Programming",
+          "recordSlug": "designing-an-intuitive-android-based-m-learning-to-support-students-in-learning"
+        },
+        {
+          "id": "f341fef8-2a1f-4921-b645-151bec22144a",
+          "href": "/articles/android-mlearning-java-programming",
+          "type": "article",
+          "label": "Learning Java on a Phone: A Mobile Learning Prototype",
+          "recordSlug": "android-mlearning-java-programming"
+        },
+        {
+          "id": "09f72a52-3f4e-412d-8fa4-8c188f76f838",
+          "href": "/articles/android-mlearning-java-design-lessons",
+          "type": "article",
+          "label": "What a Phone Can Teach: Design Lessons from a Java Learning App",
+          "recordSlug": "android-mlearning-java-design-lessons"
+        }
+      ],
+      "summary": "A line of studies on mobile learning: adapted e-learning content, Japanese language practice, Qur'an recitation scoring, and Java programming, published from 2014 to 2024.",
+      "featured": false,
+      "question": "How can mobile learning applications support language, pronunciation, and programming practice?",
+      "seoTitle": "Mobile Learning Applications",
+      "startDate": "2014-01-01",
+      "milestones": [
+        {
+          "id": "a29a065d-724d-410f-913c-5a6ae1b00c1b",
+          "date": "2014-01-01",
+          "title": "Adaptation of composite E-Learning contents for reusable in smartphone based learning system",
+          "summary": "2014 International Conference on Advanced Computer Science and Information System",
+          "relatedUrl": "/publications/adaptation-of-composite-e-learning-contents-for-reusable-in-smartphone-based-lea",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "beb2c8e0-02b3-4114-9250-82faa2aaa7b1",
+          "date": "2017-03-01",
+          "title": "Pengembangan Aplikasi Perangkat Bergerak (Konsep dan Implementasi)",
+          "summary": "Scholarly publication",
+          "relatedUrl": "/publications/pengembangan-aplikasi-perangkat-bergerak-konsep-dan-implementasi",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "79285bb1-18b8-4b16-b057-9f7862b8ab23",
+          "date": "2018-11-01",
+          "title": "An Idea of Interactive Japanese Language M-Learning Application to Support Listening and Speaking Exercise",
+          "summary": "2018 International Conference on Sustainable Information Engineering and Technology (SIET)",
+          "relatedUrl": "/publications/an-idea-of-interactive-japanese-language-m-learning-application-to-support-liste",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "13e0cff5-a220-4f87-8787-93946ecb632e",
+          "date": "2019-01-01",
+          "title": "Hanasu: Interactive Japanese language m-learning application to support listening and speaking exercise",
+          "summary": "Proceedings of the 2019 3rd International Conference on Education and Multimedia Technology - ICEMT 2019",
+          "relatedUrl": "/publications/hanasu-interactive-japanese-language-m-learning-application-to-support-listening",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "b8819b3d-425c-468b-9dc6-61b6519ea5c7",
+          "date": "2020-03-08",
+          "title": "User experience improvement of japanese language mobile learning application through mental model and A/B testing",
+          "summary": "International Journal of Electrical and Computer Engineering (IJECE)",
+          "relatedUrl": "/publications/user-experience-improvement-of-japanese-language-mobile-learning-application-thr",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e8e72b5e-498a-4d35-8162-2c153a2e887f",
+          "date": "2022-01-01",
+          "title": "An alternative m-learning scoring approach to automatically evaluate Iqro's pronunciation based on pitch, volume, and rhythm features",
+          "summary": "International Journal of Electrical and Computer Engineering (IJECE)",
+          "relatedUrl": "/publications/an-alternative-m-learning-scoring-approach-to-automatically-evaluate-iqros-pronu",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "69ff9ee3-c29c-4601-85ab-7de5c122d4c8",
+          "date": "2024-08-23",
+          "title": "Designing an Intuitive Android Based m-Learning to Support Students in Learning Fundamental Java Programming",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/designing-an-intuitive-android-based-m-learning-to-support-students-in-learning",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "A line of studies on mobile learning: adapted e-learning content, Japanese language practice, Qur'an recitation scoring, and Java programming, published from 2014 to 2024."
+    },
+    "slug": "mobile-learning-applications",
+    "updatedAt": "2026-09-14T08:31:48.564Z"
+  },
+  {
+    "body": [],
+    "research": {
+      "slug": "virtual-reality-and-games",
+      "areas": ["game-xr", "hci-ux"],
+      "draft": false,
+      "title": "Virtual Reality, Games, and Exergames",
+      "status": "active",
+      "context": "The lab explores body movement, head tracking, and hand gestures as inputs for games and therapy.",
+      "methods": ["Preliminary studies", "Prototyping", "User studies"],
+      "outputs": [
+        {
+          "id": "dee88445-8286-4cd7-83f6-524a0f1688b3",
+          "href": "/publications/virtual-reality-game-controlled-with-users-head-and-body-movement-detection-usin",
+          "type": "publication",
+          "label": "VIRTUAL REALITY GAME CONTROLLED WITH USER'S HEAD AND BODY MOVEMENT DETECTION USING SMARTPHONE SENSORS",
+          "recordSlug": "virtual-reality-game-controlled-with-users-head-and-body-movement-detection-usin"
+        },
+        {
+          "id": "a191c54f-623f-466a-9f68-1ba1937b3960",
+          "href": "/articles/phone-sensors-as-vr-controller",
+          "type": "article",
+          "label": "Your Phone Already Has Everything a VR Controller Needs",
+          "recordSlug": "phone-sensors-as-vr-controller"
+        },
+        {
+          "id": "308d4557-8091-4bd9-bd0b-e7ec3472b1f8",
+          "href": "/articles/smartphone-sensors-control-vr-labyrinth",
+          "type": "article",
+          "label": "Walk to Move Through a Virtual Labyrinth",
+          "recordSlug": "smartphone-sensors-control-vr-labyrinth"
+        },
+        {
+          "id": "4256617b-5c5d-4c4b-bcdf-feb26ccd2e1d",
+          "href": "/publications/design-of-keyboard-input-control-for-mobile-application-using-head-movement-cont",
+          "type": "publication",
+          "label": "Design of keyboard input control for mobile application using Head Movement Control (HEMOCS)",
+          "recordSlug": "design-of-keyboard-input-control-for-mobile-application-using-head-movement-cont"
+        },
+        {
+          "id": "84c5fd5d-bac1-4bc9-9d15-877d6edd1606",
+          "href": "/articles/hemocs-head-movement-keyboard-design",
+          "type": "article",
+          "label": "Typing With Your Head When Your Hands Are Busy",
+          "recordSlug": "hemocs-head-movement-keyboard-design"
+        },
+        {
+          "id": "7df7dbab-9b80-403f-88c0-c4dd116e8c18",
+          "href": "/articles/head-movement-keyboard-layout-tradeoffs",
+          "type": "article",
+          "label": "Efficiency and Familiarity Pull in Different Directions",
+          "recordSlug": "head-movement-keyboard-layout-tradeoffs"
+        },
+        {
+          "id": "6362dd00-183c-4325-b74c-8d7baa570dda",
+          "href": "/publications/development-of-non-player-character-for-3d-kart-racing-game-using-decision-tree",
+          "type": "publication",
+          "label": "Development of Non-Player Character for 3D Kart Racing Game Using Decision Tree",
+          "recordSlug": "development-of-non-player-character-for-3d-kart-racing-game-using-decision-tree"
+        },
+        {
+          "id": "ff0b539f-044b-4e2c-a136-f042db3635ef",
+          "href": "/articles/decision-tree-npc-for-a-kart-racing-game",
+          "type": "article",
+          "label": "Giving a Kart Racing Game an Opponent to Beat",
+          "recordSlug": "decision-tree-npc-for-a-kart-racing-game"
+        },
+        {
+          "id": "614d9d55-55ca-4e42-92cc-b1107fca0c28",
+          "href": "/articles/building-a-racing-ai-with-waypoints",
+          "type": "article",
+          "label": "Building a Racing Opponent from Waypoints and Rules",
+          "recordSlug": "building-a-racing-ai-with-waypoints"
+        },
+        {
+          "id": "febcad1d-318c-4951-aa72-1b764b2179f0",
+          "href": "/articles/mobile-vr-eye-exercises-bates-method-study",
+          "type": "article",
+          "label": "Eye Exercises in Mobile VR Show Small but Consistent Results",
+          "recordSlug": "mobile-vr-eye-exercises-bates-method-study"
+        },
+        {
+          "id": "e0ca941f-6352-43ff-ad10-fe5dbf2a9b5c",
+          "href": "/articles/bates-method-vr-design-trade-offs",
+          "type": "article",
+          "label": "What Survives the Move From Paper to a VR Headset",
+          "recordSlug": "bates-method-vr-design-trade-offs"
+        },
+        {
+          "id": "005a98f4-f472-4225-8403-129a161e4692",
+          "href": "/publications/virtual-reality-eye-exercises-application-based-on-bates-method-a-preliminary-st",
+          "type": "publication",
+          "label": "Virtual reality eye exercises application based on bates method: a preliminary study",
+          "recordSlug": "virtual-reality-eye-exercises-application-based-on-bates-method-a-preliminary-st"
+        },
+        {
+          "id": "fe6d9e7f-594d-481e-9be0-3e3f394d7177",
+          "href": "/publications/pengembangan-gim-simulasi-kehidupan-untuk-peningkatan-literasi-grafik-menggunaka",
+          "type": "publication",
+          "label": "Pengembangan Gim Simulasi Kehidupan untuk Peningkatan Literasi Grafik Menggunakan Framework DPE",
+          "recordSlug": "pengembangan-gim-simulasi-kehidupan-untuk-peningkatan-literasi-grafik-menggunaka"
+        },
+        {
+          "id": "dafb4502-9b04-4ac0-869c-3ec00a514588",
+          "href": "/articles/cara-kerja-framework-dpe-dalam-gim-edukasi",
+          "type": "article",
+          "label": "Cara kerja framework DPE saat kurikulum berubah jadi gim",
+          "recordSlug": "cara-kerja-framework-dpe-dalam-gim-edukasi"
+        },
+        {
+          "id": "69113afe-7b20-407e-a810-2953ed69e344",
+          "href": "/articles/gim-simulasi-kehidupan-untuk-literasi-grafik",
+          "type": "article",
+          "label": "Gim simulasi kehidupan untuk melatih literasi grafik",
+          "recordSlug": "gim-simulasi-kehidupan-untuk-literasi-grafik"
+        },
+        {
+          "id": "996d992c-71a4-44e8-9eb7-dd9a60524d70",
+          "href": "/publications/perancangan-gim-edukasi-anak-usia-dini-untuk-meningkatkan-pemahaman-pengenalan-a",
+          "type": "publication",
+          "label": "Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka",
+          "recordSlug": "perancangan-gim-edukasi-anak-usia-dini-untuk-meningkatkan-pemahaman-pengenalan-a"
+        },
+        {
+          "id": "14d1d55d-05db-4ae5-a495-34c9de26fc53",
+          "href": "/articles/gim-papan-berburu-harta-karun-pengenalan-angka",
+          "type": "article",
+          "label": "Gim Papan Berburu Harta Karun untuk Mengenal Angka",
+          "recordSlug": "gim-papan-berburu-harta-karun-pengenalan-angka"
+        },
+        {
+          "id": "f8185ab6-f463-4901-a98f-e3e292e63a6a",
+          "href": "/articles/mengapa-guru-butuh-alat-permainan-edukatif",
+          "type": "article",
+          "label": "Mengapa Guru Butuh Alat Permainan Edukatif yang Dirancang Khusus",
+          "recordSlug": "mengapa-guru-butuh-alat-permainan-edukatif"
+        },
+        {
+          "id": "185eb1a2-ad6d-463d-8613-ef59ae948c4c",
+          "href": "/articles/hand-gesture-controls-rehabilitation-exergame",
+          "type": "article",
+          "label": "Hand Gestures That Make Rehabilitation Games Easier to Play",
+          "recordSlug": "hand-gesture-controls-rehabilitation-exergame"
+        },
+        {
+          "id": "230950ae-38ba-46c2-9ab3-ca4c99b75e53",
+          "href": "/articles/designing-hand-gestures-patients-can-make",
+          "type": "article",
+          "label": "Designing Hand Gestures People Can Actually Make",
+          "recordSlug": "designing-hand-gestures-patients-can-make"
+        },
+        {
+          "id": "364bd99e-46af-4fdc-8696-e6ab1e480b74",
+          "href": "/publications/an-investigation-of-hand-gestures-for-controlling-video-games-in-a-rehabilitatio",
+          "type": "publication",
+          "label": "An Investigation of Hand Gestures for Controlling Video Games in a Rehabilitation Exergame System",
+          "recordSlug": "an-investigation-of-hand-gestures-for-controlling-video-games-in-a-rehabilitatio"
+        }
+      ],
+      "summary": "A line of studies on virtual reality and games: sensor driven controls, eye exercises, educational games, and rehabilitation exergames, published from 2015 to 2025.",
+      "featured": false,
+      "question": "How can virtual reality and game interactions support movement, rehabilitation, and learning?",
+      "seoTitle": "Virtual Reality, Games, and Exergames",
+      "startDate": "2015-01-01",
+      "milestones": [
+        {
+          "id": "497ef591-3dca-43ed-9d41-631c8ea5b09d",
+          "date": "2015-01-01",
+          "title": "VIRTUAL REALITY GAME CONTROLLED WITH USER'S HEAD AND BODY MOVEMENT DETECTION USING SMARTPHONE SENSORS",
+          "summary": "ARPN Journal of Engineering and Applied Sciences",
+          "relatedUrl": "/publications/virtual-reality-game-controlled-with-users-head-and-body-movement-detection-usin",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e2ff1292-221f-4b22-933c-eb895a5e7b55",
+          "date": "2016-10-01",
+          "title": "Design of keyboard input control for mobile application using Head Movement Control (HEMOCS)",
+          "summary": "International Conference on Advanced Computer Science and Information System",
+          "relatedUrl": "/publications/design-of-keyboard-input-control-for-mobile-application-using-head-movement-cont",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "b5e858c6-5716-40d0-9680-dd9ce05db938",
+          "date": "2021-06-27",
+          "title": "Development of Non-Player Character for 3D Kart Racing Game Using Decision Tree",
+          "summary": "Fountain of Informatics Journal",
+          "relatedUrl": "/publications/development-of-non-player-character-for-3d-kart-racing-game-using-decision-tree",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "8462840a-3564-4dee-978b-b27c0c8da395",
+          "date": "2023-01-24",
+          "title": "Virtual reality eye exercises application based on bates method: a preliminary study",
+          "summary": "Indonesian Journal of Electrical Engineering and Computer Science",
+          "relatedUrl": "/publications/virtual-reality-eye-exercises-application-based-on-bates-method-a-preliminary-st",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "bdda0add-bff8-4ed6-9b44-06732304548f",
+          "date": "2023-12-30",
+          "title": "Pengembangan Gim Simulasi Kehidupan untuk Peningkatan Literasi Grafik Menggunakan Framework DPE",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/pengembangan-gim-simulasi-kehidupan-untuk-peningkatan-literasi-grafik-menggunaka",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "a6c02c09-8064-4e6d-9b32-78a7428dc4ed",
+          "date": "2024-08-23",
+          "title": "Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/perancangan-gim-edukasi-anak-usia-dini-untuk-meningkatkan-pemahaman-pengenalan-a",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "faf35d4b-b9c7-4b2a-a20d-14df560cdfcd",
+          "date": "2025-01-15",
+          "title": "An Investigation of Hand Gestures for Controlling Video Games in a Rehabilitation Exergame System",
+          "summary": "Computers",
+          "relatedUrl": "/publications/an-investigation-of-hand-gestures-for-controlling-video-games-in-a-rehabilitatio",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "A line of studies on virtual reality and games: sensor driven controls, eye exercises, educational games, and rehabilitation exergames, published from 2015 to 2025."
+    },
+    "slug": "virtual-reality-and-games",
+    "updatedAt": "2026-09-14T08:31:48.198Z"
+  },
+  {
+    "body": [],
+    "research": {
+      "slug": "public-transit-navigation",
+      "areas": ["mobile", "website"],
+      "draft": false,
+      "title": "Public Transit Navigation Systems",
+      "status": "active",
+      "context": "The lab has built and evaluated navigation systems around the city's paratransit and public transit networks.",
+      "methods": ["Algorithm benchmarking", "Usability evaluation", "Field data collection"],
+      "outputs": [
+        {
+          "id": "5890d182-7edf-4f46-b5c6-ead1ee268f6d",
+          "href": "/articles/augmented-reality-bus-route-planning",
+          "type": "article",
+          "label": "Putting Bus Stops Directly on the Phone Camera",
+          "recordSlug": "augmented-reality-bus-route-planning"
+        },
+        {
+          "id": "4c88154e-87bd-4ff2-bea4-9fc1069f80a9",
+          "href": "/publications/routeboxer-library-for-google-android-platform",
+          "type": "publication",
+          "label": "RouteBoxer library for Google Android platform",
+          "recordSlug": "routeboxer-library-for-google-android-platform"
+        },
+        {
+          "id": "a0087994-5bfb-4b5b-8985-97e08b88d8ff",
+          "href": "/articles/packaging-a-web-algorithm-as-an-android-library",
+          "type": "article",
+          "label": "Porting a web algorithm into a reusable Android module",
+          "recordSlug": "packaging-a-web-algorithm-as-an-android-library"
+        },
+        {
+          "id": "52d939fe-cf87-465e-af58-c99a0f9248a4",
+          "href": "/articles/bounding-boxes-along-a-route-on-android",
+          "type": "article",
+          "label": "Bounding boxes along a route, now as an Android library",
+          "recordSlug": "bounding-boxes-along-a-route-on-android"
+        },
+        {
+          "id": "178766dd-5d40-429a-ab71-fb8759df5aa4",
+          "href": "/publications/design-of-public-transportation-navigation-system-on-android-wear-device",
+          "type": "publication",
+          "label": "Design of public transportation navigation system on android wear device",
+          "recordSlug": "design-of-public-transportation-navigation-system-on-android-wear-device"
+        },
+        {
+          "id": "fa835dda-24a0-49bd-8245-6bd6f2c5f311",
+          "href": "/articles/wearable-navigation-for-public-transport",
+          "type": "article",
+          "label": "Moving Transit Directions from Your Phone to Your Wrist",
+          "recordSlug": "wearable-navigation-for-public-transport"
+        },
+        {
+          "id": "31fe0864-96a6-4cc8-903d-0e74e4d8418d",
+          "href": "/articles/wearable-interface-lessons-for-transit-apps",
+          "type": "article",
+          "label": "What Wrist Sized Directions Get Right and Wrong",
+          "recordSlug": "wearable-interface-lessons-for-transit-apps"
+        },
+        {
+          "id": "16bd104d-ed30-4e16-b70e-f158b80d7790",
+          "href": "/publications/design-of-rest-api-for-local-public-transportation-information-services-in-malan",
+          "type": "publication",
+          "label": "Design of REST API for Local Public Transportation Information Services in Malang City",
+          "recordSlug": "design-of-rest-api-for-local-public-transportation-information-services-in-malan"
+        },
+        {
+          "id": "65a4b283-dad5-4942-aacc-a88a78f23ef0",
+          "href": "/articles/transit-api-contract-before-the-app",
+          "type": "article",
+          "label": "Why Define a Transit API Before Building the App",
+          "recordSlug": "transit-api-contract-before-the-app"
+        },
+        {
+          "id": "c94ad4dd-fa57-45cd-b7e1-477753d76951",
+          "href": "/articles/rest-api-malang-public-transport-design",
+          "type": "article",
+          "label": "Sketching a REST API for Malang Public Transport",
+          "recordSlug": "rest-api-malang-public-transport-design"
+        },
+        {
+          "id": "7154469b-69e4-409f-b955-d07dc8bd360d",
+          "href": "/publications/web-based-implementation-of-travelling-salesperson-problem-using-genetic-algorit",
+          "type": "publication",
+          "label": "Web-Based Implementation of Travelling Salesperson Problem Using Genetic Algorithm",
+          "recordSlug": "web-based-implementation-of-travelling-salesperson-problem-using-genetic-algorit"
+        },
+        {
+          "id": "4845dd6c-6cf1-4b33-8d3a-60f29c8186f6",
+          "href": "/articles/python-php-ruby-for-a-genetic-algorithm",
+          "type": "article",
+          "label": "Python, PHP, or Ruby for a Genetic Algorithm",
+          "recordSlug": "python-php-ruby-for-a-genetic-algorithm"
+        },
+        {
+          "id": "e015cf13-8bc1-4109-8591-92c595593777",
+          "href": "/articles/why-the-same-algorithm-took-237-lines-in-python",
+          "type": "article",
+          "label": "Why the Same Algorithm Took 237 Lines in Python",
+          "recordSlug": "why-the-same-algorithm-took-237-lines-in-python"
+        },
+        {
+          "id": "c2750b10-35c8-4369-9381-db31707f882b",
+          "href": "/publications/framework-design-for-map-based-navigation-in-google-android-platform",
+          "type": "publication",
+          "label": "Framework Design for Map-Based Navigation in Google Android Platform",
+          "recordSlug": "framework-design-for-map-based-navigation-in-google-android-platform"
+        },
+        {
+          "id": "275859a1-6215-4e3d-ab42-4bef15d1fd19",
+          "href": "/articles/dijkstra-or-a-star-in-practice",
+          "type": "article",
+          "label": "Dijkstra or A star? What the timings actually say",
+          "recordSlug": "dijkstra-or-a-star-in-practice"
+        },
+        {
+          "id": "77bfa124-2ba7-4928-95da-ed41646fe28f",
+          "href": "/articles/swapping-pathfinding-algorithms-without-a-rewrite",
+          "type": "article",
+          "label": "Swapping pathfinding algorithms without rewriting the app",
+          "recordSlug": "swapping-pathfinding-algorithms-without-a-rewrite"
+        },
+        {
+          "id": "5dcf4019-415d-4157-a787-50757a6afaed",
+          "href": "/publications/prototype-of-rest-location-based-service-for-trip-planning-by-paratransit-mikrol",
+          "type": "publication",
+          "label": "Prototype of REST Location-based Service for Trip Planning by Paratransit (Mikrolet) in Malang City",
+          "recordSlug": "prototype-of-rest-location-based-service-for-trip-planning-by-paratransit-mikrol"
+        },
+        {
+          "id": "f71ac777-ec05-4943-a345-953447135370",
+          "href": "/articles/rest-trip-planning-mikrolet-malang",
+          "type": "article",
+          "label": "Planning a Mikrolet Trip With a REST Service",
+          "recordSlug": "rest-trip-planning-mikrolet-malang"
+        },
+        {
+          "id": "65c43592-c27f-45cc-9a04-280c2a46d0e5",
+          "href": "/articles/depth-first-search-paratransit-trip-planner",
+          "type": "article",
+          "label": "Why Depth-First Search Was the Right Call Here",
+          "recordSlug": "depth-first-search-paratransit-trip-planner"
+        },
+        {
+          "id": "45969ce3-dfb7-4975-83f3-ee9d479a3029",
+          "href": "/publications/comparative-study-of-user-experience-on-mobile-pedestrian-navigation-between-dig",
+          "type": "publication",
+          "label": "Comparative study of user experience on mobile pedestrian navigation between digital map interface and location-based augmented reality",
+          "recordSlug": "comparative-study-of-user-experience-on-mobile-pedestrian-navigation-between-dig"
+        },
+        {
+          "id": "43c9c83e-7eed-460e-b0a1-b72d65d76277",
+          "href": "/articles/map-or-ar-navigation-interface-design",
+          "type": "article",
+          "label": "Map or Camera View? What the Taiwan Study Suggests",
+          "recordSlug": "map-or-ar-navigation-interface-design"
+        },
+        {
+          "id": "d9e99651-e312-4059-b9b9-4e271912599d",
+          "href": "/articles/digital-map-vs-ar-pedestrian-navigation-study",
+          "type": "article",
+          "label": "Digital Maps Win on Speed, AR Wins on Feeling",
+          "recordSlug": "digital-map-vs-ar-pedestrian-navigation-study"
+        },
+        {
+          "id": "b805c6f3-46d1-4e32-9086-eacdbd9fb2e0",
+          "href": "/publications/integrating-douglas-peucker-line-simplification-into-routeboxer-algorithm-on-a-m",
+          "type": "publication",
+          "label": "Integrating douglas-peucker line simplification into routeboxer algorithm on a map-based Android application",
+          "recordSlug": "integrating-douglas-peucker-line-simplification-into-routeboxer-algorithm-on-a-m"
+        },
+        {
+          "id": "378bc99c-c4ae-42e4-b428-f586685ac5e4",
+          "href": "/publications/paratransit-trip-data-collection-system-with-smartphone-gps-and-rest-web-service",
+          "type": "publication",
+          "label": "Paratransit Trip Data Collection System with Smartphone GPS and REST Web Service in Malang, Indonesia",
+          "recordSlug": "paratransit-trip-data-collection-system-with-smartphone-gps-and-rest-web-service"
+        },
+        {
+          "id": "22d78532-0784-485e-aad9-8d2d2de8a750",
+          "href": "/articles/smartwatch-transit-interface-travel-time",
+          "type": "article",
+          "label": "A Smartwatch Interface Cut Transit Travel Time by Six Minutes",
+          "recordSlug": "smartwatch-transit-interface-travel-time"
+        },
+        {
+          "id": "d7a589cc-2767-4ec5-a214-20dca0d553cb",
+          "href": "/articles/mental-model-user-journey-transit-requirements",
+          "type": "article",
+          "label": "Mapping the Journey Before Redesigning a Transit App",
+          "recordSlug": "mental-model-user-journey-transit-requirements"
+        },
+        {
+          "id": "addf4472-7e00-46aa-a784-d1af4f8d7f74",
+          "href": "/articles/routeboxer-douglas-peucker-simplification",
+          "type": "article",
+          "label": "Making a Map Search Faster by Simplifying the Path First",
+          "recordSlug": "routeboxer-douglas-peucker-simplification"
+        },
+        {
+          "id": "f04f4ae9-81f6-4ecf-b811-2cf9a2af9d77",
+          "href": "/articles/routeboxer-douglas-peucker-performance-lessons",
+          "type": "article",
+          "label": "The Case for Throwing Away Most of Your Route Points",
+          "recordSlug": "routeboxer-douglas-peucker-performance-lessons"
+        },
+        {
+          "id": "76c32958-a81e-4bef-ba40-904093ee8bbb",
+          "href": "/articles/paratransit-pseudo-stop-tracking-design",
+          "type": "article",
+          "label": "Small Circles, Big Tradeoffs in Paratransit Tracking",
+          "recordSlug": "paratransit-pseudo-stop-tracking-design"
+        },
+        {
+          "id": "2021d154-4013-4346-b6a2-6b984275df62",
+          "href": "/articles/paratransit-gps-tracking-malang",
+          "type": "article",
+          "label": "Tracking Angkot Trips with the Phone in the Driver's Pocket",
+          "recordSlug": "paratransit-gps-tracking-malang"
+        },
+        {
+          "id": "e3b13f6b-8345-4bb7-851c-dbe58d8845d4",
+          "href": "/publications/usability-improvement-of-public-transit-application-through-mental-model-and-use",
+          "type": "publication",
+          "label": "Usability improvement of public transit application through mental model and user journey",
+          "recordSlug": "usability-improvement-of-public-transit-application-through-mental-model-and-use"
+        },
+        {
+          "id": "3f6b10dd-cadc-4c6c-b75f-216abcc06fef",
+          "href": "/publications/improving-route-finding-performance-of-dijkstra-algorithm-and-maintaining-path-v",
+          "type": "publication",
+          "label": "Improving Route-Finding Performance of Dijkstra Algorithm and Maintaining Path Visual Cue Using Douglas-Peucker Algorithm",
+          "recordSlug": "improving-route-finding-performance-of-dijkstra-algorithm-and-maintaining-path-v"
+        },
+        {
+          "id": "da6db845-5d4e-4949-8cac-b7bbdfa47341",
+          "href": "/publications/enhancing-the-efficiency-of-navigation-systems-dijkstra-algorithm-optimization-t",
+          "type": "publication",
+          "label": "Enhancing the Efficiency of Navigation Systems: Dijkstra Algorithm Optimization Through Integration of Douglas-Peucker Line Simplification Technique",
+          "recordSlug": "enhancing-the-efficiency-of-navigation-systems-dijkstra-algorithm-optimization-t"
+        },
+        {
+          "id": "5affb5b5-04fe-4a5e-9d21-9d3b54d109ee",
+          "href": "/articles/douglas-peucker-simplification-speeds-up-dijkstra",
+          "type": "article",
+          "label": "Making Dijkstra Faster by Throwing Away Points",
+          "recordSlug": "douglas-peucker-simplification-speeds-up-dijkstra"
+        },
+        {
+          "id": "3d4770dd-bf3c-4ad3-a628-4123d06593f6",
+          "href": "/articles/route-finding-simplification-tradeoff",
+          "type": "article",
+          "label": "A Small Upfront Cost for a Large Speedup",
+          "recordSlug": "route-finding-simplification-tradeoff"
+        },
+        {
+          "id": "bdf195b8-aaaf-4b4e-8db1-94938e84530b",
+          "href": "/articles/why-route-apps-simplify-line-geometry",
+          "type": "article",
+          "label": "Why Your Map App Quietly Simplifies Every Route",
+          "recordSlug": "why-route-apps-simplify-line-geometry"
+        },
+        {
+          "id": "55ee1211-a381-496e-b371-4b5489fd72a1",
+          "href": "/articles/douglas-peucker-route-finding-performance",
+          "type": "article",
+          "label": "Cutting the Points That Slow Down a Route Finder",
+          "recordSlug": "douglas-peucker-route-finding-performance"
+        },
+        {
+          "id": "47328a73-f25d-4d38-a734-24b29893d54b",
+          "href": "/publications/recommending-public-transit-route-ant-colony-optimization-or-dijkstra",
+          "type": "publication",
+          "label": "Recommending Public Transit Route: Ant-Colony Optimization or Dijkstra?",
+          "recordSlug": "recommending-public-transit-route-ant-colony-optimization-or-dijkstra"
+        },
+        {
+          "id": "632fdbdc-ebec-4c90-bf1d-af1486f715ff",
+          "href": "/publications/dynamic-load-distribution-of-shortest-path-finding-in-client-server-public-trans",
+          "type": "publication",
+          "label": "Dynamic Load Distribution of Shortest-Path Finding in Client-Server Public Transit System",
+          "recordSlug": "dynamic-load-distribution-of-shortest-path-finding-in-client-server-public-trans"
+        },
+        {
+          "id": "a8fb37b9-50a5-41d7-8746-e114e86ebb65",
+          "href": "/articles/splitting-dijkstra-between-phone-and-server",
+          "type": "article",
+          "label": "Splitting Dijkstra Between the Phone and the Server",
+          "recordSlug": "splitting-dijkstra-between-phone-and-server"
+        },
+        {
+          "id": "3dc1c7b0-dc5c-4247-92a4-40959b5cee18",
+          "href": "/articles/lessons-from-comparing-transit-routing-algorithms",
+          "type": "article",
+          "label": "What Two Routing Algorithms Teach Us About Transit Apps",
+          "recordSlug": "lessons-from-comparing-transit-routing-algorithms"
+        },
+        {
+          "id": "ee7d991b-ca3c-47d2-b3d9-d896c70215d1",
+          "href": "/articles/ant-colony-optimization-versus-dijkstra-for-transit",
+          "type": "article",
+          "label": "Ants Versus Dijkstra: Which One Finds the Bus Route?",
+          "recordSlug": "ant-colony-optimization-versus-dijkstra-for-transit"
+        },
+        {
+          "id": "c4e8248a-4033-449f-af1e-7f3a9a32b7f3",
+          "href": "/articles/why-cheap-phones-are-slow-at-route-finding",
+          "type": "article",
+          "label": "Why Cheap Phones Are Slow at Finding Routes",
+          "recordSlug": "why-cheap-phones-are-slow-at-route-finding"
+        },
+        {
+          "id": "9633505b-0a41-4d51-a724-a38b68bdf8e6",
+          "href": "/publications/peningkatan-performa-komputasi-sistem-navigasi-transportasi-publik-pada-perangka",
+          "type": "publication",
+          "label": "Peningkatan Performa Komputasi Sistem Navigasi Transportasi Publik Pada Perangkat Bergerak Melalui Penerapan Teknik Kompresi Data dan Penyederhanaan Graf",
+          "recordSlug": "peningkatan-performa-komputasi-sistem-navigasi-transportasi-publik-pada-perangka"
+        },
+        {
+          "id": "99fc92af-2c88-4060-a870-0a2588b248a6",
+          "href": "/publications/peningkatan-performa-komputasi-sistem-navigasi-transportasi-publik-pada-perangka-2024",
+          "type": "publication",
+          "label": "Peningkatan Performa Komputasi Sistem Navigasi Transportasi Publik Pada Perangkat Bergerak Melalui Penerapan Teknik Kompresi Data dan Penyederhanaan Graf",
+          "recordSlug": "peningkatan-performa-komputasi-sistem-navigasi-transportasi-publik-pada-perangka-2024"
+        },
+        {
+          "id": "f63a7ea4-cd24-421d-9033-670776e91620",
+          "href": "/articles/pelajaran-kompresi-dan-penyederhanaan-graf-untuk-pengembang",
+          "type": "article",
+          "label": "Dua Langkah Kecil yang Membuat Aplikasi Rute Terasa Cepat",
+          "recordSlug": "pelajaran-kompresi-dan-penyederhanaan-graf-untuk-pengembang"
+        },
+        {
+          "id": "1f8f7ed6-82f9-4909-ba85-b6bf633cebb9",
+          "href": "/articles/kompresi-data-dan-penyederhanaan-graf-navigasi-angkot-malang",
+          "type": "article",
+          "label": "Membuat Navigasi Angkutan Kota Malang Lebih Ringan",
+          "recordSlug": "kompresi-data-dan-penyederhanaan-graf-navigasi-angkot-malang"
+        }
+      ],
+      "summary": "A line of studies on transit systems for Malang and beyond: route finding, trip planning, field data collection, and usability, published from 2016 to 2024.",
+      "featured": false,
+      "question": "How can public transit navigation on mobile devices be made faster, lighter, and easier to use?",
+      "seoTitle": "Public Transit Navigation Systems",
+      "startDate": "2016-01-01",
+      "milestones": [
+        {
+          "id": "d886a735-6a4c-4579-bf86-4c095f857fc3",
+          "date": "2016-01-01",
+          "title": "RouteBoxer library for Google Android platform",
+          "summary": "2016 IEEE Asia Pacific Conference on Wireless and Mobile (APWiMob)",
+          "relatedUrl": "/publications/routeboxer-library-for-google-android-platform",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "a1e3a707-d763-4f55-926a-df1a4fdf73b5",
+          "date": "2017-01-01",
+          "title": "Design of public transportation navigation system on android wear device",
+          "summary": "2017 International Conference on Sustainable Information Engineering and Technology (SIET)",
+          "relatedUrl": "/publications/design-of-public-transportation-navigation-system-on-android-wear-device",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "d9390490-5b24-4738-a644-4b43b8b76c0d",
+          "date": "2017-11-05",
+          "title": "Design of REST API for Local Public Transportation Information Services in Malang City",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/design-of-rest-api-for-local-public-transportation-information-services-in-malan",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "be70c748-3a16-47e6-827a-33f86c83e19c",
+          "date": "2018-01-01",
+          "title": "Web-Based Implementation of Travelling Salesperson Problem Using Genetic Algorithm",
+          "summary": "arXiv",
+          "relatedUrl": "/publications/web-based-implementation-of-travelling-salesperson-problem-using-genetic-algorit",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "fc48b3c6-37ba-42ef-8a1b-0001850cfded",
+          "date": "2018-02-15",
+          "title": "Framework Design for Map-Based Navigation in Google Android Platform",
+          "summary": "Journal of Telecommunication Electronic and Computer Engineering (JTEC)",
+          "relatedUrl": "/publications/framework-design-for-map-based-navigation-in-google-android-platform",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "b19c4a27-4f1e-4309-acc0-6145e836afd4",
+          "date": "2019-12-20",
+          "title": "Prototype of REST Location-based Service for Trip Planning by Paratransit (Mikrolet) in Malang City",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/prototype-of-rest-location-based-service-for-trip-planning-by-paratransit-mikrol",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "648707f4-916a-4405-9c4a-5541af07b85f",
+          "date": "2020-03-07",
+          "title": "Comparative study of user experience on mobile pedestrian navigation between digital map interface and location-based augmented reality",
+          "summary": "International Journal of Electrical and Computer Engineering (IJECE)",
+          "relatedUrl": "/publications/comparative-study-of-user-experience-on-mobile-pedestrian-navigation-between-dig",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "4a7827d3-3a70-428f-ab0d-90d02cc61ee8",
+          "date": "2020-11-16",
+          "title": "Integrating douglas-peucker line simplification into routeboxer algorithm on a map-based Android application",
+          "summary": "Proceedings of the 5th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/integrating-douglas-peucker-line-simplification-into-routeboxer-algorithm-on-a-m",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "98c31a20-f2da-4457-9a6b-02f439237112",
+          "date": "2021-01-01",
+          "title": "Paratransit Trip Data Collection System with Smartphone GPS and REST Web Service in Malang, Indonesia",
+          "summary": "Indonesian Journal of Electrical Engineering and Informatics (IJEEI)",
+          "relatedUrl": "/publications/paratransit-trip-data-collection-system-with-smartphone-gps-and-rest-web-service",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "8cf0362f-3b7b-444e-99bf-bdbafd8a7e5e",
+          "date": "2021-04-01",
+          "title": "Usability improvement of public transit application through mental model and user journey",
+          "summary": "TELKOMNIKA (Telecommunication Computing Electronics and Control)",
+          "relatedUrl": "/publications/usability-improvement-of-public-transit-application-through-mental-model-and-use",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "261546c8-7666-4160-b456-0b3517c1a2f5",
+          "date": "2023-10-24",
+          "title": "Improving Route-Finding Performance of Dijkstra Algorithm and Maintaining Path Visual Cue Using Douglas-Peucker Algorithm",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/improving-route-finding-performance-of-dijkstra-algorithm-and-maintaining-path-v",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "0d0b8182-a76b-40cc-ad43-330a2f65ec42",
+          "date": "2023-10-24",
+          "title": "Enhancing the Efficiency of Navigation Systems: Dijkstra Algorithm Optimization Through Integration of Douglas-Peucker Line Simplification Technique",
+          "summary": "Proceedings of the 8th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/enhancing-the-efficiency-of-navigation-systems-dijkstra-algorithm-optimization-t",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "37df454c-f0aa-4d3c-84d0-e815a402bb8e",
+          "date": "2023-11-24",
+          "title": "Recommending Public Transit Route: Ant-Colony Optimization or Dijkstra?",
+          "summary": "2023 International Conference on Modeling &amp;amp; E-Information Research, Artificial Learning and Digital Applications (ICMERALDA)",
+          "relatedUrl": "/publications/recommending-public-transit-route-ant-colony-optimization-or-dijkstra",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "51a38606-cf13-49fb-8fc1-6f0523396e88",
+          "date": "2023-11-24",
+          "title": "Dynamic Load Distribution of Shortest-Path Finding in Client-Server Public Transit System",
+          "summary": "2023 International Conference on Modeling &amp;amp; E-Information Research, Artificial Learning and Digital Applications (ICMERALDA)",
+          "relatedUrl": "/publications/dynamic-load-distribution-of-shortest-path-finding-in-client-server-public-trans",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "0dde4088-b5e1-4191-b3ae-6941951128e9",
+          "date": "2024-02-04",
+          "title": "Peningkatan Performa Komputasi Sistem Navigasi Transportasi Publik Pada Perangkat Bergerak Melalui Penerapan Teknik Kompresi Data dan Penyederhanaan Graf",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/peningkatan-performa-komputasi-sistem-navigasi-transportasi-publik-pada-perangka",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "01165317-53c4-4ea4-83e9-31b5d7d2859d",
+          "date": "2024-12-10",
+          "title": "Peningkatan Performa Komputasi Sistem Navigasi Transportasi Publik Pada Perangkat Bergerak Melalui Penerapan Teknik Kompresi Data dan Penyederhanaan Graf",
+          "summary": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+          "relatedUrl": "/publications/peningkatan-performa-komputasi-sistem-navigasi-transportasi-publik-pada-perangka-2024",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "A line of studies on transit systems for Malang and beyond: route finding, trip planning, field data collection, and usability, published from 2016 to 2024."
+    },
+    "slug": "public-transit-navigation",
+    "updatedAt": "2026-09-14T08:31:47.445Z"
+  },
+  {
+    "body": [],
+    "research": {
+      "slug": "kit-build-concept-mapping",
+      "areas": ["hci-ux", "website"],
+      "draft": false,
+      "title": "Kit-Build Concept Mapping",
+      "status": "active",
+      "context": "The Kit-Build method asks learners to recompose a teacher's map from its parts. The lab's studies measure comprehension, retention, and higher-order thinking in classrooms and online.",
+      "methods": [
+        "Classroom experiments",
+        "Usability evaluation",
+        "Knowledge structure analysis",
+        "Conversation analysis"
+      ],
+      "outputs": [
+        {
+          "id": "07362b23-f571-4218-88e9-6210af751040",
+          "href": "/publications/user-experience-evaluation-on-computer-supported-concept-map-authoring-tool-of-k",
+          "type": "publication",
+          "label": "User Experience Evaluation on Computer- Supported Concept Map Authoring Tool of Kit-Build Concept Map Framework",
+          "recordSlug": "user-experience-evaluation-on-computer-supported-concept-map-authoring-tool-of-k"
+        },
+        {
+          "id": "6c02ac71-6a1f-429e-b162-f67eaa6453a2",
+          "href": "/articles/ux-of-a-concept-map-authoring-tool",
+          "type": "article",
+          "label": "How Two Concept Map Tools Felt to the People Using Them",
+          "recordSlug": "ux-of-a-concept-map-authoring-tool"
+        },
+        {
+          "id": "a942f572-1e05-4e17-abf7-f24b21e60d6c",
+          "href": "/articles/suggestions-in-concept-mapping-tools",
+          "type": "article",
+          "label": "What Suggestions Really Add to a Mapping Tool",
+          "recordSlug": "suggestions-in-concept-mapping-tools"
+        },
+        {
+          "id": "f08f552d-f88d-4340-b8ce-202c5a5c9a39",
+          "href": "/publications/the-performance-of-extended-scratch-build-concept-mapping-tool-in-blended-learni",
+          "type": "publication",
+          "label": "The Performance of Extended Scratch-Build Concept Mapping Tool in Blended Learning",
+          "recordSlug": "the-performance-of-extended-scratch-build-concept-mapping-tool-in-blended-learni"
+        },
+        {
+          "id": "99b575cc-5ace-4bca-885b-cbc1af842e0a",
+          "href": "/articles/extended-scratch-build-maps-that-grow",
+          "type": "article",
+          "label": "Extended Scratch-Build: a map students grow instead of replace",
+          "recordSlug": "extended-scratch-build-maps-that-grow"
+        },
+        {
+          "id": "4644cbe4-769d-40e5-99aa-0195c38f8dbd",
+          "href": "/articles/giving-online-study-time-a-real-job",
+          "type": "article",
+          "label": "Giving the online half of blended learning a real job",
+          "recordSlug": "giving-online-study-time-a-real-job"
+        },
+        {
+          "id": "60bbc96c-2ba6-428a-a213-7d053e54c278",
+          "href": "/publications/students-acceptance-towards-kit-build-concept-map-authoring-tool-in-supporting-l",
+          "type": "publication",
+          "label": "Students' acceptance towards kit-build concept map authoring tool in supporting learning of english reading comprehension",
+          "recordSlug": "students-acceptance-towards-kit-build-concept-map-authoring-tool-in-supporting-l"
+        },
+        {
+          "id": "8fc19163-e32f-4405-ac42-2d797e38f938",
+          "href": "/articles/what-a-ten-day-delay-shows-about-concept-mapping",
+          "type": "article",
+          "label": "What a Ten Day Delay Shows About Concept Mapping",
+          "recordSlug": "what-a-ten-day-delay-shows-about-concept-mapping"
+        },
+        {
+          "id": "833f9704-f1fb-499e-8303-3f5520c4c2ba",
+          "href": "/articles/collaborative-concept-mapping-across-two-screens",
+          "type": "article",
+          "label": "Collaborative Concept Mapping Across Two Screens",
+          "recordSlug": "collaborative-concept-mapping-across-two-screens"
+        },
+        {
+          "id": "619fcae6-5edf-4074-b35b-fb5e18d4c99b",
+          "href": "/publications/investigating-the-distribution-of-knowledge-structure-in-extended-concept-mappin",
+          "type": "publication",
+          "label": "Investigating the Distribution of Knowledge Structure in Extended Concept Mapping",
+          "recordSlug": "investigating-the-distribution-of-knowledge-structure-in-extended-concept-mappin"
+        },
+        {
+          "id": "56f4b513-6491-47c7-8e12-3b8779bb054a",
+          "href": "/articles/students-acceptance-kit-build-concept-map-tool",
+          "type": "article",
+          "label": "What Students Thought of the Kit-Build Concept Map Tool",
+          "recordSlug": "students-acceptance-kit-build-concept-map-tool"
+        },
+        {
+          "id": "e8b20aef-71d4-4b2f-a556-e62bf6bf8110",
+          "href": "/articles/reading-time-concept-map-retention",
+          "type": "article",
+          "label": "Reading Time Is the Hidden Variable in Concept Mapping",
+          "recordSlug": "reading-time-concept-map-retention"
+        },
+        {
+          "id": "dcb749d9-c704-4542-bcd2-8a12b9c4625c",
+          "href": "/articles/extended-concept-maps-knowledge-structure",
+          "type": "article",
+          "label": "Extended Concept Maps and the Shape of What Students Know",
+          "recordSlug": "extended-concept-maps-knowledge-structure"
+        },
+        {
+          "id": "189c91fe-51d6-4acb-bf63-e61b74142784",
+          "href": "/articles/web-tool-that-drafts-the-concept-map",
+          "type": "article",
+          "label": "A web tool that drafts the concept map for the teacher",
+          "recordSlug": "web-tool-that-drafts-the-concept-map"
+        },
+        {
+          "id": "0d62b341-2d16-4f70-91bc-4503a9181d5f",
+          "href": "/articles/helping-teachers-build-maps-faster",
+          "type": "article",
+          "label": "The Hidden Cost of a Good Concept Map Lesson",
+          "recordSlug": "helping-teachers-build-maps-faster"
+        },
+        {
+          "id": "5b34bbf8-2734-45f7-977d-78b0abaf9676",
+          "href": "/articles/semi-automatic-beats-fully-automatic",
+          "type": "article",
+          "label": "Why semi automatic beats fully automatic for lesson content",
+          "recordSlug": "semi-automatic-beats-fully-automatic"
+        },
+        {
+          "id": "651429e2-0f7b-4420-952e-11d4aa03a832",
+          "href": "/articles/what-pairs-say-while-rebuilding-a-map",
+          "type": "article",
+          "label": "Turning Paired Talk Into Something You Can Count",
+          "recordSlug": "what-pairs-say-while-rebuilding-a-map"
+        },
+        {
+          "id": "92220557-dfe3-4937-bbb6-8bc17dc14598",
+          "href": "/articles/kit-build-reading-comprehension-learning-effect",
+          "type": "article",
+          "label": "What a Delayed Test Says About Rebuilding a Map",
+          "recordSlug": "kit-build-reading-comprehension-learning-effect"
+        },
+        {
+          "id": "60c6bc2a-37bc-4ca8-8037-493476d9a4ab",
+          "href": "/articles/testing-a-learning-tool-with-tam",
+          "type": "article",
+          "label": "Testing a Learning Tool Against the Technology Acceptance Model",
+          "recordSlug": "testing-a-learning-tool-with-tam"
+        },
+        {
+          "id": "e14d50af-8746-4416-b999-808447043509",
+          "href": "/articles/text-access-concept-map-comprehension",
+          "type": "article",
+          "label": "Does Having the Text Open While Mapping Help You Learn?",
+          "recordSlug": "text-access-concept-map-comprehension"
+        },
+        {
+          "id": "ef959a95-f86e-4143-aa87-e4b9f4743b33",
+          "href": "/articles/edtech-acceptance-beyond-test-scores",
+          "type": "article",
+          "label": "Why Learning Tools Get Abandoned After the Study Ends",
+          "recordSlug": "edtech-acceptance-beyond-test-scores"
+        },
+        {
+          "id": "c2162ebe-c51f-4821-9e87-2d75136d17e0",
+          "href": "/articles/extended-scratch-build-tool-acceptance",
+          "type": "article",
+          "label": "What Students Thought of the Extended Scratch-Build Map Tool",
+          "recordSlug": "extended-scratch-build-tool-acceptance"
+        },
+        {
+          "id": "56172bb5-28d2-4173-80b0-a79c4ddaeca6",
+          "href": "/articles/extended-kit-build-steady-progress",
+          "type": "article",
+          "label": "Extended Kit Build: Steady Progress Instead of a Late Slide",
+          "recordSlug": "extended-kit-build-steady-progress"
+        },
+        {
+          "id": "d1514f57-8c87-4682-91de-ddaccba5c649",
+          "href": "/articles/concept-map-tool-cuts-authoring-time",
+          "type": "article",
+          "label": "A Tool That Suggests Concepts While Teachers Build a Map",
+          "recordSlug": "concept-map-tool-cuts-authoring-time"
+        },
+        {
+          "id": "b55cbfb1-8fd5-4c0d-9580-0e12cd23dbef",
+          "href": "/publications/design-and-development-of-semi-automatic-concept-map-authoring-support-tool",
+          "type": "publication",
+          "label": "Design and development of semi-automatic concept map authoring support tool",
+          "recordSlug": "design-and-development-of-semi-automatic-concept-map-authoring-support-tool"
+        },
+        {
+          "id": "3f83e336-20a0-4db0-8a10-a76982d90646",
+          "href": "/publications/semi-automatic-concept-map-generation-approach-of-web-based-kit-build-concept-ma",
+          "type": "publication",
+          "label": "Semi-Automatic Concept Map Generation Approach of Web-Based Kit-Build Concept Map Authoring Tool",
+          "recordSlug": "semi-automatic-concept-map-generation-approach-of-web-based-kit-build-concept-ma"
+        },
+        {
+          "id": "e013e389-a1ac-413c-8f60-f3af390bdcf8",
+          "href": "/publications/design-and-development-of-online-collaborative-learning-platform-of-kit-build-co",
+          "type": "publication",
+          "label": "Design and Development of Online Collaborative Learning Platform of Kit-Build Concept Map",
+          "recordSlug": "design-and-development-of-online-collaborative-learning-platform-of-kit-build-co"
+        },
+        {
+          "id": "0243a830-404a-4bf3-ad2a-f11d277fa427",
+          "href": "/articles/online-collaborative-kit-build-platform",
+          "type": "article",
+          "label": "Building an Online Collaborative Kit-Build Platform",
+          "recordSlug": "online-collaborative-kit-build-platform"
+        },
+        {
+          "id": "41b6a544-5d02-4f45-9706-df69d1056080",
+          "href": "/articles/real-time-middleware-collaborative-learning",
+          "type": "article",
+          "label": "Why Real-Time Middleware Decides Collaborative Learning",
+          "recordSlug": "real-time-middleware-collaborative-learning"
+        },
+        {
+          "id": "80bee7c6-84ce-4da0-8ac4-54d6303069bb",
+          "href": "/publications/online-collaborative-kit-build-concept-map-learning-effect-and-conversation-anal",
+          "type": "publication",
+          "label": "Online Collaborative Kit-Build Concept Map: Learning Effect and Conversation Analysis in Collaborative Learning of English as a Foreign Language Reading Comprehension",
+          "recordSlug": "online-collaborative-kit-build-concept-map-learning-effect-and-conversation-anal"
+        },
+        {
+          "id": "1e78f768-4cae-44f4-bacd-9a9440dcb29a",
+          "href": "/publications/online-collaborative-kit-build-concept-map-learning-effect-and-conversation-anal-2021",
+          "type": "publication",
+          "label": "Online Collaborative Kit-Build Concept Map: Learning Effect and Conversation Analysis in Collaborative Learning of English as a Foreign Language Reading Comprehension",
+          "recordSlug": "online-collaborative-kit-build-concept-map-learning-effect-and-conversation-anal-2021"
+        },
+        {
+          "id": "af5c367a-77fc-45ca-bf91-35fc4797b882",
+          "href": "/publications/efficient-online-collaborative-learning-through-concept-mapping-with-kit-build-c",
+          "type": "publication",
+          "label": "Efficient Online Collaborative Learning Through Concept Mapping with Kit-Build Concept Map",
+          "recordSlug": "efficient-online-collaborative-learning-through-concept-mapping-with-kit-build-c"
+        },
+        {
+          "id": "875b82bf-0c56-4417-9535-69b007a00172",
+          "href": "/articles/online-collaborative-kit-build-concept-map-results",
+          "type": "article",
+          "label": "Students Who Rebuild a Given Map Learn More Online",
+          "recordSlug": "online-collaborative-kit-build-concept-map-results"
+        },
+        {
+          "id": "630f8b04-77cb-487d-885c-647d211d990c",
+          "href": "/articles/real-time-online-concept-mapping-distance-learning",
+          "type": "article",
+          "label": "What Real Time Collaboration Adds to a Study Tool",
+          "recordSlug": "real-time-online-concept-mapping-distance-learning"
+        },
+        {
+          "id": "5d6c69ac-e3d9-4246-9f3c-dc6774fd3d10",
+          "href": "/publications/the-effect-of-extended-kit-build-concept-mapping-on-students-perceptions",
+          "type": "publication",
+          "label": "The Effect of Extended Kit-Build Concept Mapping on Students' Perceptions",
+          "recordSlug": "the-effect-of-extended-kit-build-concept-mapping-on-students-perceptions"
+        },
+        {
+          "id": "cddd2738-3ac7-4a43-a82b-3f2a4825b465",
+          "href": "/articles/why-extending-a-concept-map-differs-from-building-one",
+          "type": "article",
+          "label": "Why Extending a Concept Map Differs from Building One",
+          "recordSlug": "why-extending-a-concept-map-differs-from-building-one"
+        },
+        {
+          "id": "8136e4a9-d269-4cce-ad45-9d32d9573ab5",
+          "href": "/articles/what-students-think-of-extended-kit-build-mapping",
+          "type": "article",
+          "label": "What Students Think of Extended Kit Build Mapping",
+          "recordSlug": "what-students-think-of-extended-kit-build-mapping"
+        },
+        {
+          "id": "92b18004-1c07-4680-aa0c-5c9b245f5e16",
+          "href": "/publications/analysis-of-perceived-ease-of-use-perceived-usefulness-and-behavioral-intention",
+          "type": "publication",
+          "label": "Analysis of Perceived Ease of Use, Perceived Usefulness, and Behavioral Intention on Extended Scratch-Build Concept Mapping Tool",
+          "recordSlug": "analysis-of-perceived-ease-of-use-perceived-usefulness-and-behavioral-intention"
+        },
+        {
+          "id": "f64fa45f-f722-4e81-a7e8-c6bf4959c961",
+          "href": "/publications/influence-of-access-to-reading-material-during-concept-map-recomposition-in-read",
+          "type": "publication",
+          "label": "Influence of Access to Reading Material during Concept Map Recomposition in Reading Comprehension and Retention",
+          "recordSlug": "influence-of-access-to-reading-material-during-concept-map-recomposition-in-read"
+        },
+        {
+          "id": "fcbb056d-517d-4094-b6f1-0815ea0099f3",
+          "href": "/publications/investigating-the-tightness-of-connection-between-original-map-and-additional-ma",
+          "type": "publication",
+          "label": "Investigating the Tightness of Connection between Original Map and Additional Map in Extension Concept Mapping",
+          "recordSlug": "investigating-the-tightness-of-connection-between-original-map-and-additional-ma"
+        },
+        {
+          "id": "115c0431-2ee4-4020-aacd-ee2f12d8ae83",
+          "href": "/articles/how-tightly-students-connect-new-maps-to-old",
+          "type": "article",
+          "label": "How tightly students connect a new concept map to an old one",
+          "recordSlug": "how-tightly-students-connect-new-maps-to-old"
+        },
+        {
+          "id": "2ac553e4-92e0-4c29-887b-c27568e23091",
+          "href": "/articles/bridge-between-two-concept-maps",
+          "type": "article",
+          "label": "The bridge between two maps is where the learning shows",
+          "recordSlug": "bridge-between-two-concept-maps"
+        },
+        {
+          "id": "43a3ffb1-b656-4c04-93fa-5c668ebd192d",
+          "href": "/articles/extended-kit-build-memory-retention",
+          "type": "article",
+          "label": "Which Concept Mapping Style Helps Students Remember More?",
+          "recordSlug": "extended-kit-build-memory-retention"
+        },
+        {
+          "id": "841aaa77-bc55-42f7-a9dd-ef14b1fd4bb3",
+          "href": "/articles/delayed-test-real-learning-measure",
+          "type": "article",
+          "label": "The Test Two Weeks Later Tells the Real Story",
+          "recordSlug": "delayed-test-real-learning-measure"
+        },
+        {
+          "id": "4cc1bcac-6c2e-40a7-9678-db0a71d04f5f",
+          "href": "/articles/extension-concept-map-knowledge-quality",
+          "type": "article",
+          "label": "Extending a Concept Map: Two Methods, Two Outcomes",
+          "recordSlug": "extension-concept-map-knowledge-quality"
+        },
+        {
+          "id": "f67f4a86-fd06-4fe2-92d4-571977a448ce",
+          "href": "/articles/concept-maps-size-versus-quality",
+          "type": "article",
+          "label": "When a Bigger Concept Map Is Not a Better One",
+          "recordSlug": "concept-maps-size-versus-quality"
+        },
+        {
+          "id": "cfb363b8-dc85-4f20-a647-d3f194fa4ee8",
+          "href": "/publications/analysis-of-quality-of-knowledge-structure-and-students-perceptions-in-extension",
+          "type": "publication",
+          "label": "Analysis of quality of knowledge structure and students’ perceptions in extension concept mapping",
+          "recordSlug": "analysis-of-quality-of-knowledge-structure-and-students-perceptions-in-extension"
+        },
+        {
+          "id": "4673a20f-676e-4c47-8e94-49359fc0bcce",
+          "href": "/publications/investigating-the-memory-retention-in-extension-concept-mapping",
+          "type": "publication",
+          "label": "Investigating the memory retention in extension concept mapping",
+          "recordSlug": "investigating-the-memory-retention-in-extension-concept-mapping"
+        },
+        {
+          "id": "82689e2b-70f8-469a-9206-20e462f40ef0",
+          "href": "/publications/knowledge-reconstruction-with-kit-build-concept-map-a-review-from-student-experi",
+          "type": "publication",
+          "label": "Knowledge Reconstruction with Kit-Build Concept Map: A Review from Student Experience",
+          "recordSlug": "knowledge-reconstruction-with-kit-build-concept-map-a-review-from-student-experi"
+        },
+        {
+          "id": "52941aa6-e65d-4a0f-bd4b-50c44aaa05e3",
+          "href": "/articles/kit-build-coloured-link-feedback",
+          "type": "article",
+          "label": "How Coloured Links Turn a Concept Map Into Feedback",
+          "recordSlug": "kit-build-coloured-link-feedback"
+        },
+        {
+          "id": "24a69e74-d200-4dc6-b5b9-81131ae17348",
+          "href": "/articles/kit-build-concept-map-student-experience-review",
+          "type": "article",
+          "label": "Four Ways to Study, Ranked by the Students Who Tried Them",
+          "recordSlug": "kit-build-concept-map-student-experience-review"
+        },
+        {
+          "id": "47d4265a-89da-4657-a3a8-a98ac4300d50",
+          "href": "/publications/application-of-the-recomposition-method-to-mind-map-and-experimental-verificatio",
+          "type": "publication",
+          "label": "Application of the Recomposition Method to Mind Map and Experimental Verification of Learning Effect",
+          "recordSlug": "application-of-the-recomposition-method-to-mind-map-and-experimental-verificatio"
+        },
+        {
+          "id": "51cf612c-4bcf-4774-aa45-64a1f08d5547",
+          "href": "/publications/investigation-of-the-relationship-between-map-quality-and-higher-order-thinking",
+          "type": "publication",
+          "label": "Investigation of the Relationship Between Map Quality and Higher-Order Thinking in Kit-Build Concept Map",
+          "recordSlug": "investigation-of-the-relationship-between-map-quality-and-higher-order-thinking"
+        },
+        {
+          "id": "49dcf24d-cd91-4741-a872-ed3a05e46f64",
+          "href": "/articles/mind-map-recomposition-learning-effect",
+          "type": "article",
+          "label": "Rebuilding a Mind Map to Learn It Better",
+          "recordSlug": "mind-map-recomposition-learning-effect"
+        },
+        {
+          "id": "498b6ef6-cafe-4193-84ec-c6218762c7c3",
+          "href": "/articles/mind-map-recomposition-cognitive-load",
+          "type": "article",
+          "label": "Less Work, Same Learning: Rebuilding Only the Leaves",
+          "recordSlug": "mind-map-recomposition-cognitive-load"
+        },
+        {
+          "id": "13822238-8c58-4e22-8be0-46aee1e4b51b",
+          "href": "/articles/automated-concept-map-assessment",
+          "type": "article",
+          "label": "Can Software Grade a Concept Map as Well as a Teacher",
+          "recordSlug": "automated-concept-map-assessment"
+        },
+        {
+          "id": "adb2157c-9903-49f8-a365-e1c53cfaa8b3",
+          "href": "/articles/map-quality-and-higher-order-thinking",
+          "type": "article",
+          "label": "Map Quality and Higher Order Thinking in Kit Build Classrooms",
+          "recordSlug": "map-quality-and-higher-order-thinking"
+        },
+        {
+          "id": "954032ed-7a24-44ac-88e6-821443d0add6",
+          "href": "/publications/promoting-students-higher-order-thinking-with-concept-map-recomposition",
+          "type": "publication",
+          "label": "Promoting Students' Higher Order Thinking with Concept Map Recomposition",
+          "recordSlug": "promoting-students-higher-order-thinking-with-concept-map-recomposition"
+        },
+        {
+          "id": "8806bc47-6beb-4330-9558-b65216ffd97c",
+          "href": "/articles/concept-map-recomposition-higher-order-thinking",
+          "type": "article",
+          "label": "Concept Map Recomposition and Higher Order Thinking",
+          "recordSlug": "concept-map-recomposition-higher-order-thinking"
+        },
+        {
+          "id": "626a0494-0284-43c9-b0e7-d8646933b38b",
+          "href": "/articles/kit-build-vs-scratch-concept-mapping",
+          "type": "article",
+          "label": "Kit Build Versus Scratch Mapping: Which Pushes Students Further",
+          "recordSlug": "kit-build-vs-scratch-concept-mapping"
+        },
+        {
+          "id": "1184fb62-6f40-4b24-a635-1dac25499320",
+          "href": "/publications/evaluating-the-kit-build-concept-mapping-process-using-sub-map-scoring",
+          "type": "publication",
+          "label": "Evaluating the kit-build concept mapping process using sub-map scoring",
+          "recordSlug": "evaluating-the-kit-build-concept-mapping-process-using-sub-map-scoring"
+        },
+        {
+          "id": "c0b41353-82f8-4964-8691-63d15db3a8f4",
+          "href": "/articles/scoring-concept-map-process-sub-map-scoring",
+          "type": "article",
+          "label": "Scoring the Concept Map Process, Not Just the Result",
+          "recordSlug": "scoring-concept-map-process-sub-map-scoring"
+        },
+        {
+          "id": "1c166ee6-cc50-4af0-b3c8-58e24c9b6f5c",
+          "href": "/articles/same-concept-map-different-understanding",
+          "type": "article",
+          "label": "Why the Same Concept Map Can Mean Two Different Things",
+          "recordSlug": "same-concept-map-different-understanding"
+        },
+        {
+          "id": "4c9814dd-502d-4147-a2db-794fa32fee40",
+          "href": "/publications/investigating-the-efficacy-of-partial-decomposition-in-kit-build-concept-maps-fo",
+          "type": "publication",
+          "label": "Investigating the Efficacy of Partial Decomposition in Kit-Build Concept Maps for Reducing Cognitive Load and Enhancing Reading Comprehension",
+          "recordSlug": "investigating-the-efficacy-of-partial-decomposition-in-kit-build-concept-maps-fo"
+        },
+        {
+          "id": "7653c048-60dd-46b7-97a2-beaec636d8ca",
+          "href": "/articles/partial-concept-maps-lower-cognitive-load",
+          "type": "article",
+          "label": "Partial Concept Maps Cut Cognitive Load Without Cutting Learning",
+          "recordSlug": "partial-concept-maps-lower-cognitive-load"
+        },
+        {
+          "id": "100a967e-ba7d-45de-882c-100817af5fd4",
+          "href": "/articles/target-search-decomposition-reading-classes",
+          "type": "article",
+          "label": "Target Search Decomposition and the Art of a Lighter Reading Task",
+          "recordSlug": "target-search-decomposition-reading-classes"
+        }
+      ],
+      "summary": "A line of studies on the Kit-Build concept mapping method: recomposition tasks, extended maps, collaborative online learning, and automatic scoring, published from 2019 to 2024.",
+      "featured": false,
+      "question": "How can concept map recomposition support reading comprehension, knowledge retention, and higher-order thinking?",
+      "seoTitle": "Kit-Build Concept Mapping",
+      "startDate": "2019-01-01",
+      "milestones": [
+        {
+          "id": "2834b480-f005-4051-8d1c-75e2edd4f1c7",
+          "date": "2019-01-01",
+          "title": "User Experience Evaluation on Computer- Supported Concept Map Authoring Tool of Kit-Build Concept Map Framework",
+          "summary": "2019 International Conference on Sustainable Information Engineering and Technology (SIET)",
+          "relatedUrl": "/publications/user-experience-evaluation-on-computer-supported-concept-map-authoring-tool-of-k",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "5ad56522-a816-48f7-a8c4-5c1af9388ceb",
+          "date": "2020-09-19",
+          "title": "The Performance of Extended Scratch-Build Concept Mapping Tool in Blended Learning",
+          "summary": "2020 4th International Conference on Vocational Education and Training (ICOVET)",
+          "relatedUrl": "/publications/the-performance-of-extended-scratch-build-concept-mapping-tool-in-blended-learni",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "15b84813-5e47-42b9-99d0-6eacef74d082",
+          "date": "2020-11-16",
+          "title": "Students' acceptance towards kit-build concept map authoring tool in supporting learning of english reading comprehension",
+          "summary": "Proceedings of the 5th International Conference on Sustainable Information Engineering and Technology",
+          "relatedUrl": "/publications/students-acceptance-towards-kit-build-concept-map-authoring-tool-in-supporting-l",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "959f6d47-c93c-42bd-b728-39bf6ae1efcd",
+          "date": "2021-01-01",
+          "title": "Investigating the Distribution of Knowledge Structure in Extended Concept Mapping",
+          "summary": "Advances in Economics, Business and Management Research",
+          "relatedUrl": "/publications/investigating-the-distribution-of-knowledge-structure-in-extended-concept-mappin",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "247da9c4-e585-4357-8792-5fb57a3fb4d1",
+          "date": "2021-04-21",
+          "title": "Design and development of semi-automatic concept map authoring support tool",
+          "summary": "Research and Practice in Technology Enhanced Learning",
+          "relatedUrl": "/publications/design-and-development-of-semi-automatic-concept-map-authoring-support-tool",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e5ae7cfb-47ca-432e-8842-2489c908cf31",
+          "date": "2021-04-23",
+          "title": "Semi-Automatic Concept Map Generation Approach of Web-Based Kit-Build Concept Map Authoring Tool",
+          "summary": "International Journal of Interactive Mobile Technologies (iJIM)",
+          "relatedUrl": "/publications/semi-automatic-concept-map-generation-approach-of-web-based-kit-build-concept-ma",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e2523736-aee3-42af-9d98-307f5bb53b13",
+          "date": "2021-04-30",
+          "title": "Design and Development of Online Collaborative Learning Platform of Kit-Build Concept Map",
+          "summary": "Journal of Information Technology and Computer Science",
+          "relatedUrl": "/publications/design-and-development-of-online-collaborative-learning-platform-of-kit-build-co",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "7c0e9016-ed13-44dc-bafd-354533964740",
+          "date": "2021-06-30",
+          "title": "Online Collaborative Kit-Build Concept Map: Learning Effect and Conversation Analysis in Collaborative Learning of English as a Foreign Language Reading Comprehension",
+          "summary": "IEICE Transactions on Information and Systems",
+          "relatedUrl": "/publications/online-collaborative-kit-build-concept-map-learning-effect-and-conversation-anal",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "eabd9176-9f04-46a2-b37d-15130d3747a6",
+          "date": "2021-07-01",
+          "title": "Online Collaborative Kit-Build Concept Map: Learning Effect and Conversation Analysis in Collaborative Learning of English as a Foreign Language Reading Comprehension",
+          "summary": "IEICE Transactions on Information and Systems",
+          "relatedUrl": "/publications/online-collaborative-kit-build-concept-map-learning-effect-and-conversation-anal-2021",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "316cf5e6-1559-4ebc-bd56-ad0614ac690d",
+          "date": "2021-09-13",
+          "title": "Efficient Online Collaborative Learning Through Concept Mapping with Kit-Build Concept Map",
+          "summary": "6th International Conference on Sustainable Information Engineering and Technology 2021",
+          "relatedUrl": "/publications/efficient-online-collaborative-learning-through-concept-mapping-with-kit-build-c",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "b38d997e-b703-4238-bf15-f87f895e1a1e",
+          "date": "2021-09-18",
+          "title": "The Effect of Extended Kit-Build Concept Mapping on Students' Perceptions",
+          "summary": "2021 7th International Conference on Education and Technology (ICET)",
+          "relatedUrl": "/publications/the-effect-of-extended-kit-build-concept-mapping-on-students-perceptions",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "5f2e1ee0-25d3-4824-8726-a15dfb4b23a4",
+          "date": "2021-10-02",
+          "title": "Analysis of Perceived Ease of Use, Perceived Usefulness, and Behavioral Intention on Extended Scratch-Build Concept Mapping Tool",
+          "summary": "2021 7th International Conference on Electrical, Electronics and Information Engineering (ICEEIE)",
+          "relatedUrl": "/publications/analysis-of-perceived-ease-of-use-perceived-usefulness-and-behavioral-intention",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "4294bab2-0092-4438-a698-e6894d693d78",
+          "date": "2021-11-01",
+          "title": "Influence of Access to Reading Material during Concept Map Recomposition in Reading Comprehension and Retention",
+          "summary": "IEICE Transactions on Information and Systems",
+          "relatedUrl": "/publications/influence-of-access-to-reading-material-during-concept-map-recomposition-in-read",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "ddf94237-20a9-4e4a-b36e-2d4322f2e4c3",
+          "date": "2021-11-22",
+          "title": "Investigating the Tightness of Connection between Original Map and Additional Map in Extension Concept Mapping",
+          "summary": "Proceedings of the 29th International Conference on Computers in Education (ICCE 2021)",
+          "relatedUrl": "/publications/investigating-the-tightness-of-connection-between-original-map-and-additional-ma",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "17708533-5021-4bb0-b47a-dbe37d6887c6",
+          "date": "2022-04-07",
+          "title": "Analysis of quality of knowledge structure and students’ perceptions in extension concept mapping",
+          "summary": "Research and Practice in Technology Enhanced Learning",
+          "relatedUrl": "/publications/analysis-of-quality-of-knowledge-structure-and-students-perceptions-in-extension",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "b4f45934-6bc1-490b-b2eb-507cdedcc876",
+          "date": "2022-06-10",
+          "title": "Investigating the memory retention in extension concept mapping",
+          "summary": "Improving Assessment and Evaluation Strategies on Online Learning",
+          "relatedUrl": "/publications/investigating-the-memory-retention-in-extension-concept-mapping",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "9ca135fc-990a-44e6-9328-9699ec0c5e29",
+          "date": "2022-11-22",
+          "title": "Knowledge Reconstruction with Kit-Build Concept Map: A Review from Student Experience",
+          "summary": "7th International Conference on Sustainable Information Engineering and Technology 2022",
+          "relatedUrl": "/publications/knowledge-reconstruction-with-kit-build-concept-map-a-review-from-student-experi",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "93f742f1-313f-4350-aa6a-402f23688a6a",
+          "date": "2023-01-01",
+          "title": "Application of the Recomposition Method to Mind Map and Experimental Verification of Learning Effect",
+          "summary": "Lecture Notes in Computer Science",
+          "relatedUrl": "/publications/application-of-the-recomposition-method-to-mind-map-and-experimental-verificatio",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e527abee-6263-4b58-ad7b-356915ed2b4a",
+          "date": "2023-01-01",
+          "title": "Investigation of the Relationship Between Map Quality and Higher-Order Thinking in Kit-Build Concept Map",
+          "summary": "Lecture Notes in Computer Science",
+          "relatedUrl": "/publications/investigation-of-the-relationship-between-map-quality-and-higher-order-thinking",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "639b3cb9-cf9e-4204-81c0-6642f24264fc",
+          "date": "2023-08-01",
+          "title": "Promoting Students' Higher Order Thinking with Concept Map Recomposition",
+          "summary": "IEICE Transactions on Information and Systems",
+          "relatedUrl": "/publications/promoting-students-higher-order-thinking-with-concept-map-recomposition",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "231cb7d7-512e-452f-aa61-442f71636c5f",
+          "date": "2023-09-14",
+          "title": "Evaluating the kit-build concept mapping process using sub-map scoring",
+          "summary": "Research and Practice in Technology Enhanced Learning",
+          "relatedUrl": "/publications/evaluating-the-kit-build-concept-mapping-process-using-sub-map-scoring",
+          "relatedLabel": "Read the paper"
+        },
+        {
+          "id": "e0f03a8c-ac4b-4a91-93d9-ed5d78ea4160",
+          "date": "2024-05-01",
+          "title": "Investigating the Efficacy of Partial Decomposition in Kit-Build Concept Maps for Reducing Cognitive Load and Enhancing Reading Comprehension",
+          "summary": "IEICE Transactions on Information and Systems",
+          "relatedUrl": "/publications/investigating-the-efficacy-of-partial-decomposition-in-kit-build-concept-maps-fo",
+          "relatedLabel": "Read the paper"
+        }
+      ],
+      "memberSlugs": [],
+      "seoDescription": "A line of studies on the Kit-Build concept mapping method: recomposition tasks, extended maps, collaborative online learning, and automatic scoring, published from 2019 to 2024."
+    },
+    "slug": "kit-build-concept-mapping",
+    "updatedAt": "2026-09-14T08:31:38.556Z"
+  }
+]
