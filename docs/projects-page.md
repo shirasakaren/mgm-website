@@ -6,17 +6,17 @@ The lusion constants below were read from lusion.co's own (unminified) bundle an
 
 ## Files
 
-| Area                 | Files (under `apps/web/src/`)                                                                                                                                        |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Page                 | `app/projects/page.tsx` (server component: fetches the CMS feed, `overflow-x-clip` root, gutters `px-6 sm:px-10 lg:px-14`)                                           |
-| Choreography signals | `lib/projects-intro.ts` (intro and grid-reveal signals), `lib/scroll-lock.ts` (owner-counted lock), `lib/page-scroll.ts` (scroller registry)                         |
-| Shared helpers       | `lib/reduced-motion.ts` (live reduced-motion preference), `lib/random.ts` (seeded random for decorative motion)                                                      |
-| Hero                 | `components/projects/projects-hero.tsx` (markup, alignment, entrance, intro lock), `components/projects/hero-play.ts` (idle and hover play)                          |
-| Grid and card shell  | `components/projects/projects-grid.tsx` (gated list reveal), `components/projects/project-card.tsx` (link, accessible name, focus ring)                              |
-| Card cover           | `components/projects/project-card-cover.tsx` (3:2 frame, DOM cover, DOM opening and hover)                                                                           |
-| Card text            | `components/projects/project-card-footer.tsx`, `components/projects/card-text/*` (scramble, drop, flip, ticker, triggers)                                            |
-| Cover stage          | `components/projects/stage/*` (`projects-stage.tsx` host, `cover-engine.ts`, `cover-shaders.ts`, `cover-textures.ts`, `smooth-scroller.ts`, `frame-loop.ts`, others) |
-| Project zoom         | `components/transition/project-transition.tsx`, `project-zoom*.ts`, `lib/project-transition.ts` (spec in `docs/page-transition.md`)                                  |
+| Area                 | Files (under `apps/web/src/`)                                                                                                                                           |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Page                 | `app/projects/page.tsx` (server component: reads the project feed from `content/projects.json` at build time, `overflow-x-clip` root, gutters `px-6 sm:px-10 lg:px-14`) |
+| Choreography signals | `lib/projects-intro.ts` (intro and grid-reveal signals), `lib/scroll-lock.ts` (owner-counted lock), `lib/page-scroll.ts` (scroller registry)                            |
+| Shared helpers       | `lib/reduced-motion.ts` (live reduced-motion preference), `lib/random.ts` (seeded random for decorative motion)                                                         |
+| Hero                 | `components/projects/projects-hero.tsx` (markup, alignment, entrance, intro lock), `components/projects/hero-play.ts` (idle and hover play)                             |
+| Grid and card shell  | `components/projects/projects-grid.tsx` (gated list reveal), `components/projects/project-card.tsx` (link, accessible name, focus ring)                                 |
+| Card cover           | `components/projects/project-card-cover.tsx` (3:2 frame, DOM cover, DOM opening and hover)                                                                              |
+| Card text            | `components/projects/project-card-footer.tsx`, `components/projects/card-text/*` (scramble, drop, flip, ticker, triggers)                                               |
+| Cover stage          | `components/projects/stage/*` (`projects-stage.tsx` host, `cover-engine.ts`, `cover-shaders.ts`, `cover-textures.ts`, `smooth-scroller.ts`, `frame-loop.ts`, others)    |
+| Project zoom         | `components/transition/project-transition.tsx`, `project-zoom*.ts`, `lib/project-transition.ts` (spec in `docs/page-transition.md`)                                     |
 
 ## Choreography: the intro, the lock, and the list reveal
 
@@ -142,13 +142,13 @@ Each project has a detail page modeled on lusion.co's project pages. Above 812 p
 
 ### Files
 
-| Area       | Files (under `apps/web/src/`)                                                                                                                            |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Route      | `app/projects/[slug]/page.tsx` (metadata, viewport colour, the theme `<style>`), `lib/project-cms-server.ts` (`readProjectDetail`, one read per request) |
-| View model | `components/projects/detail/detail-data.ts` (fallbacks, resolved URLs, the next project)                                                                 |
-| Markup     | `components/projects/detail/project-detail.tsx`, `detail-media.tsx`, `detail-cta.tsx`, `project-detail.module.css`                                       |
-| Motion     | `components/projects/detail/detail-controller.ts` (scroll mapping, entrance, parallax, next project, DOM media), `detail-session.ts`, `detail-math.ts`   |
-| Around it  | `detail/stage/*` (the WebGL media stage), `detail/topography.tsx` (the background), the header's Back pill (`site-header.tsx`)                           |
+| Area       | Files (under `apps/web/src/`)                                                                                                                                                                                            |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Route      | `app/projects/[slug]/page.tsx` (metadata, viewport colour, the theme `<style>`), `lib/project-cms-server.ts` (`readProjectDetail`, from `content/projects.json`); one static page per project via `generateStaticParams` |
+| View model | `components/projects/detail/detail-data.ts` (fallbacks, resolved URLs, the next project)                                                                                                                                 |
+| Markup     | `components/projects/detail/project-detail.tsx`, `detail-media.tsx`, `detail-cta.tsx`, `project-detail.module.css`                                                                                                       |
+| Motion     | `components/projects/detail/detail-controller.ts` (scroll mapping, entrance, parallax, next project, DOM media), `detail-session.ts`, `detail-math.ts`                                                                   |
+| Around it  | `detail/stage/*` (the WebGL media stage), `detail/topography.tsx` (the background), the header's Back pill (`site-header.tsx`)                                                                                           |
 
 ### Data and fallbacks
 
@@ -253,7 +253,7 @@ Follow `docs/testing-verification.md`, plus these page-specific checks:
 
 - In dev, `page.goto` waiting for `load` can return after the roughly 2 s intro has already finished. Observe the intro with `waitUntil: "commit"` and poll.
 - Judge the WebGL stage on a real GPU: launch headless Chromium with `--use-angle=metal --enable-gpu`. Playwright's Chromium otherwise gets its WebGL2 context from SwiftShader, which `failIfMajorPerformanceCaveat` doesn't reject, so the stage runs there in software, slowly.
-- CI's e2e serves three fixture projects (`docs/testing-verification.md`), and those specs switch WebGL off, so CI covers the list, the detail page and the project zoom through their DOM fallbacks. The WebGL card animations must still be verified locally against the CMS data.
+- The WebGL card animations must be verified locally with a GPU-enabled browser; headless runs only exercise the DOM fallbacks.
 - Useful dev-only probes: `window.__projectsStage` (mode, per-card state and uniforms, render count), `window.__heroPlay` (solver state, current beat) and `window.__projectDetail()` (a detail page's layout, entrance, travel, accumulator, hand-off and stage ownership). None of them exists in production builds.
 - Detail page scenarios: every width from 320 to 1920 px, in light and dark mode, including 820 and 1180 px touch tablets. The start, middle and end of the strip. The accumulator filled with the wheel, a touch pull and a click or Enter on the panel. Keyboard-only traversal. Reduced motion, no JS, a legacy record and a record whose media 404. A lost WebGL context must hand the DOM media back.
 - Scenarios worth repeating after any change: 10 reloads (half from deep in the page), internal navigation through the curtain, the nav menu opened during the intro, a slow scroll and a flick through the whole list and back, rapid hovers while scrolling, keyboard Tab and Enter from the hero arrow, reduced motion, dark mode, 390 px touch, no JS, and the navigation fuzzer.

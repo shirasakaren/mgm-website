@@ -13,6 +13,7 @@ import { HQ_ADDRESS_LINES } from "@/data/contact";
 import { LEGAL_LINKS } from "@/data/nav";
 import { scrollPageTo } from "@/lib/page-scroll";
 import { fadeUpOnScroll } from "@/lib/scroll-reveal";
+import { withBasePath } from "@/lib/base-path";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -190,7 +191,7 @@ export function CtaFooter({ lead }: { lead?: ReactNode } = {}) {
       {lead}
       <div className="footer-reveal mx-auto grid max-w-5xl gap-10 px-6 py-14 sm:px-10 sm:py-16 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)_auto] lg:items-end lg:px-16">
         <div>
-          <Image src="/logo.svg" alt="MGM Laboratory" width={32} height={32} />
+          <Image src={withBasePath("/logo.svg")} alt="MGM Laboratory" width={32} height={32} />
           <p className="mt-4 font-display text-xl font-semibold tracking-tight">
             Media, Game, and Mobile Laboratory
           </p>

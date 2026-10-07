@@ -10,13 +10,18 @@ type MemberDetailPageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export function generateStaticParams() {
-  return MEMBERS.map((member) => ({ slug: member.slug }));
+// Every bundled and CMS profile gets a page, and so does a renamed
+// profile's previous slug (it redirects to the new one).
+export async function generateStaticParams() {
+  const records = await ensureMemberCmsSeeded();
+  const slugs = new Set([
+    ...MEMBERS.map((member) => member.slug),
+    ...records.flatMap((record) => [record.slug, record.sourceSlug ?? record.slug]),
+  ]);
+  return [...slugs].map((slug) => ({ slug }));
 }
 
-// A renamed profile needs to resolve at request time so its previous URL can
-// immediately redirect instead of serving an obsolete statically generated page.
-export const revalidate = 0;
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: MemberDetailPageProps): Promise<Metadata> {
   const { slug } = await params;

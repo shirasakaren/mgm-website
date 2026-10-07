@@ -1,4 +1,4 @@
-import type { ProjectThemeId } from "@repo/shared";
+import type { ProjectThemeId } from "@/lib/content-types";
 
 import type { Member } from "@/data/members";
 import {

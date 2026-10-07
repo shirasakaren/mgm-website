@@ -26,7 +26,6 @@ export const NAV_ITEMS: (NavItem & { accent: PatternTone })[] = [
   { kind: "link", label: "Publications", href: "/publications", accent: "green" },
   { kind: "link", label: "Member", href: "/member", accent: "blue" },
   { kind: "link", label: "Articles", href: "/articles", accent: "red" },
-  { kind: "link", label: "Contact", href: "/contact", accent: "green" },
 ];
 
 export const CONTACT_EMAIL = "hi@labmgm.org";

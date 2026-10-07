@@ -1,5 +1,6 @@
 import { formatArticleDate, slugify as slugifyText, type ArticleBlock } from "@/lib/article-cms";
 import type { Member } from "@/data/members";
+import { withBasePath } from "@/lib/base-path";
 
 /** Shared types and helpers for the research initiatives editorial workflow. */
 
@@ -213,8 +214,8 @@ export function researchYears(research: ResearchDraft) {
 /** Resolves a cover key to a loadable URL — bundled seed art or CMS media. */
 export function researchCoverUrl(coverKey?: string) {
   if (!coverKey) return undefined;
-  if (coverKey.startsWith("static/")) return `/${coverKey.slice("static/".length)}`;
-  return `/api/research-cms/media/${encodeURIComponent(coverKey)}`;
+  if (coverKey.startsWith("static/")) return withBasePath(`/${coverKey.slice("static/".length)}`);
+  return withBasePath(`/media/research/${encodeURIComponent(coverKey)}`);
 }
 
 /**

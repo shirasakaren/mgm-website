@@ -1,4 +1,4 @@
-import type { ProjectThemeId } from "@repo/shared";
+import type { ProjectThemeId } from "@/lib/content-types";
 
 import type { Member, MemberAccent } from "@/data/members";
 import { categorySlug, nextArticleSlug } from "@/lib/article-index";
@@ -12,6 +12,7 @@ import {
 import type { CmsMemberRecord } from "@/lib/member-cms";
 
 import { buildStory, readingMinutes, type Story } from "./story-model";
+import { memberPhotoUrl } from "@/lib/member-cms";
 
 /**
  * The article page's view model: everything the hero, the story and the
@@ -79,7 +80,7 @@ function authorOf(member: Member, records: readonly CmsMemberRecord[]): DetailAu
     role: roleOf(member),
     initials: initialsOf(member.name),
     accent: member.accent,
-    photoUrl: photoKey ? `/api/member-cms/media/${encodeURIComponent(photoKey)}` : undefined,
+    photoUrl: photoKey ? memberPhotoUrl(photoKey) : undefined,
     photoPosition: profile?.photoPosition,
   };
 }

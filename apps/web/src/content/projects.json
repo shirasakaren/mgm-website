@@ -1,0 +1,2679 @@
+[
+  {
+    "body": [],
+    "project": {
+      "cta": {
+        "url": "https://shirasakaren.github.io/waawer-coaster/",
+        "label": "Play It"
+      },
+      "slug": "waawer-coaster",
+      "draft": false,
+      "links": [],
+      "media": [
+        {
+          "id": "d656d655-36ac-4327-a4f5-2339801f35a3",
+          "key": "demo-waawer-coaster-e2cfec0c-a4ea-4f92-b658-8ff5f9033812.mp4",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-waawer-coaster-0be1a8af-9e40-4fb1-bb0e-1009c47f83e0.jpg"
+        },
+        {
+          "id": "c9932131-d4f2-4214-a06f-7302732c4b69",
+          "key": "demo-waawer-coaster-99f0f676-e833-4ae5-a2c9-68a4b5ec895c.mp4",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-waawer-coaster-10ef818a-fb48-4edd-ab64-9e4415dad136.jpg"
+        },
+        {
+          "id": "dc036cd9-c4b4-4b13-ae73-095c698a956b",
+          "key": "demo-waawer-coaster-ab91a08c-3e38-4bb5-896e-249549134a5a.mp4",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-waawer-coaster-4432e709-be04-403b-ae6c-c09813abdad8.jpg"
+        },
+        {
+          "id": "74fee008-4f00-4e31-923f-e143dce19d64",
+          "key": "demo-waawer-coaster-08c20b7e-3598-49ad-bf13-09e17aa63f1c.mp4",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-waawer-coaster-91d3fcbd-c11d-4fb0-8526-2ec8a40aa7ad.jpg"
+        }
+      ],
+      "title": "WAAWer Coaster",
+      "status": "completed",
+      "outputs": [],
+      "summary": "Fun rollercoaster game",
+      "coverKey": "project-waawer-coaster-153b0e22-6241-42ad-9178-b94f63c5ae6f.jpg",
+      "featured": true,
+      "services": ["Design", "3D Assets", "Concept", "Audio", "Animations", "Development"],
+      "techStack": [],
+      "videoMode": "none",
+      "categories": ["game", "website"],
+      "description": "WAAWer Coaster is a cozy toon roller coaster builder that runs in the browser. You lay track piece by piece across a living cartoon valley, close the circuit, send the train, and listen to the riders shout. Every model, sound and song is made in code. No downloads, no asset files.",
+      "galleryKeys": [],
+      "contributors": [
+        {
+          "id": "53c597d3-47a0-41a9-8633-1a6b5de75423",
+          "kind": "residence",
+          "name": "Shirasaka Ren",
+          "role": "Developer",
+          "memberSlug": "ren",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        }
+      ],
+      "organizations": []
+    },
+    "slug": "waawer-coaster",
+    "updatedAt": "2026-10-05T08:15:26.218Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [],
+    "project": {
+      "cta": {
+        "url": "https://zemi.ac",
+        "label": "Launch Project"
+      },
+      "slug": "zemi",
+      "draft": false,
+      "links": [
+        {
+          "id": "27ba0e5d-447b-4e73-a323-63f368f971b3",
+          "url": "https://github.com/MGM-Laboratory/zemi",
+          "label": "GitHub"
+        }
+      ],
+      "media": [
+        {
+          "id": "cover",
+          "key": "project-zemi-89530d51-c9f2-4aff-bdd4-fa26791dea53.jpg",
+          "kind": "image",
+          "size": "full",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "id": "59c9b4f2-a751-4ab9-8d7c-72717f7b13a5",
+          "key": "demo-zemi-7f2a1e2a-0973-481e-b499-e07d1a5cf1ce.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-fcf01df0-8d8d-432e-a380-0f9de228af26.jpg"
+        },
+        {
+          "id": "af18f85d-f410-47d0-89f4-59c936d74bc6",
+          "key": "demo-zemi-7a46daab-8b8a-4e50-9c76-e24a07f149d7.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-2aca5884-df00-4c88-bcfc-ccaaa551c2c2.jpg"
+        },
+        {
+          "id": "2e83b469-268f-4cfc-842a-889c42c569d7",
+          "key": "demo-zemi-2bbf4922-07ff-4169-a1e7-d319e194f203.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-6f043074-1f0e-4ec1-b477-ef1107c92251.jpg"
+        },
+        {
+          "id": "0916c7d4-a169-4f56-9668-7763a88dd3ab",
+          "key": "demo-zemi-1162403a-da1c-4650-9b1c-15f302bfa0ba.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-c5751009-68fd-4a85-aa73-2423e3e48c72.jpg"
+        },
+        {
+          "id": "c982183d-e760-4a81-b2ba-8f1a775a4bb6",
+          "key": "demo-zemi-04e5b544-5933-4464-adaf-0083c0b2e11f.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-eed96e74-dfd9-44e5-9b6d-9e041d813100.jpg"
+        },
+        {
+          "id": "cf2096e1-58b1-4855-a69c-ce60486b198a",
+          "key": "demo-zemi-03b8630a-3513-4bef-990b-bfecc94e43cf.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-35be2d6f-004e-43c5-9766-aa217debf632.jpg"
+        },
+        {
+          "id": "0ac2f2b7-6d62-4ae8-989e-4eaaab57aff8",
+          "key": "demo-zemi-48366a24-0cf2-419a-b901-82e78d9aa11c.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-0e29101f-7744-4bb9-b90a-c1bbcc6f7ea7.jpg"
+        },
+        {
+          "id": "4a29d06e-d167-42aa-b16b-fc28bc7892b7",
+          "key": "demo-zemi-d741fc4e-4030-4f7b-b3f5-99b1152d1341.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-76fcf01e-74de-426c-baca-e3015e1c7a01.jpg"
+        },
+        {
+          "id": "b4b33d35-1bbc-4887-b133-09aedb730454",
+          "key": "demo-zemi-ad0592b2-bba6-4beb-91e0-446eed622e4f.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-6f8b2c6b-9823-4e91-a1f3-84fa48f2dc72.jpg"
+        },
+        {
+          "id": "c25cf68b-cbd8-41c6-b883-32288fc84f35",
+          "key": "demo-zemi-033dbdeb-c3ef-41b3-8563-10a0c50c67b2.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-8464d9a5-0979-4384-a934-8cf03dace0a8.jpg"
+        },
+        {
+          "id": "d681255e-1316-4e4e-9873-2be23bd75631",
+          "key": "demo-zemi-af307494-bb06-4cf8-972e-ed0729268aaa.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-72d5d0bb-859b-4d6d-8605-8f953f9a4564.jpg"
+        },
+        {
+          "id": "49d53c2f-d2cb-4d5f-bcbb-ef2d694a0bb0",
+          "key": "demo-zemi-5f7d3449-88c0-4bbf-81bf-c45c73c87ec0.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-e6f5d56d-335f-4d7a-b766-150cf3d87277.jpg"
+        },
+        {
+          "id": "7f3fba80-26d6-4034-8e6c-6984d12b2dff",
+          "key": "demo-zemi-7501454e-f915-48c8-888a-9bff77c7f4d2.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1440,
+          "height": 774,
+          "posterKey": "project-zemi-0777d791-8309-48a7-916a-60720a10e122.jpg"
+        }
+      ],
+      "theme": "sunburst",
+      "title": "Zemi",
+      "status": "in-progress",
+      "outputs": [],
+      "summary": "Zemi is our website for seminar",
+      "coverKey": "project-zemi-89530d51-c9f2-4aff-bdd4-fa26791dea53.jpg",
+      "featured": true,
+      "services": [
+        "Concept",
+        "Development",
+        "3D Asset",
+        "Animations",
+        "UX Research",
+        "User Testing"
+      ],
+      "techStack": [],
+      "videoMode": "none",
+      "categories": ["website", "hci-ux"],
+      "description": "Zemi is a weekly seminar run by MGM Laboratory. Every Friday from 13:15 to 15:15 WIB, Master’s and PhD students share research in progress, undergrads see what research looks like from the inside, and everyone gets better at asking questions. It happens in a classroom or a theater on campus and on the livestream at the same time. It is free, it is friendly, and nobody is grading you.",
+      "galleryKeys": [],
+      "contributors": [
+        {
+          "id": "14efa288-7219-4858-8c9b-40eab59cf507",
+          "kind": "residence",
+          "name": "Shirasaka Ren",
+          "role": "Developer",
+          "memberSlug": "ren",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        }
+      ],
+      "organizations": []
+    },
+    "slug": "zemi",
+    "updatedAt": "2026-10-02T10:02:07.709Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [],
+    "project": {
+      "cta": {
+        "url": "https://neuroclash-gg.vercel.app/",
+        "label": "Launch Project"
+      },
+      "slug": "neuroclash",
+      "draft": false,
+      "links": [],
+      "media": [
+        {
+          "id": "3701e424-187d-46f6-858b-15743f20f837",
+          "key": "demo-neuroclash-a3f6db8c-acdf-42cb-9204-777d3ec431e1.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-neuroclash-a6521bc1-bee5-402f-b52e-30fc73c3c5e4.jpg"
+        },
+        {
+          "id": "27d0ab2f-4702-4a0d-970f-36294c43fe0e",
+          "key": "demo-neuroclash-ec43886c-91b7-4b42-afa4-1a8475cb5fe0.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-neuroclash-329c4f71-94a5-403f-a11e-857f3965e915.jpg"
+        },
+        {
+          "id": "a743fa4f-4abe-4252-babf-dd80a602efe5",
+          "key": "demo-neuroclash-cf3c2c33-73f2-4d36-810b-18e30908144a.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-neuroclash-043e3a5e-8d9c-4fd3-a66a-880a23d80e96.jpg"
+        },
+        {
+          "id": "48bbbcd5-9b66-4216-905f-c72bd33b04a5",
+          "key": "demo-neuroclash-bc455332-1287-4e6a-ab71-4219dd1109ca.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-neuroclash-cf76536d-f700-4033-b5b9-73a7dc3357ae.jpg"
+        },
+        {
+          "id": "8d32cfba-5706-4076-adff-324a49cc4d59",
+          "key": "demo-neuroclash-7d676b0f-8205-4d9e-abad-1e844c6acedb.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-neuroclash-89f9ceea-1d91-4c19-bd85-60b965826e17.jpg"
+        },
+        {
+          "id": "8b5478d4-97cb-4c08-9ffc-30eebccf3171",
+          "key": "demo-neuroclash-6b04512f-f2a7-41fe-95a7-097b4a8051fc.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-neuroclash-1ab90b30-a9e1-4b71-9c67-a8f914e77750.jpg"
+        },
+        {
+          "id": "cfb92352-8db5-4b6b-8774-c6733bdfd0a2",
+          "key": "demo-neuroclash-3b898a8a-5388-4805-bfda-55c74ee8cf5d.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-neuroclash-ad0bef9a-2daa-4335-b1e0-95091f19ed08.jpg"
+        }
+      ],
+      "theme": "sky",
+      "title": "Neuroclash",
+      "status": "planned",
+      "outputs": [],
+      "summary": "NeuroClash GG is a web-based edutainment platform that transforms conventional learning into a competitive auto-battler experience for students. The platform features an AI-powered question generator using the Gemini API to process PDFs into structured quizzes with answer",
+      "coverKey": "project-neuroclash-02644cfd-fac2-4205-bba7-93f809406fd6.jpg",
+      "featured": false,
+      "services": [],
+      "techStack": [],
+      "videoMode": "none",
+      "categories": ["game", "website"],
+      "description": "NeuroClash GG is a web-based edutainment platform that transforms conventional learning into a competitive auto-battler experience for students. The platform features an AI-powered question generator using the Gemini API to process PDFs into structured quizzes with answer keys and difficulty levels. It includes real-time 1v1 multiplayer battles with HP systems, damage calculation, and a StarBox comeback mechanic that gives losing players a chance to recover. Solo mode with an adaptive bot opponent and customizable.",
+      "galleryKeys": [],
+      "contributors": [
+        {
+          "id": "61fbfe90-1eb7-4439-bcff-cec90595582f",
+          "kind": "residence",
+          "name": "Rhesa Tsaqif Adyatma",
+          "memberSlug": "rhesa-tsaqif-adyatma",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "d411339d-cd67-4574-9772-9d8ca994fcba",
+          "kind": "residence",
+          "name": "Mohamad Robi Alwan",
+          "memberSlug": "mohamad-robi-alwan",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "0cd73b8f-7045-4fa3-b3c6-197041028290",
+          "kind": "non-residence",
+          "name": "Rafi Ananta"
+        }
+      ],
+      "organizations": []
+    },
+    "slug": "neuroclash",
+    "updatedAt": "2026-09-28T05:51:16.896Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [],
+    "project": {
+      "cta": {
+        "url": "https://github.com/gitaufar/swaraibu-app",
+        "label": "Project's Repository"
+      },
+      "slug": "swara-ibu",
+      "draft": false,
+      "links": [
+        {
+          "id": "bbae253e-a79e-46bf-8cc8-f3e8a5b3b158",
+          "url": "https://github.com/gitaufar/swaraibu-app",
+          "label": "GitHub"
+        }
+      ],
+      "media": [
+        {
+          "id": "7eb05655-0d0a-4e84-8e92-c31cec793e97",
+          "key": "project-swara-ibu-161ee898-cd72-4aef-841a-e5e640975298.png",
+          "kind": "image",
+          "size": "full",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": "8da27b9c-7632-4ca1-89bd-4c238459bde8",
+          "key": "project-swara-ibu-5686e989-d1e0-4f08-afec-a645fd647d43.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": "932be9b9-8915-4df0-8859-2d01bbcb016c",
+          "key": "project-swara-ibu-f342930b-3f5f-4133-9a6c-c42d516d5fd5.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "title": "Swara Ibu",
+      "status": "completed",
+      "outputs": [],
+      "summary": "SwaraIbu is an AI-powered postpartum support mobile app that analyzes mothers’ voice and emotions to track mood, detect stress or crisis conditions, and provide personalized support with emergency alerts when needed.",
+      "featured": false,
+      "services": ["Concept", "Frontend"],
+      "techStack": [],
+      "videoMode": "none",
+      "categories": ["mobile"],
+      "description": "Swara Ibu is a mobile application that supports mothers experiencing postpartum depression through voice-based emotional analysis and AI-powered crisis detection. Users express their feelings via voice input, which is processed using OpenAI Whisper for speech-to-text and Librosa for audio feature extraction to detect emotional distress. The app features mood tracking, companion access mode for family members, and Gemini AI-generated personalized support suggestions. Built during a 5-day hackathon using Kotlin and J",
+      "galleryKeys": [
+        "project-swara-ibu-161ee898-cd72-4aef-841a-e5e640975298.png",
+        "project-swara-ibu-5686e989-d1e0-4f08-afec-a645fd647d43.png",
+        "project-swara-ibu-f342930b-3f5f-4133-9a6c-c42d516d5fd5.png"
+      ],
+      "contributors": [
+        {
+          "id": "f91cc813-f98d-4515-8a29-4d1c032b70ab",
+          "kind": "residence",
+          "name": "Rhesa Tsaqif Adyatma",
+          "role": "Frontend Developer",
+          "memberSlug": "rhesa-tsaqif-adyatma",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "b3095c13-1040-462c-8671-b01fb3abf24e",
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG6PXU2bMnkQw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726609474055?e=2147483647&v=beta&t=W0Y5lwFjT660zE6zpEYn3b1l--QPYfkEo_mzcNhNUP4",
+          "kind": "non-residence",
+          "name": "Antike Rahma Safira",
+          "role": "Product Manager"
+        },
+        {
+          "id": "464630e9-98ce-4428-8006-7d98b72c639a",
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEg4IB0qcGU-A/profile-displayphoto-scale_200_200/B56Z73Q2YBGoAg-/0/1782264851567?e=2147483647&v=beta&t=XfAJhWodjEv_-OY7Nb4QvKhBKeN9rzgvd1Lw0MSgJMw",
+          "kind": "non-residence",
+          "name": "Zhafir Aufar",
+          "role": "Frontend Developer"
+        },
+        {
+          "id": "dcb6a535-f758-45cf-a957-acf65d36c189",
+          "kind": "residence",
+          "name": "Samuel Alfito Deanova",
+          "role": "Backend Developer",
+          "memberSlug": "samuel-alfito-deanova",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "23f6cd34-5b7a-4edb-b7fb-7e7a85a1e7b5",
+          "kind": "residence",
+          "name": "Mukti Abdi Syukur",
+          "memberSlug": "mukti-abdi-syukur",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        }
+      ],
+      "organizations": []
+    },
+    "slug": "swara-ibu",
+    "updatedAt": "2026-09-28T03:28:46.989Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [
+      {
+        "id": "early-numeracy-education-game-intro",
+        "type": "paragraph",
+        "props": {
+          "textColor": "default",
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "text": "An educational game design for early-childhood learners, focused on improving understanding of number recognition. This evidence-led showcase is built from the linked publication record; it distinguishes documented implementation details from claims the papers do not establish.",
+            "type": "text",
+            "styles": {}
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-documented",
+        "type": "heading",
+        "props": {
+          "level": 2,
+          "textColor": "default",
+          "isToggleable": false,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "text": "What the published work documents",
+            "type": "text",
+            "styles": {}
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-fact-1",
+        "type": "bulletListItem",
+        "props": {
+          "textColor": "default",
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "text": "The source paper documents the design of an educational game for early-childhood number recognition.",
+            "type": "text",
+            "styles": {}
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-fact-2",
+        "type": "bulletListItem",
+        "props": {
+          "textColor": "default",
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "text": "Because the published title identifies a design (perancangan), this page presents it as a documented game-design project, not as a claim of a released product.",
+            "type": "text",
+            "styles": {}
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-visuals",
+        "type": "heading",
+        "props": {
+          "level": 2,
+          "textColor": "default",
+          "isToggleable": false,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "text": "Source visuals",
+            "type": "text",
+            "styles": {}
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-image-1",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-early-numeracy-education-game-6adfe575-56f2-4e0e-b2c2-586b2e8f41bd.png",
+          "name": "",
+          "caption": "Visual extracted from “Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka”, publication page 8.",
+          "showPreview": true,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-image-2",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-early-numeracy-education-game-523e8c64-8d22-4e34-adab-22ec1d484d29.png",
+          "name": "",
+          "caption": "Visual extracted from “Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka”, publication page 8.",
+          "showPreview": true,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-image-3",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-early-numeracy-education-game-b4dc8168-3e3c-45e5-b07d-4545f4148292.png",
+          "name": "",
+          "caption": "Visual extracted from “Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka”, publication page 6.",
+          "showPreview": true,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-image-4",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-early-numeracy-education-game-9871a893-05e5-4c55-a9e7-fed8e17e150f.png",
+          "name": "",
+          "caption": "Visual extracted from “Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka”, publication page 7.",
+          "showPreview": true,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-image-5",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-early-numeracy-education-game-92388d3f-d088-43af-bc1d-183e2292f2b1.png",
+          "name": "",
+          "caption": "Visual extracted from “Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka”, publication page 7.",
+          "showPreview": true,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-image-6",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-early-numeracy-education-game-104e6413-f443-44b8-9513-19aa75106add.png",
+          "name": "",
+          "caption": "Visual extracted from “Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka”, publication page 7.",
+          "showPreview": true,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-sources",
+        "type": "heading",
+        "props": {
+          "level": 2,
+          "textColor": "default",
+          "isToggleable": false,
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "text": "Linked publication record",
+            "type": "text",
+            "styles": {}
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-source-intro",
+        "type": "paragraph",
+        "props": {
+          "textColor": "default",
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "text": "Each link below is the corresponding source record. The project description and visuals were kept within the scope of these papers.",
+            "type": "text",
+            "styles": {}
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "early-numeracy-education-game-source-1",
+        "type": "bulletListItem",
+        "props": {
+          "textColor": "default",
+          "textAlignment": "left",
+          "backgroundColor": "default"
+        },
+        "content": [
+          {
+            "href": "/publications/perancangan-gim-edukasi-anak-usia-dini-untuk-meningkatkan-pemahaman-pengenalan-a",
+            "type": "link",
+            "content": [
+              {
+                "text": "Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ],
+        "children": []
+      }
+    ],
+    "project": {
+      "cta": {
+        "url": "https://labmgm.org/publications/perancangan-gim-edukasi-anak-usia-dini-untuk-meningkatkan-pemahaman-pengenalan-a",
+        "label": "Read Publications"
+      },
+      "slug": "early-numeracy-education-game",
+      "draft": false,
+      "links": [],
+      "media": [
+        {
+          "id": "cover",
+          "alt": "Source visual from Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka",
+          "key": "project-early-numeracy-education-game-b05e5212-2871-4621-86f8-24fce41207d9.jpg",
+          "kind": "image",
+          "size": "full",
+          "width": 2058,
+          "height": 1372
+        },
+        {
+          "id": "gallery-3",
+          "key": "project-early-numeracy-education-game-9871a893-05e5-4c55-a9e7-fed8e17e150f.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 607,
+          "height": 341
+        },
+        {
+          "id": "gallery-1",
+          "key": "project-early-numeracy-education-game-523e8c64-8d22-4e34-adab-22ec1d484d29.png",
+          "kind": "image",
+          "size": "full",
+          "width": 649,
+          "height": 487
+        },
+        {
+          "id": "gallery-2",
+          "key": "project-early-numeracy-education-game-b4dc8168-3e3c-45e5-b07d-4545f4148292.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 399,
+          "height": 659
+        },
+        {
+          "id": "gallery-4",
+          "key": "project-early-numeracy-education-game-92388d3f-d088-43af-bc1d-183e2292f2b1.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 607,
+          "height": 341
+        },
+        {
+          "id": "gallery-5",
+          "key": "project-early-numeracy-education-game-104e6413-f443-44b8-9513-19aa75106add.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 607,
+          "height": 341
+        }
+      ],
+      "theme": "grove",
+      "title": "Numeracy Education Game",
+      "status": "completed",
+      "endDate": "2024-08-26",
+      "outputs": [
+        {
+          "id": "publication-1",
+          "href": "/publications/perancangan-gim-edukasi-anak-usia-dini-untuk-meningkatkan-pemahaman-pengenalan-a",
+          "type": "publication",
+          "label": "Perancangan Gim Edukasi Anak...",
+          "recordSlug": "perancangan-gim-edukasi-anak-usia-dini-untuk-meningkatkan-pemahaman-pengenalan-a"
+        }
+      ],
+      "summary": "Who says learning numbers has to be boring? 🎮 This paper explores how a fun educational game can help kindergarteners understand numbers while making learning feel like playtime!",
+      "coverAlt": "Source visual from Perancangan Gim Edukasi Anak Usia Dini untuk Meningkatkan Pemahaman Pengenalan Angka",
+      "coverKey": "project-early-numeracy-education-game-b05e5212-2871-4621-86f8-24fce41207d9.jpg",
+      "featured": false,
+      "seoTitle": "Early Numeracy Education Game",
+      "services": ["Game", "Concepting", "Executing", "Volunteer"],
+      "startDate": "2024-08-26",
+      "techStack": ["Educational game", "Early childhood learning", "Number recognition"],
+      "videoMode": "none",
+      "categories": ["game", "hci-ux"],
+      "description": "Learning numbers can be as fun as playing a game! 🎲 This paper introduces an educational game designed to help kindergarteners discover and understand numbers through interactive play. Using the MDA Framework, the researchers created a game that balances learning and fun. The results? Students' average test scores jumped from 41.67% to 75%, while the game received a fun rating of 4.48 out of 5. A playful approach to making early math learning more enjoyable and effective!",
+      "galleryKeys": [
+        "project-early-numeracy-education-game-9871a893-05e5-4c55-a9e7-fed8e17e150f.png",
+        "project-early-numeracy-education-game-523e8c64-8d22-4e34-adab-22ec1d484d29.png",
+        "project-early-numeracy-education-game-b4dc8168-3e3c-45e5-b07d-4545f4148292.png",
+        "project-early-numeracy-education-game-92388d3f-d088-43af-bc1d-183e2292f2b1.png",
+        "project-early-numeracy-education-game-104e6413-f443-44b8-9513-19aa75106add.png"
+      ],
+      "contributors": [
+        {
+          "id": "author-1",
+          "kind": "non-residence",
+          "name": "Abdiel Wahyu Ramadhyono",
+          "affiliation": "University of Brawijaya"
+        },
+        {
+          "id": "author-2",
+          "kind": "non-residence",
+          "name": "Eriq Muhammad Adams Jonemaro",
+          "affiliation": "University of Brawijaya"
+        },
+        {
+          "id": "author-3",
+          "kind": "non-residence",
+          "name": "Tri Afirianto",
+          "affiliation": "University of Brawijaya"
+        }
+      ],
+      "organizations": [],
+      "seoDescription": "An educational game design for early-childhood learners, focused on improving understanding of number recognition."
+    },
+    "slug": "early-numeracy-education-game",
+    "updatedAt": "2026-09-26T15:35:09.687Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [
+      {
+        "id": "bd9fac2ed",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "AnonChat is a self-hosted, anonymous, end-to-end encrypted messaging inbox. Anyone can create an anonymous identity — no email, phone number, or account required — and get a private, persistent conversation with the site owner.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "b3667169a",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Message content, attachments, and reactions are end-to-end encrypted: the server only ever stores and relays ciphertext. The owner gets a Discord/WhatsApp-style admin dashboard with every conversation, real-time replies over WebSocket, and moderation tools.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "bdc0bdcf3",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Stack",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "b867e7533",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A pnpm monorepo split into crypto, shared, server, and web packages: a React front end talking to a Fastify + Prisma/PostgreSQL backend over WebSocket, with Argon2 password hashing, TOTP two-factor auth for the owner's dashboard, and S3-backed attachment storage.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      }
+    ],
+    "project": {
+      "cta": {
+        "url": "https://railway.com/deploy/anonchat",
+        "label": "Deploy Anonchat"
+      },
+      "role": "Sole builder",
+      "slug": "anonchat",
+      "draft": false,
+      "links": [
+        {
+          "id": "l7387aab0",
+          "url": "https://github.com/shirasakaren/anonchat",
+          "label": "GitHub"
+        },
+        {
+          "id": "l6c16cada",
+          "url": "https://chatwith.ren",
+          "label": "Example"
+        },
+        {
+          "id": "46ebef16-5e42-4011-9b0e-dc80a736cb60",
+          "url": "https://railway.com/deploy/anonchat",
+          "label": "Deploy"
+        }
+      ],
+      "media": [
+        {
+          "id": "7e3561df-64c1-46d8-8237-d73cb723c106",
+          "key": "demo-anonchat-bc5eaaec-adcf-4ee3-887a-c76866131f86.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 718,
+          "posterKey": "project-anonchat-3806242b-d895-45a2-92e8-a59ba5c5a071.jpg"
+        },
+        {
+          "id": "8af67754-67dd-48c3-a9cb-9c3d0981bc54",
+          "key": "demo-anonchat-f697af4d-801c-4d24-857b-cd72e75e12c2.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 718,
+          "posterKey": "project-anonchat-0f658fd0-2ab3-453f-86de-63e6e8f49da3.jpg"
+        },
+        {
+          "id": "7b5c2886-6a82-4f23-86db-10a8f9b928d6",
+          "key": "demo-anonchat-1316324c-19f2-4605-9544-fa7b4660df87.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 718,
+          "posterKey": "project-anonchat-3abfe52e-1059-4461-ace4-40410950e94e.jpg"
+        },
+        {
+          "id": "d7715d41-acbc-40bb-8b91-bfa2c17ac58a",
+          "key": "demo-anonchat-573934e9-0090-4d6f-ba47-248f8d14d31e.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 718,
+          "posterKey": "project-anonchat-52d7c459-7bf7-455e-b07f-0ee92ac09454.jpg"
+        },
+        {
+          "id": "fb2c1739-ff10-433c-ae6f-d8fc982f3a5d",
+          "key": "demo-anonchat-9fa2cc8e-530d-4281-9dab-ca56eecfe174.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 718,
+          "posterKey": "project-anonchat-8ba50a62-fbc7-4baa-bcac-5694ee1db069.jpg"
+        },
+        {
+          "id": "f8230d08-ad1a-4759-b69b-7b85b3320b69",
+          "key": "demo-anonchat-c6c765be-ec4a-43dc-a607-fd3d3325a2ab.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 718,
+          "posterKey": "project-anonchat-e77bd3da-5fa5-4dc7-95de-b3c607caf889.jpg"
+        },
+        {
+          "id": "4b0fb1ab-01c5-4567-877f-7618469273e5",
+          "key": "demo-anonchat-e9b8ba98-1382-44ec-8d67-aadb50ff5524.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 718,
+          "posterKey": "project-anonchat-ec4ac651-c35a-46df-9b80-44266dabc66c.jpg"
+        }
+      ],
+      "theme": "rose",
+      "title": "Anonchat",
+      "status": "completed",
+      "endDate": "2026-08-29",
+      "outputs": [],
+      "summary": "A self-hosted, end-to-end encrypted anonymous messaging inbox. Anyone can start a private, persistent conversation with the site owner with no account, and the owner gets a real-time admin dashboard with moderation tools.",
+      "coverKey": "project-anonchat-18d16c81-9bf2-4c73-baa8-09c0e13c5673.jpg",
+      "featured": false,
+      "services": ["UX Research", "Web Development", "Infrastructure Engineering", "User Testing"],
+      "startDate": "2026-08-11",
+      "techStack": [
+        "React",
+        "Fastify",
+        "PostgreSQL",
+        "Prisma",
+        "WebSocket",
+        "Argon2",
+        "TOTP",
+        "AWS S3"
+      ],
+      "videoMode": "none",
+      "categories": ["website"],
+      "description": "A self-hosted, end-to-end encrypted anonymous messaging inbox. Anyone can start a private, persistent conversation with the site owner with no account, and the owner gets a real-time admin dashboard with moderation tools.",
+      "galleryKeys": [],
+      "contributors": [
+        {
+          "id": "c405f01ae",
+          "kind": "residence",
+          "name": "Shirasaka Ren",
+          "role": "Creator & maintainer",
+          "memberSlug": "ren"
+        }
+      ],
+      "organizations": []
+    },
+    "slug": "anonchat",
+    "updatedAt": "2026-09-26T15:32:33.313Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [
+      {
+        "id": "bf87d2872",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A centralized, internal digital asset library for the MGM research lab and its partners — teams share Unity packages, Unreal projects, 2D/3D models, VFX, audio, animations, tools, and scripts through a web catalog, with companion Unity and Unreal editor plugins talking to the same API.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "b43ed324d",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "What it does",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "ba73ac097",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Full asset lifecycle management (drafts, presigned multipart S3 uploads, publish, archive, restore, ownership transfer), a BullMQ-driven file-analysis pipeline that extracts metadata from engine and 3D formats, Blender-to-glTF conversion with auto-generated thumbnails, ClamAV malware scanning with quarantine flows, and Meilisearch-backed catalog search.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "bd21deb56",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A full admin panel handles moderation, featured slots, categories/tags/licenses, audit logging, and storage rollups, backed by typed real-time notifications over WebSocket and email.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      }
+    ],
+    "project": {
+      "cta": {
+        "url": "https://asset.labmgm.org",
+        "label": "Launch Project"
+      },
+      "role": "Sole builder",
+      "slug": "asset-library",
+      "draft": false,
+      "links": [
+        {
+          "id": "lfe041690",
+          "url": "https://github.com/shirasakaren/asset-library",
+          "label": "GitHub"
+        },
+        {
+          "id": "l6c0d10d8",
+          "url": "https://asset.labmgm.org",
+          "label": "Live"
+        }
+      ],
+      "media": [
+        {
+          "id": "1b04baf8-c99e-47f0-8dce-fced68777b87",
+          "key": "demo-asset-library-55896631-2786-4e7a-81c1-6691df76a1bc.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-asset-library-c6a296a8-7af6-44cc-9719-60fc1a0af4fd.jpg"
+        },
+        {
+          "id": "bd20cd1d-09d4-40af-a78d-4d3cfa272329",
+          "key": "demo-asset-library-be66ad14-2e75-4223-a1b1-0ae0fd11f82a.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-asset-library-c4bcab4f-317e-4ca7-bf5d-d024d93eeab9.jpg"
+        },
+        {
+          "id": "6a8602d1-e7cf-460e-916d-62995ec6fff5",
+          "key": "demo-asset-library-309d3a22-1173-4c87-829c-5903c63a6958.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-asset-library-e22a05e5-bb32-46d8-ba0e-aed8e3d27d1b.jpg"
+        },
+        {
+          "id": "cd4f3338-25c3-48f0-b838-acdb74b481e8",
+          "key": "demo-asset-library-2c89b7a5-e396-4e2f-a694-d4e6613bcbc8.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-asset-library-9417386c-79c9-4335-95f2-b2ce2a348766.jpg"
+        },
+        {
+          "id": "2e64ceae-d6ef-4093-8f75-efb50266d0b9",
+          "key": "demo-asset-library-505d8050-1429-48f9-b640-8465b7c814d7.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-asset-library-600e17de-1551-4fe1-a6b7-fb0357e1c110.jpg"
+        },
+        {
+          "id": "cebc453b-4f5b-47ac-a92d-247deaafa89f",
+          "key": "demo-asset-library-65809443-12ea-464f-a907-82ff09243bba.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-asset-library-39493e50-7602-4b0c-aef0-d4d87f0581e2.jpg"
+        },
+        {
+          "id": "fc93d804-711b-47ce-adb2-7df15704d883",
+          "key": "demo-asset-library-7151c61f-f149-4f6e-ae74-86dc453c88b7.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-asset-library-8e6a9963-a94b-4557-b239-c0f116b58aeb.jpg"
+        }
+      ],
+      "theme": "storybook",
+      "title": "Asset Library",
+      "status": "completed",
+      "endDate": "2026-08-15",
+      "outputs": [],
+      "summary": "An internal, private digital asset library for the lab and its partners — think \"Unity Asset Store, but private\" — with full asset lifecycle management, a file-analysis pipeline, glTF conversion, and Unity/Unreal editor plugins.",
+      "coverKey": "project-asset-library-a629b1b4-7b20-4915-bc3a-22da31a84786.jpg",
+      "featured": false,
+      "services": ["Concept", "UX Research", "Web Development"],
+      "startDate": "2025-10-02",
+      "techStack": [
+        "Next.js",
+        "NestJS",
+        "Fastify",
+        "Prisma",
+        "BullMQ",
+        "Meilisearch",
+        "ClamAV",
+        "AWS S3",
+        "Redis"
+      ],
+      "videoMode": "none",
+      "categories": ["website", "game"],
+      "description": "An internal, private digital asset library for the lab and its partners — think \"Unity Asset Store, but private\" — with full asset lifecycle management, a file-analysis pipeline, glTF conversion, and Unity/Unreal editor plugins.",
+      "galleryKeys": [],
+      "contributors": [
+        {
+          "id": "ce0be8ee1",
+          "kind": "residence",
+          "name": "Shirasaka Ren",
+          "role": "Software Engineer",
+          "memberSlug": "ren"
+        },
+        {
+          "id": "29ce7af8-4628-4a23-8242-575da9b3cb66",
+          "kind": "residence",
+          "name": "Syafa Hadyan Rasendriya",
+          "role": "Infrastructure Engineer",
+          "memberSlug": "syafa-hadyan-rasendriya",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        }
+      ],
+      "organizations": [
+        {
+          "url": "https://shirasaka.ren",
+          "name": "Ren Foundation"
+        }
+      ]
+    },
+    "slug": "asset-library",
+    "updatedAt": "2026-09-26T14:28:06.653Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [
+      {
+        "id": "virtual-tour-navigation-guide-intro",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Virtual-tour and WebVR navigation prototypes that study landmark recognition and information delivery in immersive web environments. This evidence-led showcase is built from the linked publication records; it distinguishes documented implementation details from claims the papers do not establish.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-documented",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "What the published work documents",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-fact-1",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "The linked work documents virtual-tour navigation guides evaluated for landmark recognition and a WebVR-based information-delivery implementation.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-fact-2",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "The entry keeps the two related immersive-web efforts together while preserving the individual papers as source outputs.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-visuals",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Source visuals",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-image-1",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-virtual-tour-navigation-guide-0f66c3b7-38c1-4ee5-ab35-e672b6b7b647.png",
+          "caption": "Visual extracted from “Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition”, publication page 4."
+        }
+      },
+      {
+        "id": "virtual-tour-navigation-guide-image-2",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-virtual-tour-navigation-guide-f942237b-f7d0-4602-9441-9174d263131e.png",
+          "caption": "Visual extracted from “Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition”, publication page 4."
+        }
+      },
+      {
+        "id": "virtual-tour-navigation-guide-image-3",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-virtual-tour-navigation-guide-c1a0d0ea-d36b-42f4-b35e-b26a070fc2bd.png",
+          "caption": "Visual extracted from “Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition”, publication page 5."
+        }
+      },
+      {
+        "id": "virtual-tour-navigation-guide-image-4",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-virtual-tour-navigation-guide-70c9f366-abd2-4a1e-87f9-f121d28de233.png",
+          "caption": "Visual extracted from “Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition”, publication page 5."
+        }
+      },
+      {
+        "id": "virtual-tour-navigation-guide-image-5",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-virtual-tour-navigation-guide-046c0c3b-3b58-4b76-bb71-4598ff5275e1.png",
+          "caption": "Visual extracted from “Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition”, publication page 3."
+        }
+      },
+      {
+        "id": "virtual-tour-navigation-guide-image-6",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-virtual-tour-navigation-guide-7cb87a00-06c7-4c05-9345-e28025c55b47.png",
+          "caption": "Visual extracted from “Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition”, publication page 4."
+        }
+      },
+      {
+        "id": "virtual-tour-navigation-guide-sources",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Linked publication record",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-source-intro",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Each link below is the corresponding source record. The project description and visuals were kept within the scope of these papers.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-source-1",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/performance-analysis-of-virtual-tour-navigation-guides-for-landmark-recognition",
+            "type": "link",
+            "content": [
+              {
+                "text": "Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "virtual-tour-navigation-guide-source-2",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/improving-information-delivery-effectiveness-and-efficiency-using-webvr-technolo",
+            "type": "link",
+            "content": [
+              {
+                "text": "Improving Information Delivery Effectiveness and Efficiency Using WebVR Technology",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "project": {
+      "cta": {
+        "url": "https://labmgm.org/publications/improving-information-delivery-effectiveness-and-efficiency-using-webvr-technolo",
+        "label": "Read Publications"
+      },
+      "slug": "virtual-tour-navigation-guide",
+      "draft": false,
+      "links": [],
+      "media": [
+        {
+          "id": "gallery-1",
+          "key": "project-virtual-tour-navigation-guide-f942237b-f7d0-4602-9441-9174d263131e.png",
+          "kind": "image",
+          "size": "full",
+          "width": 1914,
+          "height": 912
+        },
+        {
+          "id": "gallery-2",
+          "key": "project-virtual-tour-navigation-guide-c1a0d0ea-d36b-42f4-b35e-b26a070fc2bd.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1905,
+          "height": 904
+        },
+        {
+          "id": "gallery-3",
+          "key": "project-virtual-tour-navigation-guide-70c9f366-abd2-4a1e-87f9-f121d28de233.png",
+          "kind": "image",
+          "size": "full",
+          "width": 1820,
+          "height": 927
+        }
+      ],
+      "theme": "ember",
+      "title": "Virtual Tour Navigation Guide",
+      "status": "completed",
+      "endDate": "2024-04-30",
+      "outputs": [
+        {
+          "id": "publication-1",
+          "href": "/publications/performance-analysis-of-virtual-tour-navigation-guides-for-landmark-recognition",
+          "type": "publication",
+          "label": "Performance Analysis of Virtual Tour Navigation...",
+          "recordSlug": "performance-analysis-of-virtual-tour-navigation-guides-for-landmark-recognition"
+        },
+        {
+          "id": "publication-2",
+          "href": "/publications/improving-information-delivery-effectiveness-and-efficiency-using-webvr-technolo",
+          "type": "publication",
+          "label": "Improving Information Delivery Effectiveness...",
+          "recordSlug": "improving-information-delivery-effectiveness-and-efficiency-using-webvr-technolo"
+        }
+      ],
+      "summary": "Ever gotten lost in a virtual tour? 🧭 This paper explores how guided navigation can help beginners explore virtual spaces faster without missing out on learning their surroundings.",
+      "coverAlt": "Source visual from Performance Analysis of Virtual Tour Navigation Guides for Landmark Recognition",
+      "coverKey": "project-virtual-tour-navigation-guide-d99a699d-7734-463f-a0c8-c63a01b28e5c.jpg",
+      "featured": false,
+      "seoTitle": "Virtual Tour Navigation Guide",
+      "services": ["Development", "Concept", "Research"],
+      "startDate": "2023-12-27",
+      "techStack": ["Virtual tour", "WebVR", "Landmark recognition"],
+      "videoMode": "none",
+      "categories": ["website", "hci-ux"],
+      "description": "Exploring a virtual tour should be fun, not confusing! This paper introduces a smarter navigation system that guides users step by step, using gradually appearing arrows and different colors to show places they’ve already visited. The results? Beginners can explore virtual spaces faster without losing their ability to remember landmarks and understand the environment. A simple way to make virtual tours easier, smoother, and more beginner-friendly!",
+      "galleryKeys": [
+        "project-virtual-tour-navigation-guide-f942237b-f7d0-4602-9441-9174d263131e.png",
+        "project-virtual-tour-navigation-guide-c1a0d0ea-d36b-42f4-b35e-b26a070fc2bd.png",
+        "project-virtual-tour-navigation-guide-70c9f366-abd2-4a1e-87f9-f121d28de233.png"
+      ],
+      "contributors": [
+        {
+          "id": "author-1",
+          "kind": "non-residence",
+          "name": "Muhamad Aminul Akbar"
+        },
+        {
+          "id": "author-2",
+          "kind": "non-residence",
+          "name": "Tri Afirianto"
+        },
+        {
+          "id": "author-3",
+          "kind": "non-residence",
+          "name": "Issa Arwani"
+        },
+        {
+          "id": "author-4",
+          "kind": "non-residence",
+          "name": "Aryo Pinandito"
+        },
+        {
+          "id": "author-5",
+          "kind": "non-residence",
+          "name": "Agung Ari Wibowo"
+        },
+        {
+          "id": "author-6",
+          "kind": "non-residence",
+          "name": "Ardiyan Nur Pratama",
+          "affiliation": "Informatics Engineering Departement, Universitas Brawijaya, Indonesia"
+        },
+        {
+          "id": "author-7",
+          "kind": "non-residence",
+          "name": "Muhammad Aminul Akbar",
+          "affiliation": "Information System Departement, Universitas Brawijaya, Indonesia"
+        }
+      ],
+      "organizations": [],
+      "seoDescription": "Virtual-tour and WebVR navigation prototypes that study landmark recognition and information delivery in immersive web environments."
+    },
+    "slug": "virtual-tour-navigation-guide",
+    "updatedAt": "2026-09-26T14:25:30.116Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [],
+    "project": {
+      "cta": {
+        "url": "https://collab.kit-build.net/",
+        "label": "Launch Project"
+      },
+      "slug": "kit-build-concept",
+      "draft": false,
+      "links": [],
+      "media": [
+        {
+          "id": "3d26fae1-d987-4836-8f04-8d077ae831e2",
+          "key": "demo-kit-build-concept-a52d3dd9-56af-4e27-96e8-943d9ab9515e.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-kit-build-concept-699f16d1-d644-42a4-907e-117253ad8b98.jpg"
+        },
+        {
+          "id": "d92cf7f3-da48-4b4b-9178-a93e4fae3321",
+          "key": "demo-kit-build-concept-eb8a4874-c52b-43c8-b76d-b51becbb92da.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 800,
+          "posterKey": "project-kit-build-concept-1319da46-c8ce-4766-8dd6-06189e35e1b2.jpg"
+        },
+        {
+          "id": "e6073abf-d2e3-462d-bd10-63bc55a8582c",
+          "key": "demo-kit-build-concept-71a6b65d-72bc-42f1-a78f-2d6078d8d5f2.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-kit-build-concept-53675338-3c0f-485d-ace7-812fbea39463.jpg"
+        },
+        {
+          "id": "c26b0572-2cbb-40ec-b303-51d9c725ef3b",
+          "key": "demo-kit-build-concept-f2e55627-4f33-4705-98f1-2fbd4822f8a0.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 800,
+          "posterKey": "project-kit-build-concept-abdfa8d5-2246-4a1b-8109-78031445d0ce.jpg"
+        },
+        {
+          "id": "c91434ee-dfa2-4d4d-bab2-218bcb94d2f1",
+          "key": "demo-kit-build-concept-155de1f7-60c9-49b1-b97c-b4a35baf039e.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 800,
+          "posterKey": "project-kit-build-concept-fbfa6276-6f29-4777-9647-7b2bbac60c93.jpg"
+        },
+        {
+          "id": "70127264-416c-4831-bb27-858b59d36f33",
+          "key": "demo-kit-build-concept-701c91c1-df5a-43f6-a418-3de614882a63.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 720,
+          "posterKey": "project-kit-build-concept-febfb723-8a0c-4b74-8826-8e91a48b3e23.jpg"
+        },
+        {
+          "id": "43528fe6-2f8a-4cef-abf1-216426938a0b",
+          "key": "demo-kit-build-concept-bc2536b9-2b36-4285-a89a-9b8de0a696bd.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 844,
+          "posterKey": "project-kit-build-concept-c1e94517-86ff-48c1-a938-d9b8d806feb8.jpg"
+        },
+        {
+          "id": "1b4e85c2-a812-432d-92af-acd967bb0c56",
+          "key": "demo-kit-build-concept-be6ff604-61c8-46cd-b193-a3a101e46b49.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 844,
+          "posterKey": "project-kit-build-concept-916d16e6-c246-45e7-9c63-a4bb2abee8d3.jpg"
+        },
+        {
+          "id": "f71251d9-7162-4b38-8ac0-ffbedd2c552e",
+          "key": "demo-kit-build-concept-ed2ae0b9-083c-4d57-9c46-6af1731f1142.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1280,
+          "height": 844,
+          "posterKey": "project-kit-build-concept-e51be71c-54d1-4add-b96d-3918e554f63a.jpg"
+        },
+        {
+          "id": "1cf6472d-3111-4a27-823b-ace369f73e5c",
+          "key": "demo-kit-build-concept-d031d17a-f18c-4391-a616-eac4cf823891.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1280,
+          "height": 844,
+          "posterKey": "project-kit-build-concept-779ded41-bfb4-43b7-94a7-a11b58d81622.jpg"
+        }
+      ],
+      "theme": "sunburst",
+      "title": "Kit-Build Concept",
+      "status": "planned",
+      "outputs": [],
+      "summary": "What if online learning felt more like solving a puzzle together? 🧩 This paper explores how collaborative concept mapping can make English reading comprehension more interactive, meaningful, and effective!",
+      "coverKey": "project-kit-build-concept-e3bf1823-a6dd-4093-bb7f-c1eb41602c7c.jpg",
+      "featured": true,
+      "services": ["Research", "Development", "Testing"],
+      "techStack": [],
+      "videoMode": "none",
+      "categories": ["website"],
+      "description": "Learning English online doesn’t have to feel like a solo activity! 📚 This paper introduces a real-time collaborative learning approach using Kit-Build concept maps, where students work together to organize ideas, discuss concepts, and improve their English reading comprehension. By comparing it with traditional concept mapping, the researchers found that Kit-Build encouraged more meaningful discussions and better learning outcomes. A promising way to make online learning more collaborative, engaging, and effective",
+      "galleryKeys": [],
+      "contributors": [
+        {
+          "id": "6c21d7da-b3db-4217-9bf9-9b5a2d43d119",
+          "kind": "non-residence",
+          "name": "Aryo Pindandito",
+          "memberSlug": "aryo-pinandito",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "66877b68-7d4b-415a-8f47-52b71e9491e4",
+          "kind": "non-residence",
+          "name": "Yusuke Hayashi"
+        },
+        {
+          "id": "02d73669-9044-4214-b638-4f12542fa8d8",
+          "kind": "non-residence",
+          "name": "Tsukasa Hirashima"
+        }
+      ],
+      "organizations": [
+        {
+          "url": "https://labmgm.org",
+          "name": "MGM Laboratory"
+        },
+        {
+          "url": "https://www.hiroshima-u.ac.jp/en",
+          "name": "Hiroshima University"
+        }
+      ]
+    },
+    "slug": "kit-build-concept",
+    "updatedAt": "2026-09-26T14:21:37.918Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [
+      {
+        "id": "b7f7dd040",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Atlas is a self-hostable organization workspace — one platform that replaces the usual stack of project-management and communication tools. Browse projects with tags, phases, and recruiting status through media-rich project pages, then coordinate the work in the same place.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "bd39d7fd2",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "What's inside",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "bcabe4393",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Slack-style project and global channels with threads, reactions, pins, and full-text search; a ClickUp-style PMO with lists, kanban, Gantt, collaborative notes and whiteboards (via Yjs), files, and dependencies; and Discord-style voice and video rooms with screen share, powered by LiveKit.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "b95b87e98",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Twenty-four themes with light and dark palettes, a full RBAC permission system, and a \"Godmode\" control plane for self-hosted onboarding and instance configuration.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      }
+    ],
+    "project": {
+      "cta": {
+        "url": "https://atlas.labmgm.org",
+        "label": "Launch Projects"
+      },
+      "role": "Sole builder",
+      "slug": "atlas",
+      "draft": false,
+      "links": [
+        {
+          "id": "l46c0bd2c",
+          "url": "https://github.com/rencreations/atlas",
+          "label": "GitHub"
+        }
+      ],
+      "media": [
+        {
+          "id": "cover",
+          "alt": "Atlas dashboard, showing project cards with tags and phase status",
+          "key": "project-atlas-2432e473-8982-45c4-bda6-8232ff7dc494.jpg",
+          "kind": "image",
+          "size": "full",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "id": "6f88fff6-cb6a-4ac0-ad41-228eeaa19509",
+          "key": "demo-atlas-2074c05d-0c47-4cca-b92b-07bef92d159f.mp4",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-d6e4a7da-fbc3-43e4-91dc-f182edf02637.jpg"
+        },
+        {
+          "id": "gallery-0",
+          "key": "project-atlas-21753f3c-0010-4d7e-bfb2-5d42f16fd0cb.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1600,
+          "height": 870
+        },
+        {
+          "id": "891532eb-0cf1-4a7f-ba48-dbc862577998",
+          "key": "demo-atlas-05d3df56-1d0a-4767-9778-1ad03432161f.mp4",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-d79787f5-fa7c-4ac1-8b5c-901e4076e951.jpg"
+        },
+        {
+          "id": "0a4a8a49-af3a-4d80-b299-b1098bc13f70",
+          "key": "demo-atlas-b18bd826-a279-44e3-86ac-ec096545db55.mp4",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-fc18a7d8-37a4-49a2-b215-5ec4017771d0.jpg"
+        },
+        {
+          "id": "gallery-1",
+          "key": "project-atlas-feef8a82-7143-4215-8b19-cf9e3cc38be8.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1600,
+          "height": 870
+        },
+        {
+          "id": "e3d113b5-b92d-4c84-a31c-0a3a620b280d",
+          "key": "demo-atlas-2c3a8132-6e2a-427b-9069-380815c11434.mp4",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-cf57d957-c2b6-4129-90e5-4c7d6f1d4a9c.jpg"
+        },
+        {
+          "id": "f14b620e-818c-47af-a252-33cc53013e44",
+          "key": "demo-atlas-1a593b97-26db-4759-8c00-2e38dfa2fbf3.mp4",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-504bc613-25dc-4961-ab1f-34805d695c63.jpg"
+        },
+        {
+          "id": "gallery-3",
+          "key": "project-atlas-25f991d6-45bc-471d-abaf-389cc9c8d3aa.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1598,
+          "height": 867
+        },
+        {
+          "id": "0a6ce2c8-333f-4e53-85f6-478e809f7f14",
+          "key": "demo-atlas-ff001e68-125b-4d3b-b029-9863ddb857c4.mp4",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-7f3258c7-3223-43da-9abf-76bf99466924.jpg"
+        },
+        {
+          "id": "gallery-2",
+          "key": "project-atlas-109e074c-7f25-49f5-b8aa-a55d9826fd8b.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1600,
+          "height": 870
+        },
+        {
+          "id": "40782bb5-9c4e-4b6a-9ba9-c597ffa4ce1e",
+          "key": "demo-atlas-e5aec0e9-d942-4708-9a7a-459ad64d6306.mp4",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-02af96ce-12b5-4a43-bbb3-be6a038d2d53.jpg"
+        },
+        {
+          "id": "81d1f9c9-ffe0-484b-9139-c217a14af649",
+          "key": "demo-atlas-5e6c6ab9-daa8-482c-b0e2-26d1266c4a5a.mp4",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1080,
+          "posterKey": "project-atlas-53188bab-2e05-476c-b4ac-5e6192a55c30.jpg"
+        }
+      ],
+      "theme": "sky",
+      "title": "Atlas",
+      "status": "completed",
+      "outputs": [],
+      "summary": "Self-Hosted Project Management Office",
+      "coverAlt": "Atlas dashboard, showing project cards with tags and phase status",
+      "coverKey": "project-atlas-2432e473-8982-45c4-bda6-8232ff7dc494.jpg",
+      "featured": true,
+      "platform": "Web",
+      "services": [
+        "Web Development",
+        "Concept",
+        "UX Engineering",
+        "Project Manager",
+        "Infrastructure"
+      ],
+      "startDate": "2025-08-01",
+      "techStack": ["Next.js", "NestJS", "PostgreSQL", "Prisma", "LiveKit", "Yjs", "WebSocket"],
+      "videoMode": "none",
+      "categories": ["website", "hci-ux"],
+      "description": "A self-hostable organization workspace that replaces the usual project-management and communication stack: portfolio discovery, Slack-style chat, ClickUp-style PMO with lists/kanban/Gantt, and Discord-style voice/video rooms, all in one platform.",
+      "galleryKeys": [
+        "project-atlas-21753f3c-0010-4d7e-bfb2-5d42f16fd0cb.png",
+        "project-atlas-feef8a82-7143-4215-8b19-cf9e3cc38be8.png",
+        "project-atlas-25f991d6-45bc-471d-abaf-389cc9c8d3aa.png",
+        "project-atlas-109e074c-7f25-49f5-b8aa-a55d9826fd8b.png"
+      ],
+      "contributors": [
+        {
+          "id": "cdbd1f9d1",
+          "kind": "residence",
+          "name": "Shirasaka Ren",
+          "role": "Technical Lead",
+          "memberSlug": "ren"
+        },
+        {
+          "id": "6dee5c05-0c7f-49ed-a855-1cb2720acb37",
+          "kind": "residence",
+          "name": "Syafa Hadyan Rasendriya",
+          "role": "Infrastructure Engineer",
+          "memberSlug": "syafa-hadyan-rasendriya",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "1e27aaa1-5c19-4d1a-ba6b-650252463cbf",
+          "kind": "residence",
+          "name": "Nurul Inayah",
+          "role": "Project Manager",
+          "memberSlug": "nurul-inayah",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        }
+      ],
+      "organizations": [
+        {
+          "url": "https://shirasaka.ren",
+          "name": "Ren Foundation"
+        }
+      ]
+    },
+    "slug": "atlas",
+    "updatedAt": "2026-09-26T11:51:17.453Z",
+    "mediaSizes": {
+      "project-atlas-2432e473-8982-45c4-bda6-8232ff7dc494.jpg": [2400, 1600]
+    }
+  },
+  {
+    "body": [
+      {
+        "id": "outdoor-lar-authoring-intro",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A smartphone-based, in-situ authoring tool for placing and storing outdoor location-based augmented-reality content with VSLAM and Google Street View reference data. This evidence-led showcase is built from the linked publication records; it distinguishes documented implementation details from claims the papers do not establish.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-documented",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "What the published work documents",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-fact-1",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "The tool lets an author work at a point of interest on a smartphone, capture movement and surroundings, and place a virtual object without a desktop-first authoring workflow.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-fact-2",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "The published approach combines visual-inertial sensing, VSLAM, and Google Street View imagery to improve outdoor localization and AR-anchor alignment.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-fact-3",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "In the reported 15-participant authoring study, all participants completed the task; the paper reports a mean of 16.76 seconds to create one AR object in a 50 m radius area.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-visuals",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Source visuals",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-image-1",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-387d5c22-48bf-452f-ac76-93437bbefac6.png",
+          "caption": "Visual extracted from “A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality”, publication page 8."
+        }
+      },
+      {
+        "id": "outdoor-lar-authoring-image-2",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-e635de58-920d-43d8-953c-2c7dcc34546e.png",
+          "caption": "Visual extracted from “A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality”, publication page 5."
+        }
+      },
+      {
+        "id": "outdoor-lar-authoring-image-3",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-8c08edcb-6cd5-4d58-bf0f-60704c1ecd8b.png",
+          "caption": "Visual extracted from “A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality”, publication page 14."
+        }
+      },
+      {
+        "id": "outdoor-lar-authoring-image-4",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-42f028f1-af3f-4279-a677-dc7f3630f974.png",
+          "caption": "Visual extracted from “A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality”, publication page 13."
+        }
+      },
+      {
+        "id": "outdoor-lar-authoring-image-5",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-30f47e21-e2fc-46b6-b27e-eb5f1ae5f4f7.png",
+          "caption": "Visual extracted from “A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality”, publication page 3."
+        }
+      },
+      {
+        "id": "outdoor-lar-authoring-image-6",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-a85b3b65-26a4-4395-8a9a-32261665ba59.png",
+          "caption": "Visual extracted from “A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality”, publication page 17."
+        }
+      },
+      {
+        "id": "outdoor-lar-authoring-sources",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Linked publication record",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-intro",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Each link below is the corresponding source record. The project description and visuals were kept within the scope of these papers.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-1",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/a-proposal-of-in-situ-authoring-tool-with-visual-inertial-sensor-fusion-for-outd",
+            "type": "link",
+            "content": [
+              {
+                "text": "A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-2",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/an-enhancement-of-outdoor-location-based-augmented-reality-anchor-precision-thro",
+            "type": "link",
+            "content": [
+              {
+                "text": "An Enhancement of Outdoor Location-Based Augmented Reality Anchor Precision through VSLAM and Google Street View",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-3",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/performance-investigations-of-vslam-and-google-street-view-integration-in-outdoo",
+            "type": "link",
+            "content": [
+              {
+                "text": "Performance Investigations of VSLAM and Google Street View Integration in Outdoor Location-Based Augmented Reality under Various Lighting Conditions",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-4",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/an-investigation-of-running-load-comparisons-of-arcore-on-native-android-and-uni",
+            "type": "link",
+            "content": [
+              {
+                "text": "An Investigation of Running Load Comparisons of ARCore on Native Android and Unity for Outdoor Navigation System Using Smartphone",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-5",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/an-effective-approach-to-develop-location-based-augmented-reality-information-su",
+            "type": "link",
+            "content": [
+              {
+                "text": "An effective approach to develop location-based augmented reality information support",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-6",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/location-based-augmented-reality-information-for-bus-route-planning-system",
+            "type": "link",
+            "content": [
+              {
+                "text": "Location-Based Augmented Reality Information for Bus Route Planning System",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "outdoor-lar-authoring-source-7",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "href": "/publications/comparative-study-of-user-experience-on-mobile-pedestrian-navigation-between-dig",
+            "type": "link",
+            "content": [
+              {
+                "text": "Comparative study of user experience on mobile pedestrian navigation between digital map interface and location-based augmented reality",
+                "type": "text",
+                "styles": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Batch 4: pedestrian location AR information support",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4-overview",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This 2019 paper evaluates a location-based Android AR navigation prototype for bus-stop information in Zhongli District, Taiwan. It is related to the broader outdoor-LAR project family through its user-centred AR presentation work, but it is a distinct research prototype—not evidence of a current bus-navigation service, a live timetable, or a public authoring release.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4-architecture",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The prototype uses a three-tier arrangement: the client requests data through a web service, application-server logic is separated from the database, and the client combines returned POI records with phone location, orientation, and movement sensors. A selected route supplies the scoped bus-stop objects. Haversine calculation provides distance; virtual markers are superimposed over corresponding physical locations.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4-turn",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-49864d5d-e0a1-4099-bc97-1e487692a546.png",
+          "caption": "Step-by-step AR guidance with turn direction, destination side, and remaining distance. Source: Brata, Liang, and Dey (2019), Fig. 5a."
+        }
+      },
+      {
+        "id": "lar-batch4-presentation",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Rather than show all available POIs at once, the design shows the next waypoint and final target, includes direction arrows and distance, hides farther markers that compete in the same direction, and changes the target icon within 20 m. These mechanisms respond to the study’s finding that dense, simultaneous AR labels are difficult to interpret.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4-bus",
+        "type": "image",
+        "props": {
+          "url": "/media/projects/project-outdoor-lar-authoring-83daf5b3-f3cf-46f8-b96b-ff57ef6ff185.png",
+          "caption": "AR bus-stop marker with distance and refresh control. Source: Brata, Liang, and Dey (2019), Fig. 5b."
+        }
+      },
+      {
+        "id": "lar-batch4-evaluation",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Ten Android-experienced participants aged 20–28 completed blind and directed search tasks with standard location AR and the proposed system. Both conditions had 100% success in the reported table. Mean blind-search time was 5.40 minutes with the proposed presentation versus 14.9 standard; directed-search time was 5.12 versus 7.86 minutes. Questionnaire means also favoured the prototype, including 94 versus 73.6 for finding a location faster and 95 versus 79.3 for overall satisfaction.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4-limits",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This was a small field prototype in one Taiwanese transport context. Participants still reported AR drift and imperfect object alignment, even where the on-screen guidance helped them infer the right place. The paper does not establish city-wide accuracy, real-time transport information, current availability, or a maintained download/API. Its reported improvements are for the stated task comparison, not a general AR-navigation guarantee.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4-source",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Batch 4 source scope",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch4-source-paper",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "An Effective Approach to Develop Location-Based Augmented Reality Information Support (International Journal of Electrical and Computer Engineering, 2019), DOI: 10.11591/ijece.v9i4.pp3060-3068.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-comparison",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Batch 5: maps and AR as complementary pedestrian interfaces",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-comparison-copy",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This 2020 field study compares a 2D digital map interface with location-based AR for pedestrian navigation in Zhongli District, Taiwan. Ten Android-experienced students aged 20–28 completed blind and directed searches with both interfaces, using different but equally distant POIs to reduce route-learning effects. This is a small comparative prototype study, not evidence that either interface is a current navigation product.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-results",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Both interfaces achieved 100% task success. The digital map was modestly faster: blind search averaged 4.99 minutes versus 5.45 for AR; directed search 4.91 versus 5.20. UEQ-S pragmatic quality also favoured the map (1.90 versus 1.53), while AR was higher on hedonic quality (1.48 versus .53) and slightly higher overall (1.50 versus 1.21). The authors’ conclusion is nuanced: maps remain more familiar and practically efficient, whereas AR’s real-world overlay is more novel and engaging.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-boundary",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The authors caution that AR still needs usability improvements before it can be considered a substitute for traditional maps, and call for more respondents. This page therefore presents AR as a complementary presentation approach, without inventing a download, live transport feed, or operational pedestrian-navigation service.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-busar",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Batch 5: BusAR route-information prototype",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-busar-copy",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The earlier 2017 BusAR paper describes a three-tier Android prototype that overlays selected-route bus-stop POIs on the phone camera view. The client requests JSON through a RESTful web service, combines returned data with GPS, orientation, accelerometer, and gyroscope input, then places markers by direction and great-circle distance. Selecting a marker was designed to expose route information such as arrival time and fare.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-busar-boundary",
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Its evaluation and comparisons are specific to the study’s selected route and earlier systems. The paper does not establish present-day timetable accuracy, a current app, persistent backend, city-wide coverage, or public download. The project retains it as foundational AR information-support research.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-source",
+        "type": "heading",
+        "props": {
+          "level": 2
+        },
+        "content": [
+          {
+            "text": "Batch 5 source scope",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-source-comparison",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "Comparative Study of User Experience on Mobile Pedestrian Navigation Between Digital Map Interface and Location-Based Augmented Reality (IJ ECE, 2020), DOI: 10.11591/ijece.v10i2.pp2037-2044.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      },
+      {
+        "id": "lar-batch5-source-busar",
+        "type": "bulletListItem",
+        "content": [
+          {
+            "text": "Location-Based Augmented Reality Information for Bus Route Planning System (IJ ECE, 2017), DOI: 10.11591/ijece.v7i4.pp1883-1890.",
+            "type": "text",
+            "styles": {}
+          }
+        ]
+      }
+    ],
+    "project": {
+      "cta": {
+        "url": "https://labmgm.org/publications/an-enhancement-of-outdoor-location-based-augmented-reality-anchor-precision-thro",
+        "label": "Read Publications"
+      },
+      "slug": "outdoor-lar-authoring",
+      "draft": false,
+      "links": [],
+      "media": [
+        {
+          "id": "cover",
+          "alt": "Source visual from A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality",
+          "key": "project-outdoor-lar-authoring-2621582b-fad8-45bd-8951-c74ad0c7ad96.jpg",
+          "kind": "image",
+          "size": "full",
+          "width": 2008,
+          "height": 1339
+        },
+        {
+          "id": "gallery-2",
+          "key": "project-outdoor-lar-authoring-8c08edcb-6cd5-4d58-bf0f-60704c1ecd8b.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 1839,
+          "height": 999
+        },
+        {
+          "id": "gallery-7",
+          "key": "project-outdoor-lar-authoring-83daf5b3-f3cf-46f8-b96b-ff57ef6ff185.png",
+          "kind": "image",
+          "size": "normal",
+          "width": 539,
+          "height": 444
+        }
+      ],
+      "theme": "lavender",
+      "title": "Outdoor Authoring Tool",
+      "status": "completed",
+      "endDate": "2025-01-17",
+      "outputs": [
+        {
+          "id": "publication-1",
+          "href": "/publications/a-proposal-of-in-situ-authoring-tool-with-visual-inertial-sensor-fusion-for-outd",
+          "type": "publication",
+          "label": "A Proposal of In Situ Authoring...",
+          "recordSlug": "a-proposal-of-in-situ-authoring-tool-with-visual-inertial-sensor-fusion-for-outd"
+        },
+        {
+          "id": "publication-2",
+          "href": "/publications/an-enhancement-of-outdoor-location-based-augmented-reality-anchor-precision-thro",
+          "type": "publication",
+          "label": "An Enhancement of Outdoor...",
+          "recordSlug": "an-enhancement-of-outdoor-location-based-augmented-reality-anchor-precision-thro"
+        },
+        {
+          "id": "publication-3",
+          "href": "/publications/performance-investigations-of-vslam-and-google-street-view-integration-in-outdoo",
+          "type": "publication",
+          "label": "Performance Investigations of...",
+          "recordSlug": "performance-investigations-of-vslam-and-google-street-view-integration-in-outdoo"
+        },
+        {
+          "id": "publication-4",
+          "href": "/publications/an-investigation-of-running-load-comparisons-of-arcore-on-native-android-and-uni",
+          "type": "publication",
+          "label": "An Investigation of Running...",
+          "recordSlug": "an-investigation-of-running-load-comparisons-of-arcore-on-native-android-and-uni"
+        },
+        {
+          "id": "publication-5",
+          "href": "/publications/an-effective-approach-to-develop-location-based-augmented-reality-information-su",
+          "type": "publication",
+          "label": "An effective approach to...",
+          "recordSlug": "an-effective-approach-to-develop-location-based-augmented-reality-information-su"
+        },
+        {
+          "id": "publication-6",
+          "href": "/publications/location-based-augmented-reality-information-for-bus-route-planning-system",
+          "type": "publication",
+          "label": "Location-Based Augmented...",
+          "recordSlug": "location-based-augmented-reality-information-for-bus-route-planning-system"
+        },
+        {
+          "id": "publication-7",
+          "href": "/publications/comparative-study-of-user-experience-on-mobile-pedestrian-navigation-between-dig",
+          "type": "publication",
+          "label": "Comparative study of user...",
+          "recordSlug": "comparative-study-of-user-experience-on-mobile-pedestrian-navigation-between-dig"
+        }
+      ],
+      "summary": "Ever seen AR content floating in the wrong place? 📍 This paper explores how Google Street View and visual tracking can make outdoor augmented reality more accurate, immersive, and reliable.",
+      "coverAlt": "Source visual from A Proposal of In Situ Authoring Tool with Visual-Inertial Sensor Fusion for Outdoor Location-Based Augmented Reality",
+      "coverKey": "project-outdoor-lar-authoring-2621582b-fad8-45bd-8951-c74ad0c7ad96.jpg",
+      "featured": false,
+      "seoTitle": "Outdoor LAR Authoring Tool",
+      "services": ["Concept", "Development", "Testing"],
+      "startDate": "2015-02-01",
+      "techStack": ["Augmented reality", "VSLAM", "Google Street View", "Smartphone sensors"],
+      "videoMode": "none",
+      "categories": ["mobile", "hci-ux"],
+      "description": "Augmented reality is amazing, but what happens when virtual objects don’t line up with the real world? This paper introduces a smarter way to improve outdoor AR positioning using Visual SLAM and Google Street View instead of relying solely on GPS and compass sensors.\n\nBy testing different real-world locations, the researchers found significant improvements in positioning accuracy, helping virtual content appear exactly where it should. A promising step toward smoother, more immersive outdoor AR experiences!",
+      "galleryKeys": [
+        "project-outdoor-lar-authoring-8c08edcb-6cd5-4d58-bf0f-60704c1ecd8b.png",
+        "project-outdoor-lar-authoring-83daf5b3-f3cf-46f8-b96b-ff57ef6ff185.png"
+      ],
+      "contributors": [
+        {
+          "id": "author-1",
+          "kind": "non-residence",
+          "name": "Komang Candra Brata",
+          "affiliation": "Department of Information and Communication Systems, Okayama University, Okayama 700-8530, Japan; Department of Informatics Engineering, Universitas Brawijaya, Malang 65145, Indonesia"
+        },
+        {
+          "id": "author-2",
+          "kind": "non-residence",
+          "name": "Nobuo Funabiki",
+          "affiliation": "Department of Information and Communication Systems, Okayama University, Okayama 700-8530, Japan"
+        },
+        {
+          "id": "author-3",
+          "kind": "non-residence",
+          "name": "Yohanes Yohanie Fridelin P.",
+          "affiliation": "Department of Information and Communication Systems, Okayama University, Okayama 700-8530, Japan"
+        },
+        {
+          "id": "author-4",
+          "kind": "non-residence",
+          "name": "Mustika Mentari",
+          "affiliation": "Department of Information and Communication Systems, Okayama University, Okayama 700-8530, Japan; Department of Information Technology, Politeknik Negeri Malang, Malang 65141, Indonesia"
+        },
+        {
+          "id": "author-5",
+          "kind": "non-residence",
+          "name": "Yan Watequlis Syaifudin",
+          "affiliation": "Department of Information Technology, Politeknik Negeri Malang, Malang 65141, Indonesia"
+        },
+        {
+          "id": "author-6",
+          "kind": "non-residence",
+          "name": "Alfiandi Aulia Rahmadani",
+          "affiliation": "Department of Information Technology, Politeknik Negeri Malang, Malang 65141, Indonesia"
+        },
+        {
+          "id": "author-7",
+          "kind": "non-residence",
+          "name": "Evianita Dewi Fajrianti",
+          "affiliation": "Graduate School of Natural Science and Technology, Okayama University, Okayama 700-8530, Japan"
+        },
+        {
+          "id": "author-8",
+          "kind": "non-residence",
+          "name": "Prismahardi Aji Riyantoko",
+          "affiliation": "Graduate School of Natural Science and Technology, Okayama University, Okayama 700-8530, Japan"
+        },
+        {
+          "id": "author-9",
+          "kind": "non-residence",
+          "name": "Sritrusta Sukaridhoto",
+          "affiliation": "Politeknik Elektronika Negeri Surabaya,Dept. of Informatic and Computer,Surabaya,Indonesia"
+        },
+        {
+          "id": "author-10",
+          "kind": "non-residence",
+          "name": "Deron Liang",
+          "affiliation": "National Central University"
+        },
+        {
+          "id": "author-11",
+          "kind": "non-residence",
+          "name": "Sholeh Hadi Pramono",
+          "affiliation": "University of Brawijaya"
+        }
+      ],
+      "organizations": [],
+      "seoDescription": "Source-grounded detail on outdoor AR, BusAR, navigation-interface trade-offs, and study boundaries."
+    },
+    "slug": "outdoor-lar-authoring",
+    "updatedAt": "2026-09-26T11:49:35.426Z",
+    "mediaSizes": {}
+  },
+  {
+    "body": [],
+    "project": {
+      "cta": {
+        "url": "https://rensa.site",
+        "label": "Launch Project"
+      },
+      "slug": "rensa",
+      "draft": false,
+      "links": [
+        {
+          "id": "bdb937ab-055c-44f3-961a-44781f73f715",
+          "url": "https://github.com/Rensa-Team",
+          "label": "GitHub"
+        }
+      ],
+      "media": [
+        {
+          "id": "79261045-60dd-4814-a625-e7ac1da347c4",
+          "key": "demo-rensa-68280904-fa53-4e9c-b91a-1085a2e9ecef.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1030,
+          "posterKey": "project-rensa-48e035e5-559c-460b-bf54-615873e0509a.jpg"
+        },
+        {
+          "id": "2f4d5bd6-2fba-47f9-9570-190a5e67fece",
+          "key": "project-rensa-94eb9230-afda-469a-84ff-6c7660747785.webp",
+          "kind": "image",
+          "size": "full",
+          "width": 2908,
+          "height": 1558
+        },
+        {
+          "id": "33811709-2bca-49d1-a360-440728f99b62",
+          "key": "demo-rensa-23401a6f-3811-4285-afce-8d13d7838b90.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1030,
+          "posterKey": "project-rensa-0f00aac2-fd23-4a84-a88b-304a46af3fdd.jpg"
+        },
+        {
+          "id": "c75516ed-0c82-4aa7-abde-1b54545efbb5",
+          "key": "demo-rensa-f815ebfc-5906-4d94-a03a-eb2b1eaea5e9.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1030,
+          "posterKey": "project-rensa-a9a46bc4-072e-426b-b243-1f6d10e6e29d.jpg"
+        },
+        {
+          "id": "04b11ed4-945f-45c8-af05-15eef44251b5",
+          "key": "demo-rensa-c383c7c8-3e77-447e-8a79-e5cea92795e6.webm",
+          "kind": "video",
+          "size": "full",
+          "width": 1920,
+          "height": 1030,
+          "posterKey": "project-rensa-c52751c7-08c2-4431-9574-fd3e4f952b2a.jpg"
+        },
+        {
+          "id": "8645657b-39e4-4e8a-ac6e-a0fd253ae246",
+          "key": "demo-rensa-23292717-5425-4e81-8e3d-96061b99e3d1.webm",
+          "kind": "video",
+          "size": "normal",
+          "width": 1920,
+          "height": 1030,
+          "posterKey": "project-rensa-7918e677-1936-41b9-9f50-7ac523843bef.jpg"
+        },
+        {
+          "id": "838f7759-a123-4036-9927-420cdd116d92",
+          "key": "project-rensa-2904c9f0-b2a4-4e8b-af94-4ce25c485599.webp",
+          "kind": "image",
+          "size": "normal",
+          "width": 2902,
+          "height": 1556
+        }
+      ],
+      "theme": "slate",
+      "title": "Rensa",
+      "status": "completed",
+      "outputs": [],
+      "summary": "Get an Idea of What You Should Shoot Tomorrow",
+      "coverKey": "project-rensa-d22ab79d-33b8-4b58-addf-1fb3cc20d6f6.jpg",
+      "featured": true,
+      "services": ["Concept", "Web Development", "UX Research", "User Testing"],
+      "techStack": ["Next.js", "FastAPI", "PostgreSQL", "Redis", "Cloudinary"],
+      "videoMode": "none",
+      "categories": ["website"],
+      "description": "Stuck on what to capture next? Rensa is a platform where you can explore profesional captured photo along with it's configuration. Explore fresh perspectives from the community. Each photo comes with a detailed recipe, so you can recreate the vibe or twist it your own way.",
+      "galleryKeys": [
+        "project-rensa-94eb9230-afda-469a-84ff-6c7660747785.webp",
+        "project-rensa-2904c9f0-b2a4-4e8b-af94-4ce25c485599.webp"
+      ],
+      "contributors": [
+        {
+          "id": "2ec2465b-31b7-48eb-9e1d-ff8c05ba69cd",
+          "kind": "residence",
+          "name": "Exel Boy Alfanso",
+          "role": "Software Engineer",
+          "memberSlug": "exel-boy-alfanso",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "25f4143a-1754-440e-b00a-7fa593c8173c",
+          "kind": "residence",
+          "name": "Alfredo Radhinal Mukhtar",
+          "role": "UI/UX Designer",
+          "memberSlug": "alfredo-radhinal-mukhtar",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "edc73af8-73a5-4ebe-8e39-3d6124d8df24",
+          "kind": "residence",
+          "name": "Sabita Khansa Dewi",
+          "role": "Social Media Specialist",
+          "memberSlug": "sabita-khansa-dewi",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        },
+        {
+          "id": "f1ab0cf9-a7a7-4de0-a130-bd213de84525",
+          "kind": "residence",
+          "name": "Azkal Baihaqi Putra Sandita",
+          "role": "Project Manager",
+          "memberSlug": "azkal-baihaqi-putra-sandita",
+          "affiliation": "MGM Laboratory, University of Brawijaya"
+        }
+      ],
+      "organizations": []
+    },
+    "slug": "rensa",
+    "updatedAt": "2026-09-26T11:43:01.132Z",
+    "mediaSizes": {}
+  }
+]

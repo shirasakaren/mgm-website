@@ -1,11 +1,11 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "ui": "tui",
-  "globalDependencies": [".env"],
+  "globalDependencies": [],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**", "dist/**"]
+      "outputs": [".next/**", "!.next/cache/**", "out/**"]
     },
     "dev": {
       "dependsOn": ["^build"],
@@ -19,9 +19,6 @@
     "typecheck": {
       "dependsOn": ["^build"],
       "outputs": []
-    },
-    "test": {
-      "dependsOn": ["^build"]
     },
     "clean": {
       "cache": false

@@ -8,29 +8,9 @@ Anything that's in this website are not supported by the lab anymore, so any use
 
 ---
 
-Monorepo for the MGM Laboratory company site: a Next.js marketing site (`apps/web`) and a NestJS API (`apps/api`), deployed on Railway.
+The MGM Laboratory site: a Next.js app (`apps/web`) exported as a fully static site and deployed to GitHub Pages. The content (articles, projects, members, publications, research and media) was exported from the old CMS and lives in the repo.
 
-[![CI](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/ci.yaml/badge.svg)](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/ci.yaml)
-[![Security](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/security.yaml/badge.svg)](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/security.yaml)
-[![E2E](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/e2e.yaml/badge.svg)](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/e2e.yaml)
-[![Lighthouse](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/lighthouse.yaml/badge.svg)](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/lighthouse.yaml)
-[![Vale](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/vale.yaml/badge.svg)](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/vale.yaml)
-[![Docker](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/publish-docker-image-latest.yml/badge.svg)](https://github.com/MGM-Laboratory/mgm-website/actions/workflows/publish-docker-image-latest.yml)
-[![codecov](https://codecov.io/gh/MGM-Laboratory/mgm-website/branch/main/graph/badge.svg)](https://codecov.io/gh/MGM-Laboratory/mgm-website)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MGM-Laboratory_mgm-website3&metric=alert_status)](https://sonarcloud.io/project/overview?id=MGM-Laboratory_mgm-website3)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/MGM-Laboratory/mgm-website/badge)](https://securityscorecards.dev/viewer/?uri=github.com/MGM-Laboratory/mgm-website)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/MGM-Laboratory/mgm-website/main.svg)](https://results.pre-commit.ci/latest/github/MGM-Laboratory/mgm-website/main)
-
-[![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![Node.js](https://img.shields.io/badge/Node.js-22-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![Turbo](https://img.shields.io/badge/Turbo-monorepo-EF4444?logo=turborepo&logoColor=white)](https://turbo.build)
-[![NestJS](https://img.shields.io/badge/NestJS-api-E0234E?logo=nestjs&logoColor=white)](https://nestjs.com)
-[![Railway](https://img.shields.io/badge/Railway-deployed-0B0D0E?logo=railway&logoColor=white)](https://railway.com)
-
-[![Last commit](https://img.shields.io/github/last-commit/MGM-Laboratory/mgm-website)](https://github.com/MGM-Laboratory/mgm-website/commits/main)
-[![Repo size](https://img.shields.io/github/repo-size/MGM-Laboratory/mgm-website)](https://github.com/MGM-Laboratory/mgm-website)
+[![Deploy to GitHub Pages](https://github.com/shirasakaren/mgm-website/actions/workflows/pages.yml/badge.svg)](https://github.com/shirasakaren/mgm-website/actions/workflows/pages.yml)
 
 <img width="1454" src=".github/screenshots/1.png" />
 <img width="1454" src=".github/screenshots/2.png" />
@@ -44,17 +24,9 @@ Monorepo for the MGM Laboratory company site: a Next.js marketing site (`apps/we
 <img width="1454" src=".github/screenshots/10.png" />
 <img width="1454" src=".github/screenshots/11.png" />
 
-## Status
-
-| Site                   | Uptime                                                                                                                                                                                                                                                                                                      |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Website (`labmgm.org`) | [![health](https://status.labmgm.org/api/v1/endpoints/core_mgm-website/health/badge.svg)](https://status.labmgm.org/endpoints/core_mgm-website) [![uptime 30-day](https://status.labmgm.org/api/v1/endpoints/core_mgm-website/uptimes/30d/badge.svg)](https://status.labmgm.org/endpoints/core_mgm-website) |
-
-Status page: [status.labmgm.org](https://status.labmgm.org)
-
 ## Docs
 
-Start with [`CLAUDE.md`](CLAUDE.md): it is the maintained handoff memory and reading order for contributors and coding agents. The principal references are [`docs/project-overview.md`](docs/project-overview.md), [`docs/architecture.md`](docs/architecture.md), and [`docs/cms-admin.md`](docs/cms-admin.md). Design, animation, verification, CI/CD, mail, and collection-specific guides live in [`docs/`](docs/).
+Start with [`CLAUDE.md`](CLAUDE.md): it is the maintained handoff memory and reading order for contributors and coding agents. The principal references are [`docs/static-site.md`](docs/static-site.md) (content, media, the publication PDF switch, deployment), [`docs/project-overview.md`](docs/project-overview.md) and [`docs/architecture.md`](docs/architecture.md). Design, animation and verification guides live in [`docs/`](docs/).
 
 ## Local development
 
@@ -62,12 +34,17 @@ Requires Node 22 and pnpm 11.3.0.
 
 ```bash
 pnpm install
-pnpm dev:web # http://localhost:3000
-pnpm dev:api # http://localhost:4000
+pnpm dev:web                # http://localhost:3000
+pnpm build                  # static export to apps/web/out
+pnpm --filter web preview   # serve apps/web/out on http://localhost:3001
 ```
 
-Copy the workspace examples to local `.env` files before using the API or `/admin`; `docker compose up` starts Postgres, web, and API together. Run `pnpm lint`, `pnpm typecheck`, `pnpm test`, and `pnpm format:check` before opening a PR. All changes use the branch → PR → required checks → `/merge` workflow in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Run `pnpm lint`, `pnpm typecheck` and `pnpm format:check` before opening a PR. To change content, edit the JSON in `apps/web/src/content/` (media in `apps/web/public/media/`); see [`docs/static-site.md`](docs/static-site.md).
+
+## Deployment
+
+Every push to `main` builds the site and publishes it to GitHub Pages (`.github/workflows/pages.yml`); pull requests build it without deploying. The custom domain and DNS setup are described in [`docs/static-site.md`](docs/static-site.md).
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the PR workflow, local setup, and what the required checks are. Security issues go to [`SECURITY.md`](SECURITY.md) instead of a public issue.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the PR workflow and local setup. Security issues go to [`SECURITY.md`](SECURITY.md) instead of a public issue.

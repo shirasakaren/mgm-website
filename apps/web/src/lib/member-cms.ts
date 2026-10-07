@@ -1,4 +1,5 @@
 import type { Member, MemberAccent, MemberDivision } from "@/data/members";
+import { withBasePath } from "@/lib/base-path";
 
 export type CmsDate = { month: number; year: number };
 
@@ -118,4 +119,9 @@ export function mergeMemberRecords(base: readonly Member[], records: readonly Cm
     .map((record) => record.member);
 
   return [...merged, ...additions];
+}
+
+/** Resolves a member portrait key to its bundled file. */
+export function memberPhotoUrl(photoKey = "") {
+  return withBasePath(`/media/members/${encodeURIComponent(photoKey)}`);
 }

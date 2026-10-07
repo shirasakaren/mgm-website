@@ -1,7 +1,8 @@
-import type { ProjectThemeId } from "@repo/shared";
+import type { ProjectThemeId } from "@/lib/content-types";
 
 import type { Member } from "@/data/members";
 import { themeIdFor } from "@/lib/theme-pick";
+import { withBasePath } from "@/lib/base-path";
 
 /** A single BlockNote block as persisted in the CMS document. */
 export type ArticleBlock = {
@@ -103,8 +104,8 @@ export function publishedArticles(records: readonly CmsArticleRecord[]) {
 /** Resolves a cover key to a loadable URL — bundled seed art or CMS media. */
 export function articleCoverUrl(coverKey?: string) {
   if (!coverKey) return undefined;
-  if (coverKey.startsWith("static/")) return `/${coverKey.slice("static/".length)}`;
-  return `/api/articles-cms/media/${encodeURIComponent(coverKey)}`;
+  if (coverKey.startsWith("static/")) return withBasePath(`/${coverKey.slice("static/".length)}`);
+  return withBasePath(`/media/articles/${encodeURIComponent(coverKey)}`);
 }
 
 /** Formats an ISO date the way the article template does: "Saturday, August 31, 2024". */

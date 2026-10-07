@@ -3,10 +3,11 @@ import {
   type ProjectCta,
   type ProjectMediaItem,
   type ProjectThemeId,
-} from "@repo/shared";
+} from "@/lib/content-types";
 
 import { formatArticleDate, slugify as slugifyText, type ArticleBlock } from "@/lib/article-cms";
 import { themeIdFor } from "@/lib/theme-pick";
+import { withBasePath } from "@/lib/base-path";
 
 export {
   PROJECT_DETAIL_LIMITS,
@@ -16,7 +17,7 @@ export {
   type ProjectMediaItem,
   type ProjectMediaSize,
   type ProjectThemeId,
-} from "@repo/shared";
+} from "@/lib/content-types";
 
 /** Shared types and helpers for the projects editorial workflow. */
 
@@ -369,15 +370,15 @@ export function featuredProjects(records: readonly CmsProjectRecord[]) {
 /** Resolves a media key to a loadable URL — bundled seed art or CMS media. */
 export function projectMediaUrl(key?: string) {
   if (!key) return undefined;
-  if (key.startsWith("static/")) return `/${key.slice("static/".length)}`;
-  return `/api/projects-cms/media/${encodeURIComponent(key)}`;
+  if (key.startsWith("static/")) return withBasePath(`/${key.slice("static/".length)}`);
+  return withBasePath(`/media/projects/${encodeURIComponent(key)}`);
 }
 
 /** Resolves an uploaded video key (or bundled `static/` art) to a loadable, range-seekable URL. */
 export function projectVideoUrl(key?: string) {
   if (!key) return undefined;
-  if (key.startsWith("static/")) return `/${key.slice("static/".length)}`;
-  return `/api/projects-cms/video/${encodeURIComponent(key)}`;
+  if (key.startsWith("static/")) return withBasePath(`/${key.slice("static/".length)}`);
+  return withBasePath(`/media/projects-video/${encodeURIComponent(key)}`);
 }
 
 /** The card carousel / gallery source list: the cover first, then the gallery, deduplicated. */

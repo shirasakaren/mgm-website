@@ -1,4 +1,4 @@
-import type { ProjectThemeId } from "@repo/shared";
+import type { ProjectThemeId } from "@/lib/content-types";
 
 /**
  * The 20 preset palettes a project detail page can wear (picked per project

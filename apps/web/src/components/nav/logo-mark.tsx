@@ -6,6 +6,7 @@ import Link from "next/link";
 import gsap from "gsap";
 
 import { FlairShape, type PatternKind, type PatternTone } from "@/components/process/pattern-tile";
+import { withBasePath } from "@/lib/base-path";
 
 // Same technique as the hero CTA's hover burst (see hero/see-work-button):
 // small brand-colored shapes pop out, rise on a projectile arc, and tumble
@@ -98,7 +99,7 @@ export function LogoMark() {
           ))}
         </div>
         <div ref={markRef}>
-          <Image src="/logo.svg" alt="" width={28} height={28} priority />
+          <Image src={withBasePath("/logo.svg")} alt="" width={28} height={28} priority />
         </div>
       </div>
       <span className="flex flex-col leading-[1.1] font-display tracking-tight">

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import Link from "next/link";
+import { CONTACT_EMAIL } from "@/data/nav";
 import { ArrowRight } from "lucide-react";
 
 import { labNote } from "@/lib/lab-notes";
@@ -110,8 +110,8 @@ export function HomeFinale() {
           </p>
           <div className="finale-reveal mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
             <Magnetic radius={80} strength={0.35} max={12}>
-              <Link
-                href="/contact"
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
                 className="group relative inline-flex h-12 items-center overflow-hidden rounded-full bg-foreground pr-7 pl-10 text-sm font-semibold text-background transition-[background-color] duration-200 hover:bg-brand-yellow hover:delay-300 focus-visible:bg-brand-yellow focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--focus)] focus-visible:delay-300 motion-reduce:transition-none"
               >
                 {/* The dot floods the pill yellow on hover, and the pill's own
@@ -131,26 +131,7 @@ export function HomeFinale() {
                   strokeWidth={2.25}
                   className="absolute right-5 size-4 translate-x-[250%] text-[#0e1116] transition-transform duration-500 ease-[cubic-bezier(.35,0,0,1)] group-hover:translate-x-0 group-focus-visible:translate-x-0 motion-reduce:transition-none"
                 />
-              </Link>
-            </Magnetic>
-            <Magnetic radius={50} strength={0.3} max={8}>
-              <Link
-                href="/careers"
-                className="group relative inline-flex items-center gap-2 py-1 text-sm font-semibold text-foreground/80 transition-colors hover:text-foreground focus-visible:text-foreground focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--focus)]"
-              >
-                <span data-magnetic-inner className="inline-block">
-                  See open roles
-                </span>
-                <ArrowRight
-                  aria-hidden
-                  strokeWidth={2.25}
-                  className="size-4 transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transition-none"
-                />
-                <span
-                  aria-hidden
-                  className="absolute inset-x-0 bottom-0 h-px origin-left scale-x-0 bg-current transition-transform duration-300 group-hover:scale-x-100 group-focus-visible:scale-x-100 motion-reduce:transition-none"
-                />
-              </Link>
+              </a>
             </Magnetic>
           </div>
         </div>

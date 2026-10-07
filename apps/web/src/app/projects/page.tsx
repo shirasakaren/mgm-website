@@ -11,10 +11,6 @@ export const metadata: Metadata = {
   description: "A selection of research-driven products the lab has built end to end.",
 };
 
-// Projects resolves entirely at request time: the CMS is the source of
-// truth and admin publishes must reach the public page immediately.
-export const revalidate = 0;
-
 export default async function ProjectsPage() {
   let records: CmsProjectRecord[] = [];
   try {

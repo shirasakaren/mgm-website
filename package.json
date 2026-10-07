@@ -9,18 +9,15 @@
   "scripts": {
     "dev": "turbo run dev",
     "dev:web": "turbo run dev --filter=web",
-    "dev:api": "turbo run dev --filter=api",
     "build": "turbo run build",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
-    "test": "turbo run test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "clean": "turbo run clean",
     "prepare": "husky"
   },
   "devDependencies": {
-    "@aws-sdk/client-s3": "^3.1128.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.5.0",
     "prettier": "^3.9.6",

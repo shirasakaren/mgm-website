@@ -1,5 +1,6 @@
 import type { ArticleBlock } from "@/lib/article-cms";
 import { hashSlug } from "@/lib/theme-pick";
+import { withBasePath } from "@/lib/base-path";
 
 /**
  * Turns a saved BlockNote document into the article page's story: a lede,
@@ -94,7 +95,8 @@ export function safeHref(value: string) {
 }
 
 export function safeImageSrc(value: string) {
-  if (/^https?:\/\//i.test(value) || value.startsWith("/")) return value;
+  if (/^https?:\/\//i.test(value)) return value;
+  if (value.startsWith("/")) return withBasePath(value);
   return undefined;
 }
 

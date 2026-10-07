@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/base-path";
+
 /**
  * Texture sources for the world's cards, free of three.js.
  *
@@ -23,8 +25,8 @@
  * once per layout, never per frame.
  */
 
-const MEDIA_PREFIX = "/api/articles-cms/media/";
-const STATIC_PREFIX = "/article-covers/";
+const MEDIA_PREFIX = withBasePath("/media/articles/");
+const STATIC_PREFIX = withBasePath("/article-covers/");
 
 /** Gap between atlas rows and pieces (CSS px), so filtering never bleeds across. */
 const ATLAS_PAD = 4;
