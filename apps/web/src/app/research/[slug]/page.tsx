@@ -10,6 +10,7 @@ import { ensureMemberCmsSeeded } from "@/lib/member-cms-seed";
 import {
   formatResearchDateShort,
   formatResearchPeriod,
+  publishedResearch,
   researchCoverUrl,
   researchMembers,
   safeResearchHref,
@@ -18,13 +19,15 @@ import {
   type ResearchMilestone,
   type ResearchOutputLink,
 } from "@/lib/research-cms";
-import { fetchResearchRecord } from "@/lib/research-cms-server";
+import { fetchResearchFeed, fetchResearchRecord } from "@/lib/research-cms-server";
 
 type ResearchPageProps = { params: Promise<{ slug: string }> };
 
-// Research resolves entirely at request time: the CMS is the source of
-// truth and admin publishes must reach the public page immediately.
-export const revalidate = 0;
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return publishedResearch(await fetchResearchFeed()).map((record) => ({ slug: record.slug }));
+}
 
 async function readRecord(slug: string) {
   try {

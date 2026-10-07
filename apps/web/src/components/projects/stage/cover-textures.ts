@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/base-path";
+
 /**
  * Cover texture preparation for the WebGL stage, kept free of three.js so
  * it can run (and warm up) before the renderer exists.
@@ -69,12 +71,12 @@ export async function encodedSource(img: HTMLImageElement): Promise<Blob | HTMLI
   // anything else (a /public fallback, a foreign URL) decodes from the
   // element instead.
   const { origin, pathname } = new URL(img.currentSrc || img.src, window.location.href);
-  const mediaPrefix = "/api/projects-cms/media/";
+  const mediaPrefix = withBasePath("/media/projects/");
   if (origin !== window.location.origin || !pathname.startsWith(mediaPrefix)) return img;
   // Re-encoded as a single path segment (as projectMediaUrl builds it), so
   // the key can't smuggle in extra segments.
   const key = encodeURIComponent(decodeURIComponent(pathname.slice(mediaPrefix.length)));
-  const blob = await readCachedBlob(`/api/projects-cms/media/${key}`);
+  const blob = await readCachedBlob(`${mediaPrefix}${key}`);
   return blob ?? img;
 }
 

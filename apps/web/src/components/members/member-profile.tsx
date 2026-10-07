@@ -36,6 +36,7 @@ import type { Member } from "@/data/members";
 import { useMemberRecords } from "@/hooks/use-member-records";
 import { usePhotoLoadState } from "@/hooks/use-photo-load-state";
 import type { CmsMemberProfile, CmsMemberRecord } from "@/lib/member-cms";
+import { memberPhotoUrl } from "@/lib/member-cms";
 
 // Not yet in TS's lib.dom.d.ts (Navigation API); only the fields we read.
 interface NavigationHistoryEntryLike {
@@ -390,7 +391,7 @@ function ProfilePortrait({
         // Uploaded portraits resolve through a short-lived signed storage URL.
         // The browser can follow it directly; the Next image optimizer rejects it.
         <Image
-          src={`/api/member-cms/media/${photoKey}`}
+          src={memberPhotoUrl(photoKey)}
           alt={`Portrait of ${member.name}`}
           fill
           key={photoKey}

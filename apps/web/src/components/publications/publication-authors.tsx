@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { authorKind, authorPhotoUrl, type PublicationAuthor } from "@/lib/publication-cms";
+import { memberPhotoUrl } from "@/lib/member-cms";
 
 function initialsOf(name: string) {
   return name
@@ -45,7 +46,7 @@ export function PublicationAuthors({
               : undefined;
           const photoSrc =
             kind === "residence"
-              ? memberPhotoKey && `/api/member-cms/media/${memberPhotoKey}`
+              ? memberPhotoKey && memberPhotoUrl(memberPhotoKey)
               : authorPhotoUrl(author.photoKey);
           const position = author.photoPosition;
           const name = (

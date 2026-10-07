@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/base-path";
+
 export type Partner = {
   slug: string;
   name: string;
@@ -68,7 +70,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "hiroshima-university",
     name: "Hiroshima University",
-    logo: "/partners/hiroshima-university.webp",
+    logo: withBasePath("/partners/hiroshima-university.webp"),
     logoWidth: 400,
     logoHeight: 393,
     blurb:
@@ -80,8 +82,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "pens",
     name: "PENS",
-    logo: "/partners/pens.webp",
-    logoDark: "/partners/pens-dark.webp",
+    logo: withBasePath("/partners/pens.webp"),
+    logoDark: withBasePath("/partners/pens-dark.webp"),
     logoWidth: 391,
     logoHeight: 372,
     blurb:
@@ -93,8 +95,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "ritsumeikan-university",
     name: "Ritsumeikan University",
-    logo: "/partners/ritsumeikan-university.webp",
-    logoDark: "/partners/ritsumeikan-university-dark.webp",
+    logo: withBasePath("/partners/ritsumeikan-university.webp"),
+    logoDark: withBasePath("/partners/ritsumeikan-university-dark.webp"),
     logoWidth: 400,
     logoHeight: 101,
     blurb:
@@ -106,8 +108,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "national-central-university",
     name: "National Central University",
-    logo: "/partners/national-central-university.webp",
-    logoDark: "/partners/national-central-university-dark.webp",
+    logo: withBasePath("/partners/national-central-university.webp"),
+    logoDark: withBasePath("/partners/national-central-university-dark.webp"),
     logoWidth: 400,
     logoHeight: 84,
     blurb:
@@ -118,8 +120,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "binus",
     name: "BINUS University",
-    logo: "/partners/binus.svg",
-    logoDark: "/partners/binus-dark.svg",
+    logo: withBasePath("/partners/binus.svg"),
+    logoDark: withBasePath("/partners/binus-dark.svg"),
     logoWidth: 400,
     logoHeight: 240,
     logoScale: 1.3,
@@ -131,7 +133,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "blibli",
     name: "Blibli",
-    logo: "/partners/blibli.webp",
+    logo: withBasePath("/partners/blibli.webp"),
     logoWidth: 400,
     logoHeight: 225,
     logoScale: 1.3,
@@ -143,8 +145,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "tiket-com",
     name: "tiket.com",
-    logo: "/partners/tiket-com.webp",
-    logoDark: "/partners/tiket-com-dark.webp",
+    logo: withBasePath("/partners/tiket-com.webp"),
+    logoDark: withBasePath("/partners/tiket-com-dark.webp"),
     logoWidth: 400,
     logoHeight: 87,
     logoScale: 0.85,
@@ -156,8 +158,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "mekari",
     name: "Mekari",
-    logo: "/partners/mekari.svg",
-    logoDark: "/partners/mekari-dark.svg",
+    logo: withBasePath("/partners/mekari.svg"),
+    logoDark: withBasePath("/partners/mekari-dark.svg"),
     logoWidth: 695,
     logoHeight: 135,
     logoScale: 0.75,
@@ -170,8 +172,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "nanyang-technological-university",
     name: "Nanyang Technological University",
-    logo: "/partners/nanyang-technological-university.svg",
-    logoDark: "/partners/nanyang-technological-university-dark.svg",
+    logo: withBasePath("/partners/nanyang-technological-university.svg"),
+    logoDark: withBasePath("/partners/nanyang-technological-university-dark.svg"),
     logoWidth: 515,
     logoHeight: 213,
     logoScale: 1.9,
@@ -184,7 +186,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "tokopedia",
     name: "Tokopedia",
-    logo: "/partners/tokopedia.webp",
+    logo: withBasePath("/partners/tokopedia.webp"),
     logoWidth: 400,
     logoHeight: 120,
     logoScale: 1.3,
@@ -197,7 +199,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "universitas-brawijaya",
     name: "Universitas Brawijaya",
-    logo: "/partners/universitas-brawijaya.webp",
+    logo: withBasePath("/partners/universitas-brawijaya.webp"),
     logoWidth: 398,
     logoHeight: 400,
     blurb:
@@ -208,8 +210,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "okayama-university",
     name: "Okayama University",
-    logo: "/partners/okayama-university.svg",
-    logoDark: "/partners/okayama-university-dark.svg",
+    logo: withBasePath("/partners/okayama-university.svg"),
+    logoDark: withBasePath("/partners/okayama-university-dark.svg"),
     logoWidth: 400,
     logoHeight: 121,
     blurb:
@@ -220,8 +222,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "kyushu-institute-of-technology",
     name: "Kyushu Institute of Technology",
-    logo: "/partners/kyutech.webp",
-    logoDark: "/partners/kyutech-dark.webp",
+    logo: withBasePath("/partners/kyutech.webp"),
+    logoDark: withBasePath("/partners/kyutech-dark.webp"),
     logoWidth: 400,
     logoHeight: 88,
     logoScale: 0.85,
@@ -233,7 +235,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "saga-university",
     name: "Saga University",
-    logo: "/partners/saga-university.webp",
+    logo: withBasePath("/partners/saga-university.webp"),
     logoWidth: 400,
     logoHeight: 158,
     blurb:
@@ -245,7 +247,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "eon-reality",
     name: "EON Reality",
-    logo: "/partners/eon-reality.webp",
+    logo: withBasePath("/partners/eon-reality.webp"),
     logoWidth: 400,
     logoHeight: 123,
     blurb:
@@ -257,7 +259,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "mister-aladin",
     name: "Mister Aladin",
-    logo: "/partners/mister-aladin.webp",
+    logo: withBasePath("/partners/mister-aladin.webp"),
     logoWidth: 400,
     logoHeight: 267,
     logoScale: 1.3,
@@ -271,8 +273,8 @@ export const PARTNERS: Partner[] = [
   {
     slug: "biznet-gio",
     name: "Biznet GioCloud",
-    logo: "/partners/biznet-gio.webp",
-    logoDark: "/partners/biznet-gio-dark.webp",
+    logo: withBasePath("/partners/biznet-gio.webp"),
+    logoDark: withBasePath("/partners/biznet-gio-dark.webp"),
     logoWidth: 400,
     logoHeight: 180,
     logoScale: 1.3,
@@ -281,7 +283,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "fxmedia",
     name: "fxMedia",
-    logo: "/partners/fxmedia.webp",
+    logo: withBasePath("/partners/fxmedia.webp"),
     logoWidth: 400,
     logoHeight: 225,
     logoScale: 1.3,
@@ -292,7 +294,7 @@ export const PARTNERS: Partner[] = [
   {
     slug: "mirai-education",
     name: "Mirai Education",
-    logo: "/partners/mirai.webp",
+    logo: withBasePath("/partners/mirai.webp"),
     logoWidth: 384,
     logoHeight: 107,
     logoScale: 0.85,

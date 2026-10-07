@@ -1,4 +1,4 @@
-import { PROJECT_THEME_IDS, type ProjectThemeId } from "@repo/shared";
+import { PROJECT_THEME_IDS, type ProjectThemeId } from "@/lib/content-types";
 
 /**
  * The palette a themed page wears: the one an editor picked, else a stable

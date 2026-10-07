@@ -1,37 +1,21 @@
 import type { Metadata, Viewport } from "next";
-import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 
 import { ArticleDetail } from "@/components/articles/detail/article-detail";
 import { ArticleStory } from "@/components/articles/detail/article-story";
 import { articleDetailData } from "@/components/articles/detail/detail-data";
 import { articleCoverUrl, articleThemeId } from "@/lib/article-cms";
+import { SITE_URL } from "@/lib/base-path";
 import { PROJECT_THEMES, projectThemeCss } from "@/lib/project-themes";
 
 import { readArticle, readMembers, readPublishedFeed } from "./read-article";
 
-// Articles resolve entirely at request time: the CMS is the source of truth
-// and admin publishes must reach the public page immediately.
-export const revalidate = 0;
-
 type ArticlePageProps = PageProps<"/articles/[slug]">;
 
-/** The origin this request reached, for absolute Open Graph URLs (undefined if unusable). */
-async function requestOrigin() {
-  const requestHeaders = await headers();
-  // Forwarded headers may carry a list ("https, http") or anything a client
-  // sent: take the first entry, and drop the base rather than fail the page
-  // on a value that isn't a URL (the same rule as the project pages).
-  const first = (name: string) => requestHeaders.get(name)?.split(",")[0]?.trim() || undefined;
-  const host = first("x-forwarded-host") ?? first("host");
-  const protocol =
-    first("x-forwarded-proto") ??
-    (host?.startsWith("localhost") || host?.startsWith("127.") ? "http" : "https");
-  try {
-    return host && /^https?$/.test(protocol) ? new URL(`${protocol}://${host}`) : undefined;
-  } catch {
-    return undefined;
-  }
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return (await readPublishedFeed()).map((record) => ({ slug: record.slug }));
 }
 
 export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
@@ -42,7 +26,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   const title = `${article.title} | MGM Laboratory`;
   const description = article.subtitle || undefined;
   const cover = articleCoverUrl(article.coverKey);
-  const metadataBase = await requestOrigin();
+  const metadataBase = new URL(SITE_URL);
   return {
     title,
     description,

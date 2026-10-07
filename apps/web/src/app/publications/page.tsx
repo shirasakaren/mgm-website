@@ -11,8 +11,6 @@ export const metadata: Metadata = {
     "Peer-reviewed papers and scholarly writing from MGM Laboratory — journal articles, conference papers, and preprints.",
 };
 
-export const revalidate = 0;
-
 async function readRecords() {
   try {
     return publishedPublications(await ensurePublicationFeed());

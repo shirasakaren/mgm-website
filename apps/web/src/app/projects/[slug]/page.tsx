@@ -1,18 +1,20 @@
 import type { Metadata, Viewport } from "next";
-import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 
 import { projectDetailData } from "@/components/projects/detail/detail-data";
 import { ProjectDetail } from "@/components/projects/detail/project-detail";
-import { projectMediaUrl, projectThemeId } from "@/lib/project-cms";
-import { readProjectDetail } from "@/lib/project-cms-server";
+import { SITE_URL } from "@/lib/base-path";
+import { projectMediaUrl, projectThemeId, publishedProjects } from "@/lib/project-cms";
+import { fetchProjectFeed, readProjectDetail } from "@/lib/project-cms-server";
 import { PROJECT_THEMES, projectThemeCss } from "@/lib/project-themes";
 
-// Projects resolve entirely at request time: the CMS is the source of
-// truth and admin publishes must reach the public page immediately.
-export const revalidate = 0;
-
 type ProjectPageProps = PageProps<"/projects/[slug]">;
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return publishedProjects(await fetchProjectFeed()).map((record) => ({ slug: record.slug }));
+}
 
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
   const { slug } = await params;
@@ -21,24 +23,8 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   const { project } = record;
   const title = `${project.seoTitle || project.title} | MGM Laboratory`;
   const description = project.seoDescription || project.description || project.summary;
-  // The cover is served from this site's own media route, and Open Graph
-  // needs an absolute URL: resolve it against the host this request reached.
   const cover = projectMediaUrl(project.coverKey);
-  const requestHeaders = await headers();
-  // Forwarded headers may carry a list ("https, http") or anything a client
-  // sent: take the first entry, and drop the base (only the Open Graph image
-  // goes) rather than fail the page on a value that isn't a URL.
-  const first = (name: string) => requestHeaders.get(name)?.split(",")[0]?.trim() || undefined;
-  const host = first("x-forwarded-host") ?? first("host");
-  const protocol =
-    first("x-forwarded-proto") ??
-    (host?.startsWith("localhost") || host?.startsWith("127.") ? "http" : "https");
-  let metadataBase: URL | undefined;
-  try {
-    metadataBase = host && /^https?$/.test(protocol) ? new URL(`${protocol}://${host}`) : undefined;
-  } catch {
-    metadataBase = undefined;
-  }
+  const metadataBase = new URL(SITE_URL);
   return {
     title,
     description,

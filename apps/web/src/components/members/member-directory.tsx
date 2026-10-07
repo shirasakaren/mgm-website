@@ -11,6 +11,8 @@ import { type Member, type MemberDivision } from "@/data/members";
 import { useMemberRecords } from "@/hooks/use-member-records";
 import { usePhotoLoadState } from "@/hooks/use-photo-load-state";
 import type { CmsMemberRecord } from "@/lib/member-cms";
+import { memberPhotoUrl } from "@/lib/member-cms";
+import { withBasePath } from "@/lib/base-path";
 
 type Filter = "All" | MemberDivision;
 
@@ -91,16 +93,16 @@ const ACCENT_COLORS = {
   green: "bg-brand-green",
 } as const;
 const DIVISION_LOGOS: Record<MemberDivision, string> = {
-  Professors: "/logo/professor.svg",
-  Website: "/logo/web.svg",
-  Mobile: "/logo/mobile.svg",
-  "HCI/UX": "/logo/ux.svg",
-  "Game & XR": "/logo/game.svg",
-  "IT & Infrastructure": "/logo/infra.svg",
-  "Public Relations": "/logo/pr.svg",
-  Media: "/logo/media.svg",
-  Curriculum: "/logo/curriculum.svg",
-  "Human Resource": "/logo/hr.svg",
+  Professors: withBasePath("/logo/professor.svg"),
+  Website: withBasePath("/logo/web.svg"),
+  Mobile: withBasePath("/logo/mobile.svg"),
+  "HCI/UX": withBasePath("/logo/ux.svg"),
+  "Game & XR": withBasePath("/logo/game.svg"),
+  "IT & Infrastructure": withBasePath("/logo/infra.svg"),
+  "Public Relations": withBasePath("/logo/pr.svg"),
+  Media: withBasePath("/logo/media.svg"),
+  Curriculum: withBasePath("/logo/curriculum.svg"),
+  "Human Resource": withBasePath("/logo/hr.svg"),
 };
 
 function normalize(value: string) {
@@ -272,7 +274,7 @@ function Portrait({
       {loadingPhoto ? <PhotoSkeleton /> : null}
       {showPhoto ? (
         <Image
-          src={`/api/member-cms/media/${photoKey}`}
+          src={memberPhotoUrl(photoKey)}
           alt=""
           fill
           key={photoKey}
@@ -315,7 +317,7 @@ export function MemberDirectory({
   useEffect(() => {
     const controller = new AbortController();
     const loadIndex = () =>
-      fetch("/member-profiles/index.json", { signal: controller.signal })
+      fetch(withBasePath("/member-profiles/index.json"), { signal: controller.signal })
         .then((response) => (response.ok ? response.json() : {}))
         .then((index: Record<string, string>) => {
           setProfileSearchIndex(index);

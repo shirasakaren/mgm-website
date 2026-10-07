@@ -1,5 +1,8 @@
 /** Shared types and citation tooling for the publications editorial workflow. */
 
+import PAPER_VISIBILITY from "@/content/paper-visibility.json";
+import { withBasePath } from "@/lib/base-path";
+
 export type PublicationType =
   "journal-article" | "conference-paper" | "preprint" | "book-chapter" | "book" | "thesis";
 
@@ -177,27 +180,30 @@ export function publishedPublications(records: readonly CmsPublicationRecord[]) 
 }
 
 /**
- * Whether a publication's paper may be shown and served. Papers are opt-in:
- * the record has to carry a key and an explicit `paperHidden: false`, so
- * records that predate the flag, and records saved with it unset, stay out of
- * the public page. The API refuses hidden keys too, so this mirrors the
- * server rather than replacing it.
+ * Whether a publication's paper may be shown and served. Papers are opt-in,
+ * switched on in `src/content/paper-visibility.json`: `showAll` publishes
+ * every paper, or `visible` lists publication slugs to publish one by one.
+ * The build copies only those PDFs from `papers/` into the site, so a hidden
+ * paper is never deployed (`scripts/copy-papers.mjs`).
  */
 export function paperIsPublic(publication: PublicationDraft) {
-  return Boolean(publication.paperKey) && publication.paperHidden === false;
+  if (!publication.paperKey) return false;
+  return (
+    PAPER_VISIBILITY.showAll || (PAPER_VISIBILITY.visible as string[]).includes(publication.slug)
+  );
 }
 
 /** Resolves a paper key to a loadable URL — bundled seed papers or CMS storage. */
 export function publicationPaperUrl(paperKey?: string) {
   if (!paperKey) return undefined;
-  if (paperKey.startsWith("static/")) return `/${paperKey.slice("static/".length)}`;
-  return `/api/publications-cms/paper/${encodeURIComponent(paperKey)}`;
+  if (paperKey.startsWith("static/")) return withBasePath(`/${paperKey.slice("static/".length)}`);
+  return withBasePath(`/papers/${encodeURIComponent(paperKey)}`);
 }
 
 /** Resolves an author portrait key to a loadable URL. */
 export function authorPhotoUrl(photoKey?: string) {
   if (!photoKey) return undefined;
-  return `/api/publications-cms/media/${encodeURIComponent(photoKey)}`;
+  return withBasePath(`/media/publications/${encodeURIComponent(photoKey)}`);
 }
 
 export function doiUrl(doi?: string) {

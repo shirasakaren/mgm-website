@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/base-path";
+
 /**
  * The article cover's picture for the world, free of three.js: read as a
  * Blob from its same-origin URL (the article media route, or bundled seed
@@ -8,10 +10,10 @@
  * route is immutable).
  */
 
-const MEDIA_PREFIX = "/api/articles-cms/media/";
+const MEDIA_PREFIX = withBasePath("/media/articles/");
 /** A stalled download gives up after this long (the DOM cover stays). */
 const READ_TIMEOUT_MS = 20_000;
-const STATIC_PREFIX = "/article-covers/";
+const STATIC_PREFIX = withBasePath("/article-covers/");
 
 /**
  * A same-origin GET as a Blob, or null on any failure. XMLHttpRequest rather

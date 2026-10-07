@@ -35,10 +35,6 @@ export const metadata: Metadata = {
     "Research at MGM Laboratory: how people use websites, mobile tools, and immersive media in real situations, turned into better digital products.",
 };
 
-// Research resolves entirely at request time: the CMS is the source of
-// truth and admin publishes must reach the public page immediately.
-export const revalidate = 0;
-
 async function readRecords() {
   try {
     return publishedResearch(await fetchResearchFeed());

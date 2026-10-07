@@ -8,6 +8,7 @@ import { useMemberRecords } from "@/hooks/use-member-records";
 import type { CmsMemberRecord } from "@/lib/member-cms";
 import DriftWall, { type DriftWallItem } from "./drift-wall/drift-wall";
 import { RevealSection } from "./reveal-section";
+import { memberPhotoUrl } from "@/lib/member-cms";
 
 /**
  * All four edges fade to the section's own background color (not just to
@@ -129,7 +130,7 @@ export function TeamSpotlight({
     const unique = members
       .filter((m) => photoKeyBySlug.has(m.slug))
       .map((m) => ({
-        image: `/api/member-cms/media/${photoKeyBySlug.get(m.slug)}`,
+        image: memberPhotoUrl(photoKeyBySlug.get(m.slug)),
         title: m.name,
         href: `/member/${m.slug}`,
       }));

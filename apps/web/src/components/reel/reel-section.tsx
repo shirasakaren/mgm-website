@@ -3,7 +3,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import Link from "next/link";
 
-import type { HomeContent } from "@repo/shared";
+import type { HomeContent } from "@/lib/content-types";
 import { HOME_CHAPTERS } from "@/components/home-extras/chapters";
 import { ChapterMark } from "@/components/home-extras/kinetic-heading";
 import { ReelController } from "@/components/reel/reel-controller";

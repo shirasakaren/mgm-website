@@ -3,6 +3,7 @@
 import Image from "next/image";
 import gsap from "gsap";
 import { useLayoutEffect, useRef } from "react";
+import { withBasePath } from "@/lib/base-path";
 
 export function MemberHero() {
   const root = useRef<HTMLElement>(null);
@@ -39,7 +40,7 @@ export function MemberHero() {
     >
       <div className="member-hero-media absolute inset-x-0 top-0 aspect-video origin-top">
         <Image
-          src="/member.webp"
+          src={withBasePath("/member.webp")}
           alt="Members of MGM Laboratory together"
           fill
           preload

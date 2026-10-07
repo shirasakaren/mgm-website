@@ -22,9 +22,13 @@ import { ensureMemberCmsSeeded } from "@/lib/member-cms-seed";
 
 type PublicationPageProps = { params: Promise<{ slug: string }> };
 
-// Publications resolve entirely at request time: the CMS is the source of
-// truth and admin publishes must reach the public page immediately.
-export const revalidate = 0;
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return publishedPublications(await ensurePublicationFeed()).map((record) => ({
+    slug: record.slug,
+  }));
+}
 
 async function readRecord(slug: string) {
   try {

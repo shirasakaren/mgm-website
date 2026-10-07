@@ -41,7 +41,7 @@ const NEAR_END_SECONDS = 8;
 function pageVideoSource() {
   for (const video of Array.from(document.querySelectorAll("video"))) {
     const src = video.currentSrc || video.src;
-    if (src.includes("/api/home-cms/video/")) return src;
+    if (src.includes("/media/home-video/")) return src;
   }
   return null;
 }
