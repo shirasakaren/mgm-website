@@ -36,16 +36,14 @@ No SVG masking or clip-path: coverage is pure `transform-origin` + `scale` on a 
 - **Absent** → real content already committed, `routeReady = true` immediately.
 - **Present** → a `MutationObserver` on `document.body` waits for that node to be removed (Next's Suspense swap from `loading.tsx` to real content), then flips `routeReady = true`.
 
-The sentinel is `<RouteLoadingSentinel />` (`route-loading-sentinel.tsx`), a single `<span data-route-loading="" hidden />`. **Its own doc comment claims it's "dropped into every route's `loading.tsx` fallback": this is inaccurate.** As of 2026-09-19 it's wired into exactly 8 of the 18 route trees, all under CMS-backed dynamic routes that actually have a `loading.tsx`:
+The sentinel is `<RouteLoadingSentinel />` (`route-loading-sentinel.tsx`), a single `<span data-route-loading="" hidden />`. **Its own doc comment claims it's "dropped into every route's `loading.tsx` fallback": this is inaccurate.** It's wired into the 4 route trees that actually have a `loading.tsx`:
 
 ```
 member/loading.tsx           member/[slug]/loading.tsx
 articles/loading.tsx         articles/[slug]/loading.tsx
-careers/loading.tsx          careers/[slug]/loading.tsx
-events/loading.tsx           events/[slug]/loading.tsx
 ```
 
-Every other route (home, about, contact, the four Focus pages, projects, publications, research, legal pages) has no `loading.tsx` at all, so for those the sentinel check always finds nothing and `routeReady` resolves on the first rAF, gated only by `MIN_STAY_MS`. If a future route gets real Suspense-boundary loading states, add the sentinel to its `loading.tsx` too. Otherwise the curtain will reveal before that route's content is actually ready.
+Every other route (home, about, the four Focus pages, projects, publications, research, legal pages) has no `loading.tsx` at all, so for those the sentinel check always finds nothing and `routeReady` resolves on the first rAF, gated only by `MIN_STAY_MS`. If a future route gets real Suspense-boundary loading states, add the sentinel to its `loading.tsx` too. Otherwise the curtain will reveal before that route's content is actually ready.
 
 ## What triggers (and doesn't trigger) the curtain
 
@@ -146,10 +144,10 @@ Every flow ends in one `finish()`, whichever way it ended (landed, revealed, abo
 ### Verifying
 
 - Dev builds expose `window.__projectTransition`. `state()` reports the running flow and renderer, the overlay's visibility, the inline blocking, the `html` overflow, landing cards, inline colours, the pending note, the renderer's status, the last prepare timings and the current progress. `setSlowdown(factor)` stretches every duration for slow-motion frame sheets, and `forceDom(true)` forces the fallback.
-- In dev the CMS media route takes 1 to 8 s per image, and the first visit to each route compiles it: judge holds and timings on a production build.
+- In dev the first visit to each route compiles it: judge holds and timings on the static build (`pnpm build`, then `pnpm --filter web preview`).
 - A pixel diff of a card before and after a zoom must keep the pointer off the card: a hovered card on the WebGL stage rests at about 1.0 times instead of 1.026.
 - Playwright's Firefox screenshots can show a frame without the fixed overlay while a route commits, and WebKit's video capture has dropped a WebGL canvas. Confirm anything odd with in-page state sampled every animation frame before chasing it.
-- CI runs `e2e/project-transitions.spec.ts` over the fixture projects (`docs/testing-verification.md`) with the DOM fallback: a card into its project, the Back pill, browser back and forward, and the next-project hand-off. After each step it checks that nothing is locked, tinted or covering the page, and that the curtain's layers (`[data-route-transition]`) never showed.
+- Scripted checks worth repeating with the DOM fallback: a card into its project, the Back pill, browser back and forward, and the next-project hand-off. After each step check that nothing is locked, tinted or covering the page, and that the curtain's layers (`[data-route-transition]`) never showed.
 
 ## The articles library (portal and in-world transitions)
 
@@ -162,4 +160,4 @@ Both take clicks in a capture listener on `window` and prevent the default, and 
 
 While either runs, `isArticleTransitionBusy()` is true: the adaptive header hands its colors to the transition's palette walk, the curtain and the project zoom stand down, and the cursor flow steps aside (its canvas sits under the page just as the library's arch does, so the portal shows the arch around the sheet exactly as it does without the flow; see `docs/animation-system.md` gotcha #33). Every run ends in one `finish()` that releases the scroll lock, the busy flag, the header tint and every layer, whatever ended it. Both also end on their own after a visible-time ceiling.
 
-CI runs `e2e/articles.spec.ts` over the fixture articles (the DOM paths): a card into its article and Back to the same card, browser back and forward, reduced motion, and the portal from the homepage and back.
+Worth scripting in the DOM paths: a card into its article and Back to the same card, browser back and forward, reduced motion, and the portal from the homepage and back.

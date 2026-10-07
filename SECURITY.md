@@ -2,11 +2,11 @@
 
 ## Supported scope
 
-`MGM-Laboratory/mgm-website` is the only actively developed repository for the MGM Laboratory site (web + API). `mgm-website-legacy` is a frozen, read-only backup and is not in scope for security reports.
+`shirasakaren/mgm-website` is the repository for the static MGM Laboratory site. The site has no server, API or database: it is static files served by GitHub Pages.
 
 ## Reporting a vulnerability
 
-If you find a security issue, such as an auth bypass, data exposure, injection vector, or anything that could compromise the production site or its data, please **do not open a public issue**.
+If you find a security issue, such as a script injection vector or anything that could compromise the published site, please **do not open a public issue**.
 
 Instead, email **hi@labmgm.org** with:
 
@@ -18,6 +18,5 @@ You can expect an initial response within a few business days. We'll keep you up
 
 ## Scope notes
 
-- The production deployment (`web-production-589d3f.up.railway.app` and its API) is in scope.
-- Automated scanning that could degrade production availability (load testing, aggressive fuzzing against the live site) is **not** authorized. Use a local `docker compose up` stack instead.
-- Findings from the automated tooling in this repo (CodeQL, dependency review, secret scanning, Trivy, OSSF Scorecard) are triaged the same way as external reports.
+- The published site (`labmgm.org` on GitHub Pages) and the code in this repository are in scope. GitHub Pages' own infrastructure is not.
+- Automated scanning that could degrade availability (load testing, aggressive fuzzing against the live site) is **not** authorized. Build the site locally (`pnpm build`) and test the export instead.

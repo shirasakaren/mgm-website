@@ -1,21 +1,17 @@
 # AGENTS.md: entry point for AI agents working in this repo
 
-This is the **MGM Laboratory** website monorepo (Next.js 16 marketing site + NestJS API), live at `github.com/MGM-Laboratory/mgm-website`.
+This is the **MGM Laboratory** website monorepo: a Next.js 16 site exported as a fully static site and deployed to GitHub Pages from `github.com/shirasakaren/mgm-website` (target domain `labmgm.org`). There is no API, database or admin; the content is JSON in `apps/web/src/content/`.
 
-**Read `CLAUDE.md` (repo root) first.** It contains the hard rules every agent must follow (git identity, commit granularity, no AI attribution in commits, verification workflow) and the reading order. The deep-dive documentation lives in `docs/`:
+**Read `CLAUDE.md` (repo root) first.** It contains the hard rules every agent must follow (git identity, commit granularity, no AI attribution anywhere, verification workflow, base-path rule) and the reading order. The deep-dive documentation lives in `docs/`:
 
 - `docs/project-overview.md`: product context, all pages, content status
+- `docs/static-site.md`: content files, media, base path, the publication PDF switch, GitHub Pages deployment and custom domain
 - `docs/architecture.md`: monorepo layout, components, data, routing
-- `docs/cms-admin.md`: CMS collections, `/admin`, signed sessions, RBAC, and media storage
 - `docs/animation-system.md`: GSAP conventions and known gotchas (read before touching animations)
 - `docs/navigation-menu.md`: the full-screen menu system
 - `docs/page-transition.md`: internal-navigation curtain and homepage entrance behavior
-- `docs/careers-cms.md`: openings, applications, and the careers inbox
-- `docs/mail-system.md`: mail providers, routing, quotas, and Railway's SMTP restriction
-- `docs/ci-cd.md`: GitHub Actions / Docker Hub / Railway
+- `docs/projects-page.md`: the projects index and detail pages
+- `docs/articles-page.md`: the articles library world
 - `docs/testing-verification.md`: Playwright verification methodology
-- `docs/repo-history.md`: the repo migration and why the git rules exist
 
 Design decisions must follow `DESIGN_SYSTEM.md` (repo root).
-
-**Next.js 16 warning:** this is not the Next.js from older training data, so APIs and file conventions differ. Before writing Next-specific code, read the relevant guide in `apps/web/node_modules/next/dist/docs/` (resolved from `apps/web/`; see also `apps/web/AGENTS.md`, which is auto-managed by `next dev`, so do not edit it).
